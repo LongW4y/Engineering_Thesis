@@ -8,7 +8,7 @@ We're both students at [**Poznan University of Technology**](https://put.poznan.
 Our field of study is **Automatic Control & Robotics**, and we're both majoring in **_Robotics_**.
 
 ## Topic of the thesis
-The topic of the thesis is "Automatic control of a four-jointed robotic arm with the usage of neural networks". 
+The topic of the thesis is "Automatic control of a four-jointed robotic arm with the usage of neural networks", with our major advisor being **very knowledgable [D.Sc. Tomasz Pajchrowski**](https://zsep.cie.put.poznan.pl/index.php/researcher/tomasz-pajchrowski)
 
 While it tells most of the story, it definitely lacks lots of details, which I am going to describe now.
 
