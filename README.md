@@ -1,7 +1,7 @@
 # Welcome!
-This repository contains the source code of an engineering thesis of:
-my colleague: Jakub Sieklucki,
-and mine Cezary Stanislawski.
+This repository contains the source code of an engineering thesis of:\n
+my colleague - Jakub Sieklucki,\n
+and mine - Cezary Stanislawski.
 
 We're students at [**Poznan University of Technology**](https://put.poznan.pl/en?q=), at a **great** [*faculty of automatic control, robotics & electrical engineering*](https://goo.gl/maps/L2rSoj7zUiYd6xue9)
 
