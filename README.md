@@ -1,6 +1,6 @@
 # Welcome!
 This repository contains the source code of an engineering thesis of:  
-my colleague - Jakub Sieklucki,  
+my colleague - [Jakub Sieklucki](https://www.linkedin.com/in/jakub-sieklucki-538b32226/),  
 and mine - [Cezary Stanislawski](https://www.linkedin.com/in/cezary-stanis%C5%82awski-29b5781b5/).  
 
 We're both students at [**Poznan University of Technology**](https://put.poznan.pl/en?q=), at a **great** [*faculty of automatic control, robotics & electrical engineering*](https://goo.gl/maps/L2rSoj7zUiYd6xue9). 
