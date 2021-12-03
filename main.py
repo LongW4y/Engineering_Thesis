@@ -2,20 +2,33 @@ import pathlib
 from os import path
 from datetime import date
 
+
 def logMessage(messagetype, base, file):
     LOGFILE = base + 'logs/logs'
     NEWDIR_code = 'newDir'
-    NEWDIR = 'New directory has been created - '
+    NEWDIR = ' New directory has been created - '
+    NONEWDIRS_code = 'presentDir'
+    NONEWDIR = ' Directory already present - '
     logToday = LOGFILE + str(date.today().strftime("%Y_%m_%d")) + '.txt'
     if messagetype == NEWDIR_code:
         if path.isfile(pathlib.Path(logToday)):
             ff = open(logToday, "a")
-            ff.write(NEWDIR + file)
+            ff.write(NEWDIR + file + '\n')
         elif not path.isfile(pathlib.Path(logToday)):
             ff = open(logToday, "x")
-            ff.write(NEWDIR + file)
+            ff.write(NEWDIR + file + '\n')
         ff.close()
         return True
+    elif messagetype == NONEWDIRS_code:
+        if path.isfile(pathlib.Path(logToday)):
+            ff = open(logToday, "a")
+            ff.write(NONEWDIR + file + '\n')
+        elif not path.isfile(pathlib.Path(logToday)):
+            ff = open(logToday, "x")
+            ff.write(NONEWDIR + file + '\n')
+        ff.close()
+        return True
+
 
 
 def createPaths(base, dirs, confile):
@@ -38,15 +51,20 @@ def checkConfig(base, dirs, confile):
 if __name__ == "__main__":
     BASEPATH = str(pathlib.Path(__file__).parent.resolve()) + '/'
     CONFIGFILE = './config.properties'
-    BASEDIRS = ['logs', 'backups/blocks', 'backups/images']
+    BASEDIRS = ('logs', 'backups/blocks', 'backups/images')
 
     if checkConfig(BASEPATH, BASEDIRS, CONFIGFILE):
         f = open(CONFIGFILE, "r")
-        noDirs = []
+        presentDirs = []
         for x in f:
-            myDir = x.split(None, 1)[0]
-            isPresent = int(x[-2:])
-            for y in BASEDIRS:
-                if myDir == x and isPresent == 1:
-                    noDirs.append(myDir)
-        checkConfig(BASEPATH, noDirs, CONFIGFILE)
+            presentDirs.append(x.split("=")[0])
+            neededDirs = []
+        for x in presentDirs:
+            if not x in BASEDIRS:
+                print(presentDirs)
+                neededDirs.append(x)
+            elif x in BASEDIRS:
+                logMessage('presentDirs', BASEPATH, x)
+
+
+
