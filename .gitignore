@@ -2,3 +2,7 @@ desktop.ini
 */desktop.ini
 */*/desktop.ini
 */*/*/desktop.ini
+.idea
+.idea/*
+.idea/
+.idea/*.*
