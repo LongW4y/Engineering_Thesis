@@ -1,31 +1,40 @@
 import pathlib
 from os import path
 from datetime import date
+from datetime import datetime
 
 
 def logMessage(messagetype, base, file):
-    LOGFILE = base + 'logs/logs'
+    LOGFILE = base + 'logs/logs_'
+    CURRENTDATE = str(date.today().strftime("%Y_%m_%d"))
+    CURRENTTIME = str(datetime.now().strftime('%H_%M_%S_%f')[:-3])
     NEWDIR_code = 'newDir'
-    NEWDIR = ' New directory has been created - '
+    INFO = ' [INFO]'
+    ERROR = ' [ERROR]'
+    NEWDIR = CURRENTTIME + INFO + ' New directory has been created - '
     NONEWDIRS_code = 'presentDir'
-    NONEWDIR = ' Directory already present - '
-    logToday = LOGFILE + str(date.today().strftime("%Y_%m_%d")) + '.txt'
+    NONEWDIR = CURRENTTIME + INFO + ' Directory already present - '
+    logToday = LOGFILE + CURRENTDATE + '.txt'
     if messagetype == NEWDIR_code:
+        msg = NEWDIR + file + '\n'
+        print(msg)
         if path.isfile(pathlib.Path(logToday)):
             ff = open(logToday, "a")
-            ff.write(NEWDIR + file + '\n')
+            ff.write(msg)
         elif not path.isfile(pathlib.Path(logToday)):
             ff = open(logToday, "x")
             ff.write(NEWDIR + file + '\n')
         ff.close()
         return True
     elif messagetype == NONEWDIRS_code:
+        msg = NONEWDIR + file + '\n'
+        print(msg)
         if path.isfile(pathlib.Path(logToday)):
             ff = open(logToday, "a")
-            ff.write(NONEWDIR + file + '\n')
+            ff.write(msg)
         elif not path.isfile(pathlib.Path(logToday)):
             ff = open(logToday, "x")
-            ff.write(NONEWDIR + file + '\n')
+            ff.write(msg)
         ff.close()
         return True
 
@@ -64,7 +73,7 @@ if __name__ == "__main__":
                 print(presentDirs)
                 neededDirs.append(x)
             elif x in BASEDIRS:
-                logMessage('presentDirs', BASEPATH, x)
+                logMessage('presentDir', BASEPATH, x)
 
 
 
