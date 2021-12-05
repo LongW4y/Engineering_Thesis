@@ -1,0 +1,173 @@
+00_00_38_044 [INFO] Directory already present - logs
+00_00_38_045 [INFO] Directory already present - backups\blocks
+00_00_38_046 [INFO] Directory already present - backups\images
+00_00_38_046 [INFO] All directories needed are present
+00_00_38_047 [INFO] Waiting for user input...
+00_00_38_048 [INFO] New directory has been created - 211206_00003804/
+00_00_38_049 [INFO] Provided file extension is supported: jpg
+00_00_51_496 [INFO] Directory already present - logs
+00_00_51_496 [INFO] Directory already present - backups\blocks
+00_00_51_497 [INFO] Directory already present - backups\images
+00_00_51_498 [INFO] All directories needed are present
+00_00_51_498 [INFO] Waiting for user input...
+00_00_51_499 [INFO] New directory has been created - 211206_00005149\
+00_00_51_499 [INFO] Provided file extension is supported: jpg
+00_01_05_782 [INFO] Directory already present - logs
+00_01_05_783 [INFO] Directory already present - backups\blocks
+00_01_05_784 [INFO] Directory already present - backups\images
+00_01_05_784 [INFO] All directories needed are present
+00_01_05_785 [INFO] Waiting for user input...
+00_01_19_498 [INFO] New directory has been created - 211206_00011949\
+00_01_19_499 [INFO] Provided file extension is supported: jpg
+00_01_36_070 [INFO] Directory already present - logs
+00_01_36_071 [INFO] Directory already present - backups\blocks
+00_01_36_072 [INFO] Directory already present - backups\images
+00_01_36_072 [INFO] All directories needed are present
+00_01_36_073 [INFO] Waiting for user input...
+00_01_37_894 [INFO] New directory has been created - 211206_00013789\
+00_01_37_895 [INFO] Provided file extension is supported: jpg
+00_01_52_297 [INFO] Directory already present - logs
+00_01_52_298 [INFO] Directory already present - backups\blocks
+00_01_52_298 [INFO] Directory already present - backups\images
+00_01_52_299 [INFO] All directories needed are present
+00_01_52_299 [INFO] Waiting for user input...
+00_01_53_405 [INFO] New directory has been created - 211206_00015340\
+00_01_53_406 [INFO] Provided file extension is supported: jpg
+00_02_08_216 [INFO] Directory already present - logs
+00_02_08_217 [INFO] Directory already present - backups\blocks
+00_02_08_217 [INFO] Directory already present - backups\images
+00_02_08_218 [INFO] All directories needed are present
+00_02_08_218 [INFO] Waiting for user input...
+00_02_09_869 [INFO] New directory has been created - 211206_00020986/
+00_02_09_870 [INFO] Provided file extension is supported: jpg
+00_19_40_632 [INFO] Directory already present - logs
+00_19_40_632 [INFO] Directory already present - backups\blocks
+00_19_40_633 [INFO] Directory already present - backups\images
+00_19_40_634 [INFO] All directories needed are present
+00_19_40_634 [INFO] Waiting for user input...
+00_20_06_429 [INFO] Directory already present - logs
+00_20_06_430 [INFO] Directory already present - backups\blocks
+00_20_06_430 [INFO] Directory already present - backups\images
+00_20_06_431 [INFO] All directories needed are present
+00_20_06_431 [INFO] Waiting for user input...
+00_20_21_671 [INFO] Directory already present - logs
+00_20_21_671 [INFO] Directory already present - backups\blocks
+00_20_21_672 [INFO] Directory already present - backups\images
+00_20_21_672 [INFO] All directories needed are present
+00_20_21_672 [INFO] Waiting for user input...
+00_20_46_231 [INFO] Directory already present - logs
+00_20_46_231 [INFO] Directory already present - backups\blocks
+00_20_46_232 [INFO] Directory already present - backups\images
+00_20_46_232 [INFO] All directories needed are present
+00_20_46_233 [INFO] Waiting for user input...
+00_20_56_141 [INFO] Directory already present - logs
+00_20_56_141 [INFO] Directory already present - backups\blocks
+00_20_56_142 [INFO] Directory already present - backups\images
+00_20_56_143 [INFO] All directories needed are present
+00_20_56_143 [INFO] Waiting for user input...
+00_21_16_094 [INFO] Directory already present - logs
+00_21_16_095 [INFO] Directory already present - backups\blocks
+00_21_16_095 [INFO] Directory already present - backups\images
+00_21_16_096 [INFO] All directories needed are present
+00_21_16_096 [INFO] Waiting for user input...
+00_21_20_563 [INFO] Directory already present - logs
+00_21_20_563 [INFO] Directory already present - backups\blocks
+00_21_20_564 [INFO] Directory already present - backups\images
+00_21_20_564 [INFO] All directories needed are present
+00_21_20_565 [INFO] Waiting for user input...
+00_21_32_530 [INFO] Directory already present - logs
+00_21_32_531 [INFO] Directory already present - backups\blocks
+00_21_32_532 [INFO] Directory already present - backups\images
+00_21_32_532 [INFO] All directories needed are present
+00_21_32_533 [INFO] Waiting for user input...
+00_21_41_768 [INFO] Directory already present - logs
+00_21_41_768 [INFO] Directory already present - backups\blocks
+00_21_41_768 [INFO] Directory already present - backups\images
+00_21_41_768 [INFO] All directories needed are present
+00_21_41_769 [INFO] Waiting for user input...
+00_21_55_986 [INFO] Directory already present - logs
+00_21_55_987 [INFO] Directory already present - backups\blocks
+00_21_55_987 [INFO] Directory already present - backups\images
+00_21_55_988 [INFO] All directories needed are present
+00_21_55_988 [INFO] Waiting for user input...
+00_22_17_308 [INFO] Directory already present - logs
+00_22_17_308 [INFO] Directory already present - backups\blocks
+00_22_17_309 [INFO] Directory already present - backups\images
+00_22_17_309 [INFO] All directories needed are present
+00_22_17_310 [INFO] Waiting for user input...
+00_22_18_474 [INFO] New directory has been created - 211206_00221847\\
+00_22_18_476 [INFO] Provided file extension is supported: jpg
+00_22_49_306 [INFO] Directory already present - logs
+00_22_49_307 [INFO] Directory already present - backups\blocks
+00_22_49_307 [INFO] Directory already present - backups\images
+00_22_49_308 [INFO] All directories needed are present
+00_22_49_308 [INFO] Waiting for user input...
+00_23_04_805 [INFO] Directory already present - logs
+00_23_04_805 [INFO] Directory already present - backups\blocks
+00_23_04_806 [INFO] Directory already present - backups\images
+00_23_04_806 [INFO] All directories needed are present
+00_23_04_807 [INFO] Waiting for user input...
+00_23_05_987 [INFO] New directory has been created - 211206_00230598\
+00_23_05_988 [INFO] Provided file extension is supported: jpg
+00_23_52_284 [INFO] Directory already present - logs
+00_23_52_285 [INFO] Directory already present - backups\blocks
+00_23_52_285 [INFO] Directory already present - backups\images
+00_23_52_286 [INFO] All directories needed are present
+00_23_52_286 [INFO] Waiting for user input...
+00_24_00_516 [INFO] Directory already present - logs
+00_24_00_517 [INFO] Directory already present - backups\blocks
+00_24_00_517 [INFO] Directory already present - backups\images
+00_24_00_517 [INFO] All directories needed are present
+00_24_00_518 [INFO] Waiting for user input...
+00_24_23_926 [INFO] Directory already present - logs
+00_24_23_926 [INFO] Directory already present - backups\blocks
+00_24_23_927 [INFO] Directory already present - backups\images
+00_24_23_927 [INFO] All directories needed are present
+00_24_23_928 [INFO] Waiting for user input...
+00_24_37_463 [INFO] Directory already present - logs
+00_24_37_465 [INFO] Directory already present - backups\blocks
+00_24_37_465 [INFO] Directory already present - backups\images
+00_24_37_466 [INFO] All directories needed are present
+00_24_37_467 [INFO] Waiting for user input...
+00_24_53_445 [INFO] Directory already present - logs
+00_24_53_445 [INFO] Directory already present - backups\blocks
+00_24_53_446 [INFO] Directory already present - backups\images
+00_24_53_446 [INFO] All directories needed are present
+00_24_53_447 [INFO] Waiting for user input...
+00_24_57_717 [INFO] New directory has been created - 211206_00245771\
+00_24_57_718 [INFO] Provided file extension is supported: jpg
+00_25_37_562 [INFO] Directory already present - logs
+00_25_37_563 [INFO] Directory already present - backups\blocks
+00_25_37_563 [INFO] Directory already present - backups\images
+00_25_37_564 [INFO] All directories needed are present
+00_25_37_565 [INFO] Waiting for user input...
+00_25_39_112 [INFO] New directory has been created - 211206_00253911\
+00_25_39_113 [INFO] Provided file extension is supported: jpg
+00_29_02_691 [INFO] Directory already present - logs
+00_29_02_691 [INFO] Directory already present - backups\blocks
+00_29_02_692 [INFO] Directory already present - backups\images
+00_29_02_693 [INFO] All directories needed are present
+00_29_02_693 [INFO] Waiting for user input...
+00_29_03_650 [INFO] New directory has been created - 211206_00290364
+00_29_03_653 [ERROR] File with the provided extension is not supported: split('/|\\\\', filepath)[-1])) + 1
+00_29_06_716 [INFO] Directory already present - logs
+00_29_06_716 [INFO] Directory already present - backups\blocks
+00_29_06_717 [INFO] Directory already present - backups\images
+00_29_06_717 [INFO] All directories needed are present
+00_29_06_718 [INFO] Waiting for user input...
+00_29_12_107 [INFO] New directory has been created - 211206_00291210
+00_29_12_108 [INFO] Provided file extension is supported: jpg
+00_29_22_368 [INFO] Directory already present - logs
+00_29_22_369 [INFO] Directory already present - backups\blocks
+00_29_22_369 [INFO] Directory already present - backups\images
+00_29_22_370 [INFO] All directories needed are present
+00_29_22_370 [INFO] Waiting for user input...
+00_29_27_577 [INFO] New directory has been created - 211206_00292757
+00_29_27_578 [INFO] Provided file extension is supported: jpg
+00_30_33_390 [INFO] Directory already present - logs
+00_30_33_390 [INFO] Directory already present - backups\blocks
+00_30_33_391 [INFO] Directory already present - backups\images
+00_30_33_392 [INFO] All directories needed are present
+00_30_33_393 [INFO] Waiting for user input...
+00_30_34_820 [INFO] New directory has been created - 211206_00303481
+00_30_34_821 [INFO] Provided file extension is supported: jpg

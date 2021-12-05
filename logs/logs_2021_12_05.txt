@@ -758,3 +758,377 @@
 22_30_35_980 [INFO] All directories needed are present
 22_30_35_980 [INFO] Waiting for user input...
 22_30_35_981 [INFO] Provided file extension is supported: png
+22_35_04_364 [INFO] Directory already present - logs
+22_35_04_365 [INFO] Directory already present - backups\blocks
+22_35_04_365 [INFO] Directory already present - backups\images
+22_35_04_365 [INFO] All directories needed are present
+22_35_04_366 [INFO] Waiting for user input...
+22_35_04_367 [INFO] Provided file extension is supported: png
+22_36_05_063 [INFO] Directory already present - logs
+22_36_05_063 [INFO] Directory already present - backups\blocks
+22_36_05_063 [INFO] Directory already present - backups\images
+22_36_05_064 [INFO] All directories needed are present
+22_36_05_064 [INFO] Waiting for user input...
+22_36_05_064 [INFO] Provided file extension is supported: png
+22_36_36_222 [INFO] Directory already present - logs
+22_36_36_222 [INFO] Directory already present - backups\blocks
+22_36_36_223 [INFO] Directory already present - backups\images
+22_36_36_223 [INFO] All directories needed are present
+22_36_36_223 [INFO] Waiting for user input...
+22_36_36_224 [INFO] Provided file extension is supported: png
+22_36_48_153 [INFO] Directory already present - logs
+22_36_48_153 [INFO] Directory already present - backups\blocks
+22_36_48_154 [INFO] Directory already present - backups\images
+22_36_48_154 [INFO] All directories needed are present
+22_36_48_154 [INFO] Waiting for user input...
+22_36_48_155 [INFO] Provided file extension is supported: png
+22_38_06_986 [INFO] Directory already present - logs
+22_38_06_987 [INFO] Directory already present - backups\blocks
+22_38_06_987 [INFO] Directory already present - backups\images
+22_38_06_988 [INFO] All directories needed are present
+22_38_06_988 [INFO] Waiting for user input...
+22_38_06_989 [INFO] Provided file extension is supported: png
+22_40_31_639 [INFO] Directory already present - logs
+22_40_31_640 [INFO] Directory already present - backups\blocks
+22_40_31_640 [INFO] Directory already present - backups\images
+22_40_31_641 [INFO] All directories needed are present
+22_40_31_641 [INFO] Waiting for user input...
+22_40_31_642 [INFO] Provided file extension is supported: png
+22_45_49_916 [INFO] Directory already present - logs
+presentDirlogs
+22_45_49_917 [INFO] Directory already present - backups\blocks
+presentDirbackups\blocks
+22_45_49_918 [INFO] Directory already present - backups\images
+presentDirbackups\images
+22_45_49_919 [INFO] All directories needed are present
+dirsPresent
+22_45_49_920 [INFO] Waiting for user input...
+waitInput
+22_45_49_921 [INFO] Provided file extension is supported: png
+correctFilepng
+22_46_04_441 [INFO] Directory already present - logs
+ Directory already present - logs
+22_46_04_442 [INFO] Directory already present - backups\blocks
+ Directory already present - backups\blocks
+22_46_04_443 [INFO] Directory already present - backups\images
+ Directory already present - backups\images
+22_46_04_444 [INFO] All directories needed are present
+ All directories needed are present
+22_46_04_445 [INFO] Waiting for user input...
+  Waiting for user input...
+22_46_04_446 [INFO] Provided file extension is supported: png
+ Provided file extension is supported: png
+22_46_28_315 [INFO] Directory already present - logs
+ Directory already present - logs
+22_46_28_317 [INFO] Directory already present - backups\blocks
+ Directory already present - backups\blocks
+22_46_28_318 [INFO] Directory already present - backups\images
+ Directory already present - backups\images
+22_46_28_319 [INFO] All directories needed are present
+ All directories needed are present
+22_46_28_320 [INFO] Waiting for user input...
+ Waiting for user input...
+22_46_28_321 [INFO] Provided file extension is supported: png
+ Provided file extension is supported: png
+22_49_50_851 [INFO] Directory already present - logs
+22_49_50_851 [INFO] Directory already present - backups\blocks
+22_49_50_852 [INFO] Directory already present - backups\images
+22_49_50_852 [INFO] All directories needed are present
+22_49_50_853 [INFO] Waiting for user input...
+22_49_50_853 [INFO] Provided file extension is supported: png
+22_50_08_689 [INFO] Directory already present - logs
+22_50_08_689 [INFO] Directory already present - backups\blocks
+22_50_08_690 [INFO] Directory already present - backups\images
+22_50_08_690 [INFO] All directories needed are present
+22_50_08_691 [INFO] Waiting for user input...
+22_50_08_692 [ERROR] File with the provided extension is not supported: gif
+22_54_39_662 [INFO] Directory already present - logs
+22_54_39_662 [INFO] Directory already present - backups\blocks
+22_54_39_663 [INFO] Directory already present - backups\images
+22_54_39_663 [INFO] All directories needed are present
+22_54_39_664 [INFO] Waiting for user input...
+22_54_39_664 [ERROR] File with the provided extension is not supported: gif
+22_54_52_770 [INFO] Directory already present - logs
+22_54_52_771 [INFO] Directory already present - backups\blocks
+22_54_52_771 [INFO] Directory already present - backups\images
+22_54_52_772 [INFO] All directories needed are present
+22_54_52_772 [INFO] Waiting for user input...
+22_54_52_773 [ERROR] File with the provided extension is not supported: gif
+22_55_10_078 [INFO] Directory already present - logs
+22_55_10_079 [INFO] Directory already present - backups\blocks
+22_55_10_080 [INFO] Directory already present - backups\images
+22_55_10_080 [INFO] All directories needed are present
+22_55_10_082 [INFO] Waiting for user input...
+22_55_10_084 [ERROR] File with the provided extension is not supported: gif
+23_15_17_097 [INFO] Directory already present - logs
+23_15_17_098 [INFO] Directory already present - backups\blocks
+23_15_17_099 [INFO] Directory already present - backups\images
+23_15_17_099 [INFO] All directories needed are present
+23_15_17_100 [INFO] Waiting for user input...
+23_15_17_101 [ERROR] File with the provided extension is not supported: gif
+23_15_32_664 [INFO] Directory already present - logs
+23_15_32_665 [INFO] Directory already present - backups\blocks
+23_15_32_665 [INFO] Directory already present - backups\images
+23_15_32_666 [INFO] All directories needed are present
+23_15_32_666 [INFO] Waiting for user input...
+23_15_32_667 [ERROR] File with the provided extension is not supported: gif
+23_16_14_708 [INFO] Directory already present - logs
+23_16_14_708 [INFO] Directory already present - backups\blocks
+23_16_14_709 [INFO] Directory already present - backups\images
+23_16_14_709 [INFO] All directories needed are present
+23_16_14_710 [INFO] Waiting for user input...
+23_16_14_710 [INFO] Provided file extension is supported: jpg
+23_20_57_535 [INFO] Directory already present - logs
+23_20_57_535 [INFO] Directory already present - backups\blocks
+23_20_57_536 [INFO] Directory already present - backups\images
+23_20_57_536 [INFO] All directories needed are present
+23_20_57_537 [INFO] Waiting for user input...
+23_21_45_015 [INFO] Directory already present - logs
+23_21_45_016 [INFO] Directory already present - backups\blocks
+23_21_45_017 [INFO] Directory already present - backups\images
+23_21_45_018 [INFO] All directories needed are present
+23_21_45_018 [INFO] Waiting for user input...
+23_22_16_495 [INFO] Directory already present - logs
+23_22_16_496 [INFO] Directory already present - backups\blocks
+23_22_16_497 [INFO] Directory already present - backups\images
+23_22_16_497 [INFO] All directories needed are present
+23_22_16_498 [INFO] Waiting for user input...
+23_26_14_249 [INFO] Directory already present - logs
+23_26_14_250 [INFO] Directory already present - backups\blocks
+23_26_14_250 [INFO] Directory already present - backups\images
+23_26_14_251 [INFO] All directories needed are present
+23_26_14_251 [INFO] Waiting for user input...
+23_26_32_291 [INFO] Directory already present - logs
+23_26_32_292 [INFO] Directory already present - backups\blocks
+23_26_32_292 [INFO] Directory already present - backups\images
+23_26_32_294 [INFO] All directories needed are present
+23_26_32_295 [INFO] Waiting for user input...
+23_26_46_719 [INFO] Directory already present - logs
+23_26_46_720 [INFO] Directory already present - backups\blocks
+23_26_46_721 [INFO] Directory already present - backups\images
+23_26_46_722 [INFO] All directories needed are present
+23_26_46_723 [INFO] Waiting for user input...
+23_27_06_337 [INFO] Directory already present - logs
+23_27_06_338 [INFO] Directory already present - backups\blocks
+23_27_06_339 [INFO] Directory already present - backups\images
+23_27_06_339 [INFO] All directories needed are present
+23_27_06_341 [INFO] Waiting for user input...
+23_27_52_265 [INFO] Directory already present - logs
+23_27_52_266 [INFO] Directory already present - backups\blocks
+23_27_52_267 [INFO] Directory already present - backups\images
+23_27_52_268 [INFO] All directories needed are present
+23_27_52_269 [INFO] Waiting for user input...
+23_28_49_919 [INFO] Directory already present - logs
+23_28_49_920 [INFO] Directory already present - backups\blocks
+23_28_49_920 [INFO] Directory already present - backups\images
+23_28_49_921 [INFO] All directories needed are present
+23_28_49_922 [INFO] Waiting for user input...
+23_29_27_853 [INFO] Directory already present - logs
+23_29_27_853 [INFO] Directory already present - backups\blocks
+23_29_27_854 [INFO] Directory already present - backups\images
+23_29_27_855 [INFO] All directories needed are present
+23_29_27_855 [INFO] Waiting for user input...
+23_29_47_548 [INFO] Directory already present - logs
+23_29_47_549 [INFO] Directory already present - backups\blocks
+23_29_47_549 [INFO] Directory already present - backups\images
+23_29_47_550 [INFO] All directories needed are present
+23_29_47_551 [INFO] Waiting for user input...
+23_30_16_504 [INFO] Directory already present - logs
+23_30_16_505 [INFO] Directory already present - backups\blocks
+23_30_16_505 [INFO] Directory already present - backups\images
+23_30_16_505 [INFO] All directories needed are present
+23_30_16_506 [INFO] Waiting for user input...
+23_30_16_507 [INFO] New directory has been created - 2
+23_30_16_508 [INFO] New directory has been created - 1
+23_30_16_509 [INFO] New directory has been created - 1
+23_30_16_509 [INFO] New directory has been created - 2
+23_30_16_510 [INFO] New directory has been created - 0
+23_30_16_511 [INFO] New directory has been created - 5
+23_30_16_512 [INFO] New directory has been created - _
+23_30_16_512 [INFO] New directory has been created - 2
+23_30_16_513 [INFO] New directory has been created - 3
+23_30_16_514 [INFO] New directory has been created - 3
+23_30_16_514 [INFO] New directory has been created - 0
+23_30_16_515 [INFO] New directory has been created - 1
+23_30_16_522 [INFO] New directory has been created - 6
+23_30_16_523 [INFO] New directory has been created - 5
+23_30_16_524 [INFO] New directory has been created - 0
+23_30_45_849 [INFO] Directory already present - logs
+23_30_45_850 [INFO] Directory already present - backups\blocks
+23_30_45_851 [INFO] Directory already present - backups\images
+23_30_45_852 [INFO] All directories needed are present
+23_30_45_853 [INFO] Waiting for user input...
+23_31_10_699 [INFO] Directory already present - logs
+23_31_10_700 [INFO] Directory already present - backups\blocks
+23_31_10_700 [INFO] Directory already present - backups\images
+23_31_10_701 [INFO] All directories needed are present
+23_31_10_702 [INFO] Waiting for user input...
+23_31_10_702 [INFO] New directory has been created - 2
+23_31_10_703 [INFO] New directory has been created - 1
+23_31_10_704 [INFO] New directory has been created - 1
+23_31_10_705 [INFO] New directory has been created - 2
+23_31_10_707 [INFO] New directory has been created - 0
+23_31_10_708 [INFO] New directory has been created - 5
+23_31_10_709 [INFO] New directory has been created - _
+23_31_10_710 [INFO] New directory has been created - 2
+23_31_10_710 [INFO] New directory has been created - 3
+23_31_10_711 [INFO] New directory has been created - 3
+23_31_10_712 [INFO] New directory has been created - 1
+23_31_10_712 [INFO] New directory has been created - 1
+23_31_10_713 [INFO] New directory has been created - 0
+23_31_10_713 [INFO] New directory has been created - 7
+23_31_10_714 [INFO] New directory has been created - 0
+23_31_48_586 [INFO] Directory already present - logs
+23_31_48_588 [INFO] Directory already present - backups\blocks
+23_31_48_588 [INFO] Directory already present - backups\images
+23_31_48_589 [INFO] All directories needed are present
+23_31_48_590 [INFO] Waiting for user input...
+23_31_48_591 [INFO] New directory has been created - 2
+23_31_48_591 [INFO] New directory has been created - 1
+23_31_48_592 [INFO] New directory has been created - 1
+23_31_48_593 [INFO] New directory has been created - 2
+23_31_48_594 [INFO] New directory has been created - 0
+23_31_48_594 [INFO] New directory has been created - 5
+23_31_48_595 [INFO] New directory has been created - _
+23_31_48_596 [INFO] New directory has been created - 2
+23_31_48_596 [INFO] New directory has been created - 3
+23_31_48_597 [INFO] New directory has been created - 3
+23_31_48_597 [INFO] New directory has been created - 1
+23_31_48_598 [INFO] New directory has been created - 4
+23_31_48_598 [INFO] New directory has been created - 8
+23_31_48_599 [INFO] New directory has been created - 5
+23_31_48_600 [INFO] New directory has been created - 9
+23_32_11_091 [INFO] Directory already present - logs
+23_32_11_091 [INFO] Directory already present - backups\blocks
+23_32_11_092 [INFO] Directory already present - backups\images
+23_32_11_092 [INFO] All directories needed are present
+23_32_11_093 [INFO] Waiting for user input...
+23_32_11_094 [INFO] New directory has been created - 2
+23_32_11_095 [INFO] New directory has been created - 1
+23_32_11_096 [INFO] New directory has been created - 1
+23_32_11_096 [INFO] New directory has been created - 2
+23_32_11_098 [INFO] New directory has been created - 0
+23_32_11_099 [INFO] New directory has been created - 5
+23_32_11_100 [INFO] New directory has been created - _
+23_32_11_100 [INFO] New directory has been created - 2
+23_32_11_101 [INFO] New directory has been created - 3
+23_32_11_101 [INFO] New directory has been created - 3
+23_32_11_101 [INFO] New directory has been created - 2
+23_32_11_102 [INFO] New directory has been created - 1
+23_32_11_103 [INFO] New directory has been created - 1
+23_32_11_104 [INFO] New directory has been created - 0
+23_32_11_105 [INFO] New directory has been created - 9
+23_35_47_389 [INFO] Directory already present - logs
+23_35_47_390 [INFO] Directory already present - backups\blocks
+23_35_47_391 [INFO] Directory already present - backups\images
+23_35_47_391 [INFO] All directories needed are present
+23_35_47_392 [INFO] Waiting for user input...
+23_36_13_931 [INFO] Directory already present - logs
+23_36_13_932 [INFO] Directory already present - backups\blocks
+23_36_13_932 [INFO] Directory already present - backups\images
+23_36_13_933 [INFO] All directories needed are present
+23_36_13_933 [INFO] Waiting for user input...
+23_36_13_934 [INFO] New directory has been created - 211205_23361393
+23_36_37_428 [INFO] Directory already present - logs
+23_36_37_429 [INFO] Directory already present - backups\blocks
+23_36_37_429 [INFO] Directory already present - backups\images
+23_36_37_430 [INFO] All directories needed are present
+23_36_37_430 [INFO] Waiting for user input...
+23_36_37_431 [INFO] New directory has been created - copied_211205_23363743
+23_37_24_296 [INFO] Waiting for user input...
+23_37_40_151 [INFO] Waiting for user input...
+23_38_29_000 [INFO] Waiting for user input...
+23_38_29_001 [INFO] New directory has been created - 211205_23382900
+23_40_00_163 [INFO] Waiting for user input...
+23_40_00_164 [INFO] New directory has been created - 211205_23400016
+23_42_41_061 [INFO] Directory already present - logs
+23_42_41_062 [INFO] Directory already present - backups\blocks
+23_42_41_063 [INFO] Directory already present - backups\images
+23_42_41_063 [INFO] All directories needed are present
+23_42_41_064 [INFO] Waiting for user input...
+23_42_41_064 [INFO] New directory has been created - 211205_23424106
+23_42_41_065 [INFO] Provided file extension is supported: jpg
+23_43_24_122 [INFO] Directory already present - logs
+23_43_24_122 [INFO] Directory already present - backups\blocks
+23_43_24_123 [INFO] Directory already present - backups\images
+23_43_24_123 [INFO] All directories needed are present
+23_43_24_124 [INFO] Waiting for user input...
+23_43_30_306 [INFO] New directory has been created - 211205_23433030
+23_43_30_307 [INFO] Provided file extension is supported: jpg
+23_45_09_964 [INFO] Directory already present - logs
+23_45_09_965 [INFO] Directory already present - backups\blocks
+23_45_09_965 [INFO] Directory already present - backups\images
+23_45_09_966 [INFO] All directories needed are present
+23_45_09_966 [INFO] Waiting for user input...
+23_45_15_658 [INFO] New directory has been created - 211205_23451565
+23_45_15_659 [INFO] Provided file extension is supported: jpg
+23_46_09_875 [INFO] Directory already present - logs
+23_46_09_876 [INFO] Directory already present - backups\blocks
+23_46_09_876 [INFO] Directory already present - backups\images
+23_46_09_877 [INFO] All directories needed are present
+23_46_09_877 [INFO] Waiting for user input...
+23_46_12_714 [INFO] New directory has been created - 211205_23461271
+23_46_12_715 [INFO] Provided file extension is supported: jpg
+23_47_09_880 [INFO] Directory already present - logs
+23_47_09_881 [INFO] Directory already present - backups\blocks
+23_47_09_881 [INFO] Directory already present - backups\images
+23_47_09_882 [INFO] All directories needed are present
+23_47_09_882 [INFO] Waiting for user input...
+23_47_20_606 [INFO] New directory has been created - 211205_23472060
+23_47_20_607 [INFO] Provided file extension is supported: jpg
+23_47_48_931 [INFO] Directory already present - logs
+23_47_48_932 [INFO] Directory already present - backups\blocks
+23_47_48_932 [INFO] Directory already present - backups\images
+23_47_48_933 [INFO] All directories needed are present
+23_47_48_934 [INFO] Waiting for user input...
+23_47_51_225 [INFO] New directory has been created - 211205_23475122
+23_47_51_226 [INFO] Provided file extension is supported: jpg
+23_48_41_295 [INFO] Directory already present - logs
+23_48_41_296 [INFO] Directory already present - backups\blocks
+23_48_41_296 [INFO] Directory already present - backups\images
+23_48_41_296 [INFO] All directories needed are present
+23_48_41_297 [INFO] Waiting for user input...
+23_48_52_476 [INFO] New directory has been created - 211205_23485247
+23_48_52_477 [INFO] Provided file extension is supported: jpg
+23_50_43_508 [INFO] Directory already present - logs
+23_50_43_508 [INFO] Directory already present - backups\blocks
+23_50_43_509 [INFO] Directory already present - backups\images
+23_50_43_509 [INFO] All directories needed are present
+23_50_43_510 [INFO] Waiting for user input...
+23_50_48_157 [INFO] New directory has been created - 211205_23504815
+23_50_48_157 [INFO] Provided file extension is supported: jpg
+23_52_41_436 [INFO] Directory already present - logs
+23_52_41_436 [INFO] Directory already present - backups\blocks
+23_52_41_437 [INFO] Directory already present - backups\images
+23_52_41_437 [INFO] All directories needed are present
+23_52_41_438 [INFO] Waiting for user input...
+23_52_49_684 [INFO] New directory has been created - 211205_23524968
+23_52_49_684 [INFO] Provided file extension is supported: jpg
+23_53_55_691 [INFO] Directory already present - logs
+23_53_55_692 [INFO] Directory already present - backups\blocks
+23_53_55_692 [INFO] Directory already present - backups\images
+23_53_55_693 [INFO] All directories needed are present
+23_53_55_694 [INFO] Waiting for user input...
+23_53_55_694 [INFO] New directory has been created - 211205_23535569
+23_53_55_695 [INFO] Provided file extension is supported: jpg
+23_57_05_611 [INFO] Directory already present - logs
+23_57_05_611 [INFO] Directory already present - backups\blocks
+23_57_05_612 [INFO] Directory already present - backups\images
+23_57_05_613 [INFO] All directories needed are present
+23_57_05_613 [INFO] Waiting for user input...
+23_57_05_614 [INFO] New directory has been created - 211205_23570561
+23_57_05_615 [INFO] Provided file extension is supported: jpg
+23_58_36_188 [INFO] Directory already present - logs
+23_58_36_188 [INFO] Directory already present - backups\blocks
+23_58_36_189 [INFO] Directory already present - backups\images
+23_58_36_189 [INFO] All directories needed are present
+23_58_36_190 [INFO] Waiting for user input...
+23_58_36_191 [INFO] New directory has been created - 211205_23583619
+23_58_36_191 [INFO] Provided file extension is supported: jpg
+23_59_05_948 [INFO] Directory already present - logs
+23_59_05_949 [INFO] Directory already present - backups\blocks
+23_59_05_950 [INFO] Directory already present - backups\images
+23_59_05_951 [INFO] All directories needed are present
+23_59_05_951 [INFO] Waiting for user input...
+23_59_05_952 [INFO] New directory has been created - 211205_23590595/
+23_59_05_952 [INFO] Provided file extension is supported: jpg

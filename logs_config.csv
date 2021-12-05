@@ -1,7 +1,8 @@
-﻿newDir, New directory has been created - ,file
-presentDir, Directory already present - ,file
-dirsPresent, All directories needed are present,
-waitInput,  Waiting for user input...,
-wrongFileExt, File with the provided extension is not supported: ,file
-noFileExt, File provided does not have any file extension defined,
-correctFile, Provided file extension is supported: ,file
+messageType,msgId,msgText,addition
+INFO,newDir, New directory has been created - ,file
+INFO,presentDir, Directory already present - ,file
+INFO,dirsPresent, All directories needed are present,
+INFO,waitInput, Waiting for user input...,
+ERROR,wrongFileExt, File with the provided extension is not supported: ,file
+ERROR,noFileExt, File provided does not have any file extension defined,
+INFO,correctFile, Provided file extension is supported: ,file
