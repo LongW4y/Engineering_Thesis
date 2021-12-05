@@ -541,3 +541,7 @@
 20_22_11_468 [INFO] Directory already present - backups\blocks
 20_22_11_468 [INFO] Directory already present - backups\images
 20_22_11_468 [INFO] All directories needed are present
+20_33_43_420 [INFO] Directory already present - logs
+20_33_43_420 [INFO] Directory already present - backups\blocks
+20_33_43_421 [INFO] Directory already present - backups\images
+20_33_43_421 [INFO] All directories needed are present
