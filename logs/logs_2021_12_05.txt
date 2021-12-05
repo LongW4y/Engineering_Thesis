@@ -545,3 +545,216 @@
 20_33_43_420 [INFO] Directory already present - backups\blocks
 20_33_43_421 [INFO] Directory already present - backups\images
 20_33_43_421 [INFO] All directories needed are present
+20_36_26_556 [INFO] Directory already present - logs
+20_36_26_556 [INFO] Directory already present - backups\blocks
+20_36_26_557 [INFO] Directory already present - backups\images
+20_36_26_557 [INFO] All directories needed are present
+22_13_23_466 [INFO] Directory already present - logs
+22_13_23_467 [INFO] Directory already present - backups\blocks
+22_13_23_467 [INFO] Directory already present - backups\images
+22_13_23_468 [INFO] All directories needed are present
+22_13_23_469 [INFO] Waiting for user input...
+22_13_23_470 [INFO] Provided file extension is supported: jpg
+22_13_57_385 [INFO] Directory already present - logs
+22_13_57_386 [INFO] Directory already present - backups\blocks
+22_13_57_386 [INFO] Directory already present - backups\images
+22_13_57_387 [INFO] All directories needed are present
+22_13_57_387 [INFO] Waiting for user input...
+22_13_57_388 [ERROR] File with the provided extension is not supported: gif
+22_14_47_651 [INFO] Directory already present - logs
+22_14_47_652 [INFO] Directory already present - backups\blocks
+22_14_47_652 [INFO] Directory already present - backups\images
+22_14_47_652 [INFO] All directories needed are present
+22_14_47_653 [INFO] Waiting for user input...
+22_14_47_653 [ERROR] File with the provided extension is not supported: gif
+22_15_07_814 [INFO] Directory already present - logs
+22_15_07_814 [INFO] Directory already present - backups\blocks
+22_15_07_815 [INFO] Directory already present - backups\images
+22_15_07_815 [INFO] All directories needed are present
+22_15_07_816 [INFO] Waiting for user input...
+22_15_07_816 [ERROR] File with the provided extension is not supported: gif
+22_15_33_972 [INFO] Directory already present - logs
+22_15_33_972 [INFO] Directory already present - backups\blocks
+22_15_33_973 [INFO] Directory already present - backups\images
+22_15_33_973 [INFO] All directories needed are present
+22_15_33_974 [INFO] Waiting for user input...
+22_15_33_974 [ERROR] File with the provided extension is not supported: gif
+22_15_42_097 [INFO] Directory already present - logs
+22_15_42_098 [INFO] Directory already present - backups\blocks
+22_15_42_098 [INFO] Directory already present - backups\images
+22_15_42_099 [INFO] All directories needed are present
+22_15_42_099 [INFO] Waiting for user input...
+22_15_42_099 [ERROR] File with the provided extension is not supported: gif
+22_15_58_043 [INFO] Directory already present - logs
+22_15_58_044 [INFO] Directory already present - backups\blocks
+22_15_58_045 [INFO] Directory already present - backups\images
+22_15_58_046 [INFO] All directories needed are present
+22_15_58_046 [INFO] Waiting for user input...
+22_15_58_047 [ERROR] File with the provided extension is not supported: gif
+22_16_09_161 [INFO] Directory already present - logs
+22_16_09_162 [INFO] Directory already present - backups\blocks
+22_16_09_162 [INFO] Directory already present - backups\images
+22_16_09_163 [INFO] All directories needed are present
+22_16_09_163 [INFO] Waiting for user input...
+22_16_09_164 [ERROR] File with the provided extension is not supported: gif
+22_16_14_002 [INFO] Directory already present - logs
+22_16_14_002 [INFO] Directory already present - backups\blocks
+22_16_14_003 [INFO] Directory already present - backups\images
+22_16_14_003 [INFO] All directories needed are present
+22_16_14_003 [INFO] Waiting for user input...
+22_16_14_004 [ERROR] File with the provided extension is not supported: gif
+22_17_43_340 [INFO] Directory already present - logs
+22_17_43_341 [INFO] Directory already present - backups\blocks
+22_17_43_341 [INFO] Directory already present - backups\images
+22_17_43_342 [INFO] All directories needed are present
+22_17_43_342 [INFO] Waiting for user input...
+22_17_43_342 [ERROR] File with the provided extension is not supported: gif
+22_17_52_498 [INFO] Directory already present - logs
+22_17_52_499 [INFO] Directory already present - backups\blocks
+22_17_52_499 [INFO] Directory already present - backups\images
+22_17_52_500 [INFO] All directories needed are present
+22_17_52_501 [INFO] Waiting for user input...
+22_17_52_501 [ERROR] File with the provided extension is not supported: gif
+22_17_58_386 [INFO] Directory already present - logs
+22_17_58_386 [INFO] Directory already present - backups\blocks
+22_17_58_387 [INFO] Directory already present - backups\images
+22_17_58_387 [INFO] All directories needed are present
+22_17_58_387 [INFO] Waiting for user input...
+22_17_58_388 [ERROR] File with the provided extension is not supported: gif
+22_18_18_260 [INFO] Directory already present - logs
+22_18_18_260 [INFO] Directory already present - backups\blocks
+22_18_18_260 [INFO] Directory already present - backups\images
+22_18_18_261 [INFO] All directories needed are present
+22_18_18_261 [INFO] Waiting for user input...
+22_18_18_262 [ERROR] File with the provided extension is not supported: file
+22_18_34_515 [INFO] Directory already present - logs
+22_18_34_515 [INFO] Directory already present - backups\blocks
+22_18_34_515 [INFO] Directory already present - backups\images
+22_18_34_516 [INFO] All directories needed are present
+22_18_34_516 [INFO] Waiting for user input...
+22_18_34_516 [ERROR] File with the provided extension is not supported: lol/giffile
+22_20_04_430 [INFO] Directory already present - logs
+22_20_04_431 [INFO] Directory already present - backups\blocks
+22_20_04_431 [INFO] Directory already present - backups\images
+22_20_04_432 [INFO] All directories needed are present
+22_20_04_432 [INFO] Waiting for user input...
+22_20_04_432 [ERROR] File with the provided extension is not supported: file/file
+22_20_13_601 [INFO] Directory already present - logs
+22_20_13_601 [INFO] Directory already present - backups\blocks
+22_20_13_602 [INFO] Directory already present - backups\images
+22_20_13_602 [INFO] All directories needed are present
+22_20_13_602 [INFO] Waiting for user input...
+22_20_13_603 [ERROR] File with the provided extension is not supported: file\file
+22_20_18_965 [INFO] Directory already present - logs
+22_20_18_965 [INFO] Directory already present - backups\blocks
+22_20_18_965 [INFO] Directory already present - backups\images
+22_20_18_966 [INFO] All directories needed are present
+22_20_18_966 [INFO] Waiting for user input...
+22_20_18_967 [ERROR] File with the provided extension is not supported: file\\file
+22_20_40_030 [INFO] Directory already present - logs
+22_20_40_030 [INFO] Directory already present - backups\blocks
+22_20_40_030 [INFO] Directory already present - backups\images
+22_20_40_031 [INFO] All directories needed are present
+22_20_40_031 [INFO] Waiting for user input...
+22_20_40_032 [ERROR] File with the provided extension is not supported: file\\file
+22_20_50_231 [INFO] Directory already present - logs
+22_20_50_232 [INFO] Directory already present - backups\blocks
+22_20_50_232 [INFO] Directory already present - backups\images
+22_20_50_232 [INFO] All directories needed are present
+22_20_50_233 [INFO] Waiting for user input...
+22_20_50_233 [ERROR] File with the provided extension is not supported: file/file
+22_20_57_307 [INFO] Directory already present - logs
+22_20_57_307 [INFO] Directory already present - backups\blocks
+22_20_57_307 [INFO] Directory already present - backups\images
+22_20_57_308 [INFO] All directories needed are present
+22_20_57_308 [INFO] Waiting for user input...
+22_20_57_309 [ERROR] File with the provided extension is not supported: file.jig
+22_21_06_496 [INFO] Directory already present - logs
+22_21_06_497 [INFO] Directory already present - backups\blocks
+22_21_06_497 [INFO] Directory already present - backups\images
+22_21_06_498 [INFO] All directories needed are present
+22_21_06_498 [INFO] Waiting for user input...
+22_21_06_498 [ERROR] File with the provided extension is not supported: jig
+22_22_03_237 [INFO] Directory already present - logs
+22_22_03_237 [INFO] Directory already present - backups\blocks
+22_22_03_238 [INFO] Directory already present - backups\images
+22_22_03_238 [INFO] All directories needed are present
+22_22_03_239 [INFO] Waiting for user input...
+22_22_03_239 [ERROR] File with the provided extension is not supported: jig
+22_23_09_218 [INFO] Directory already present - logs
+22_23_09_219 [INFO] Directory already present - backups\blocks
+22_23_09_219 [INFO] Directory already present - backups\images
+22_23_09_220 [INFO] All directories needed are present
+22_23_09_220 [INFO] Waiting for user input...
+22_23_09_220 [ERROR] File with the provided extension is not supported: jig
+22_23_17_309 [INFO] Directory already present - logs
+22_23_17_309 [INFO] Directory already present - backups\blocks
+22_23_17_310 [INFO] Directory already present - backups\images
+22_23_17_310 [INFO] All directories needed are present
+22_23_17_311 [INFO] Waiting for user input...
+22_23_17_311 [ERROR] File with the provided extension is not supported: jig
+22_24_47_988 [INFO] Directory already present - logs
+22_24_47_988 [INFO] Directory already present - backups\blocks
+22_24_47_988 [INFO] Directory already present - backups\images
+22_24_47_989 [INFO] All directories needed are present
+22_24_47_989 [INFO] Waiting for user input...
+22_24_47_990 [ERROR] File with the provided extension is not supported: jig
+22_25_45_640 [INFO] Directory already present - logs
+22_25_45_641 [INFO] Directory already present - backups\blocks
+22_25_45_641 [INFO] Directory already present - backups\images
+22_25_45_641 [INFO] All directories needed are present
+22_25_45_642 [INFO] Waiting for user input...
+22_25_45_642 [ERROR] File with the provided extension is not supported: jig
+22_25_59_721 [INFO] Directory already present - logs
+22_25_59_721 [INFO] Directory already present - backups\blocks
+22_25_59_722 [INFO] Directory already present - backups\images
+22_25_59_722 [INFO] All directories needed are present
+22_25_59_723 [INFO] Waiting for user input...
+22_25_59_723 [ERROR] File with the provided extension is not supported: jig
+22_27_09_797 [INFO] Directory already present - logs
+22_27_09_798 [INFO] Directory already present - backups\blocks
+22_27_09_798 [INFO] Directory already present - backups\images
+22_27_09_798 [INFO] All directories needed are present
+22_27_09_799 [INFO] Waiting for user input...
+22_27_09_799 [ERROR] File with the provided extension is not supported: jig
+22_28_37_215 [INFO] Directory already present - logs
+22_28_37_216 [INFO] Directory already present - backups\blocks
+22_28_37_216 [INFO] Directory already present - backups\images
+22_28_37_217 [INFO] All directories needed are present
+22_28_37_217 [INFO] Waiting for user input...
+22_28_37_217 [ERROR] File with the provided extension is not supported: jig
+22_28_48_134 [INFO] Directory already present - logs
+22_28_48_134 [INFO] Directory already present - backups\blocks
+22_28_48_135 [INFO] Directory already present - backups\images
+22_28_48_135 [INFO] All directories needed are present
+22_28_48_136 [INFO] Waiting for user input...
+22_28_48_136 [ERROR] File with the provided extension is not supported: jig
+22_28_59_189 [INFO] Directory already present - logs
+22_28_59_189 [INFO] Directory already present - backups\blocks
+22_28_59_189 [INFO] Directory already present - backups\images
+22_28_59_190 [INFO] All directories needed are present
+22_28_59_190 [INFO] Waiting for user input...
+22_28_59_191 [ERROR] File with the provided extension is not supported: jig
+22_29_08_329 [INFO] Directory already present - logs
+22_29_08_330 [INFO] Directory already present - backups\blocks
+22_29_08_330 [INFO] Directory already present - backups\images
+22_29_08_330 [INFO] All directories needed are present
+22_29_08_330 [INFO] Waiting for user input...
+22_29_08_331 [ERROR] File with the provided extension is not supported: jig
+22_30_08_942 [INFO] Directory already present - logs
+22_30_08_943 [INFO] Directory already present - backups\blocks
+22_30_08_943 [INFO] Directory already present - backups\images
+22_30_08_944 [INFO] All directories needed are present
+22_30_08_945 [INFO] Waiting for user input...
+22_30_29_133 [INFO] Directory already present - logs
+22_30_29_133 [INFO] Directory already present - backups\blocks
+22_30_29_133 [INFO] Directory already present - backups\images
+22_30_29_133 [INFO] All directories needed are present
+22_30_29_135 [INFO] Waiting for user input...
+22_30_29_135 [ERROR] File with the provided extension is not supported: jig
+22_30_35_979 [INFO] Directory already present - logs
+22_30_35_979 [INFO] Directory already present - backups\blocks
+22_30_35_979 [INFO] Directory already present - backups\images
+22_30_35_980 [INFO] All directories needed are present
+22_30_35_980 [INFO] Waiting for user input...
+22_30_35_981 [INFO] Provided file extension is supported: png
