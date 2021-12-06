@@ -18060,3 +18060,191 @@
 01_34_50_096 [INFO] Waiting for user input...
 01_34_50_097 [INFO] New directory has been created - 211206_01345009
 01_34_50_098 [INFO] Provided file extension is supported: jpg
+09_17_54_551 [INFO] Directory already present - logs
+09_17_54_552 [INFO] Directory already present - backups\blocks
+09_17_54_553 [INFO] Directory already present - backups\images
+09_17_54_553 [INFO] All directories needed are present
+09_17_54_554 [INFO] Waiting for user input...
+09_17_54_554 [INFO] New directory has been created - 211206_09175455
+09_17_54_555 [INFO] Provided file extension is supported: jpg
+09_20_00_332 [INFO] Directory already present - logs
+09_20_00_333 [INFO] Directory already present - backups\blocks
+09_20_00_333 [INFO] Directory already present - backups\images
+09_20_00_333 [INFO] All directories needed are present
+09_20_00_334 [INFO] Waiting for user input...
+09_20_29_011 [INFO] Directory already present - logs
+09_20_29_012 [INFO] Directory already present - backups\blocks
+09_20_29_013 [INFO] Directory already present - backups\images
+09_20_29_013 [INFO] All directories needed are present
+09_20_29_014 [INFO] Waiting for user input...
+09_20_43_206 [INFO] Directory already present - logs
+09_20_43_206 [INFO] Directory already present - backups\blocks
+09_20_43_207 [INFO] Directory already present - backups\images
+09_20_43_207 [INFO] All directories needed are present
+09_20_43_208 [INFO] Waiting for user input...
+09_20_53_467 [INFO] Directory already present - logs
+09_20_53_468 [INFO] Directory already present - backups\blocks
+09_20_53_469 [INFO] Directory already present - backups\images
+09_20_53_469 [INFO] All directories needed are present
+09_20_53_470 [INFO] Waiting for user input...
+09_20_53_470 [INFO] New directory has been created - 211206_09205347
+09_20_53_471 [INFO] Provided file extension is supported: jpg
+09_21_40_473 [INFO] Directory already present - logs
+09_21_40_473 [INFO] Directory already present - backups\blocks
+09_21_40_474 [INFO] Directory already present - backups\images
+09_21_40_474 [INFO] All directories needed are present
+09_21_40_475 [INFO] Waiting for user input...
+09_22_49_419 [INFO] Directory already present - logs
+09_22_49_419 [INFO] Directory already present - backups\blocks
+09_22_49_420 [INFO] Directory already present - backups\images
+09_22_49_421 [INFO] All directories needed are present
+09_22_49_421 [INFO] Waiting for user input...
+09_23_02_580 [INFO] Directory already present - logs
+09_23_02_581 [INFO] Directory already present - backups\blocks
+09_23_02_581 [INFO] Directory already present - backups\images
+09_23_02_582 [INFO] All directories needed are present
+09_23_02_582 [INFO] Waiting for user input...
+09_23_02_583 [INFO] New directory has been created - 211206_09230258
+09_23_02_583 [INFO] Provided file extension is supported: jpg
+09_23_15_815 [INFO] Directory already present - logs
+09_23_15_815 [INFO] Directory already present - backups\blocks
+09_23_15_816 [INFO] Directory already present - backups\images
+09_23_15_816 [INFO] All directories needed are present
+09_23_15_817 [INFO] Waiting for user input...
+09_23_15_818 [INFO] New directory has been created - 211206_09231581
+09_23_15_818 [INFO] Provided file extension is supported: jpg
+09_23_38_461 [INFO] Directory already present - logs
+09_23_38_462 [INFO] Directory already present - backups\blocks
+09_23_38_462 [INFO] Directory already present - backups\images
+09_23_38_463 [INFO] All directories needed are present
+09_23_38_463 [INFO] Waiting for user input...
+09_23_38_464 [INFO] New directory has been created - 211206_09233846
+09_23_38_464 [INFO] Provided file extension is supported: jpg
+09_24_03_608 [INFO] Directory already present - logs
+09_24_03_609 [INFO] Directory already present - backups\blocks
+09_24_03_610 [INFO] Directory already present - backups\images
+09_24_03_610 [INFO] All directories needed are present
+09_24_03_611 [INFO] Waiting for user input...
+09_24_03_611 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+09_24_03_612 [INFO] New directory has been created - 211206_09240361
+09_24_03_613 [INFO] Provided file extension is supported: jpg
+09_32_38_460 [INFO] Directory already present - logs
+09_32_38_461 [INFO] Directory already present - backups\blocks
+09_32_38_461 [INFO] Directory already present - backups\images
+09_32_38_462 [INFO] All directories needed are present
+09_32_38_462 [INFO] Waiting for user input...
+09_32_38_463 [INFO] New directory has been created - 211206_09323846
+09_32_38_464 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+09_32_53_547 [INFO] Directory already present - logs
+09_32_53_547 [INFO] Directory already present - backups\blocks
+09_32_53_548 [INFO] Directory already present - backups\images
+09_32_53_549 [INFO] All directories needed are present
+09_32_53_549 [INFO] Waiting for user input...
+09_32_53_550 [INFO] New directory has been created - 211206_09325355
+09_32_53_550 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+09_33_05_917 [INFO] Directory already present - logs
+09_33_05_917 [INFO] Directory already present - backups\blocks
+09_33_05_918 [INFO] Directory already present - backups\images
+09_33_05_918 [INFO] All directories needed are present
+09_33_05_919 [INFO] Waiting for user input...
+09_33_05_919 [INFO] New directory has been created - 211206_09330591
+09_33_05_920 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+09_33_22_507 [INFO] Directory already present - logs
+09_33_22_508 [INFO] Directory already present - backups\blocks
+09_33_22_508 [INFO] Directory already present - backups\images
+09_33_22_509 [INFO] All directories needed are present
+09_33_22_509 [INFO] Waiting for user input...
+09_33_22_510 [INFO] New directory has been created - 211206_09332251
+09_33_22_511 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+09_37_17_745 [INFO] Directory already present - logs
+09_37_17_746 [INFO] Directory already present - backups\blocks
+09_37_17_746 [INFO] Directory already present - backups\images
+09_37_17_747 [INFO] All directories needed are present
+09_37_17_748 [INFO] Waiting for user input...
+09_37_17_748 [INFO] New directory has been created - 211206_09371774
+09_37_17_749 [INFO] Provided file extension is supported: jpg
+09_37_17_751 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+09_40_58_927 [INFO] Directory already present - logs
+09_40_58_928 [INFO] Directory already present - backups\blocks
+09_40_58_928 [INFO] Directory already present - backups\images
+09_40_58_929 [INFO] All directories needed are present
+09_40_58_929 [INFO] Waiting for user input...
+09_40_58_930 [INFO] Provided file extension is supported: jpg
+09_42_09_402 [INFO] Directory already present - logs
+09_42_09_402 [INFO] Directory already present - backups\blocks
+09_42_09_403 [INFO] Directory already present - backups\images
+09_42_09_403 [INFO] All directories needed are present
+09_42_09_404 [INFO] Waiting for user input...
+09_42_09_404 [INFO] Provided file extension is supported: jpg
+09_43_16_795 [INFO] Directory already present - logs
+09_43_16_796 [INFO] Directory already present - backups\blocks
+09_43_16_797 [INFO] Directory already present - backups\images
+09_43_16_797 [INFO] All directories needed are present
+09_43_16_798 [INFO] Waiting for user input...
+09_43_16_798 [INFO] New directory has been created - 211206_09431679
+09_43_16_799 [INFO] Provided file extension is supported: jpg
+09_43_16_801 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+09_44_15_647 [INFO] Directory already present - logs
+09_44_15_648 [INFO] Directory already present - backups\blocks
+09_44_15_649 [INFO] Directory already present - backups\images
+09_44_15_649 [INFO] All directories needed are present
+09_44_15_650 [INFO] Waiting for user input...
+09_44_15_650 [INFO] Provided file extension is supported: jpg
+09_44_15_651 [INFO] New directory has been created - 211206_09441565
+09_44_15_653 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+09_46_18_603 [INFO] Directory already present - logs
+09_46_18_603 [INFO] Directory already present - backups\blocks
+09_46_18_603 [INFO] Directory already present - backups\images
+09_46_18_603 [INFO] All directories needed are present
+09_46_18_604 [INFO] Waiting for user input...
+09_46_18_605 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+09_46_18_606 [INFO] Provided file extension is supported: jpg
+09_46_18_606 [INFO] New directory has been created - 211206_09461860
+09_56_01_345 [INFO] Directory already present - logs
+09_56_01_350 [INFO] Directory already present - backups\blocks
+09_56_01_350 [INFO] Directory already present - backups\images
+09_56_01_351 [INFO] All directories needed are present
+09_56_01_351 [INFO] Waiting for user input...
+09_56_01_352 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+09_56_01_353 [INFO] Provided file extension is supported: jpg
+09_56_01_353 [INFO] New directory has been created - 211206_09560135
+09_56_21_188 [INFO] Directory already present - logs
+09_56_21_188 [INFO] Directory already present - backups\blocks
+09_56_21_189 [INFO] Directory already present - backups\images
+09_56_21_190 [INFO] All directories needed are present
+09_56_21_190 [INFO] Waiting for user input...
+09_56_21_191 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+09_56_21_191 [INFO] Provided file extension is supported: jpg
+09_56_21_192 [INFO] New directory has been created - 211206_09562119
+09_56_28_533 [INFO] Directory already present - logs
+09_56_28_533 [INFO] Directory already present - backups\blocks
+09_56_28_534 [INFO] Directory already present - backups\images
+09_56_28_534 [INFO] All directories needed are present
+09_56_28_535 [INFO] Waiting for user input...
+09_56_28_535 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+09_56_28_536 [INFO] Provided file extension is supported: jpg
+09_56_28_537 [INFO] New directory has been created - 211206_09562853
+09_57_27_284 [INFO] Directory already present - logs
+09_57_27_284 [INFO] Directory already present - backups\blocks
+09_57_27_285 [INFO] Directory already present - backups\images
+09_57_27_285 [INFO] All directories needed are present
+09_57_27_286 [INFO] Waiting for user input...
+09_57_27_286 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+09_57_27_287 [INFO] Provided file extension is supported: jpg
+09_57_27_288 [INFO] New directory has been created - 211206_09572728
+09_57_43_863 [INFO] Directory already present - logs
+09_57_43_864 [INFO] Directory already present - backups\blocks
+09_57_43_864 [INFO] Directory already present - backups\images
+09_57_43_865 [INFO] All directories needed are present
+09_57_43_865 [INFO] Waiting for user input...
+09_57_43_866 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+09_57_43_866 [INFO] Provided file extension is supported: jpg
+09_57_43_867 [INFO] New directory has been created - 211206_09574386
+09_58_07_949 [INFO] Directory already present - logs
+09_58_07_950 [INFO] Directory already present - backups\blocks
+09_58_07_951 [INFO] Directory already present - backups\images
+09_58_07_951 [INFO] All directories needed are present
+09_58_07_952 [INFO] Waiting for user input...
+09_58_07_953 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+09_58_07_953 [INFO] Provided file extension is supported: jpg
+09_58_07_954 [INFO] New directory has been created - 211206_09580795

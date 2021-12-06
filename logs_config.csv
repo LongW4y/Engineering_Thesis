@@ -6,3 +6,4 @@ INFO,waitInput, Waiting for user input...,
 ERROR,wrongFileExt, File with the provided extension is not supported: ,file
 ERROR,noFileExt, File provided does not have any file extension defined,
 INFO,correctFile, Provided file extension is supported: ,file
+INFO,loadedFile, File loaded: ,file

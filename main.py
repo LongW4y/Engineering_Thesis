@@ -15,7 +15,7 @@ CONFIGFILE = '.\\config.properties'
 LOGCONFIG = '.\\logs_config.csv'
 SUPPORTED = ('png', 'jpg', 'jpeg')
 LOGFILE = BASEPATH + 'logs/logs_'
-
+INITMESSAGE = 'Welcome to the program!'
 
 def logMessage(messagetype, directory, file):
     CURRENTDATE = str(date.today().strftime("%Y_%m_%d"))
@@ -81,44 +81,55 @@ def extensionChecker(filePath):
         return True
     elif fileExt == '':
         logMessage('noFileExt', filePath, fileExt)
-        print("Supported file extensions are:", end='')
-        for ext in SUPPORTED:
-            print(ext, end='')
-            if ext != SUPPORTED[-1]:
-                print(',', end=' ')
+        printSupported()
         return False
     else:
         logMessage('wrongFileExt', filePath, fileExt)
-        print("Supported file extensions are: ", end='')
-        for ext in SUPPORTED:
-            print(ext, end='')
-            if ext != SUPPORTED[-1]:
-                print(',', end=' ')
+        printSupported()
         return False
+# print a list of supported file extensions
+def printSupported():
+    print("Supported file extensions are: ", end='')
+    for ext in SUPPORTED:
+        print(ext, end='')
+        if ext != SUPPORTED[-1]:
+            print(',', end=' ')
+    print()
 
-
-def copyFile(filePath):
+# return file name and delimiter the user used to enter a directory
+def fileDelim(filePath):
     delimPlace = len(str(re.split('/|\\\\', filePath)[-1])) + 1
+    file = filePath[len(filePath) - len(str(re.split('/|\\\\', filePath)[-1])):]
     if filePath[-delimPlace] == '/':
         delim = '/'
         newDir = str(datetime.now().strftime('%Y%m%d_%H%M%S%f')[2:-4])
-        createPaths(BASEPATH + IMAGESPATH, newDir)
-        extensionChecker(filePath)
-        copyfile(filePath, BASEPATH + IMAGESPATH + newDir + delim + filePath.split(delim)[-1])
+        logMessage('loadedFile', BASEPATH, file)
+        if extensionChecker(filePath):
+            createPaths(BASEPATH + IMAGESPATH, newDir)
+            copyfile(filePath, BASEPATH + IMAGESPATH + newDir + delim + filePath.split(delim)[-1])
+            return True
+        else:
+            return False
     elif filePath[-delimPlace] == '\\':
         delim = '\\'
         newDir = str(datetime.now().strftime('%Y%m%d_%H%M%S%f')[2:-4])
-        createPaths(BASEPATH + IMAGESPATH, newDir)
-        extensionChecker(filePath)
-        copyfile(filePath, BASEPATH + IMAGESPATH + newDir + delim + filePath.split(delim)[-1])
+        logMessage('loadedFile', BASEPATH, file)
+        if extensionChecker(filePath):
+            createPaths(BASEPATH + IMAGESPATH, newDir)
+            copyfile(filePath, BASEPATH + IMAGESPATH + newDir + delim + filePath.split(delim)[-1])
+            return True
+        else:
+            return False
 
 
 def fileInput():
+    printSupported()
+    #print(INITMESSAGE)
     logMessage('waitInput', False, False)
     #    filePath = input("Please put in an absolute path to an image you would like to have replicated:\n")
-    #    filePath = "C:\\Users\\longw\\Desktop\\G Drive\\Praca inżynierska\\Engineering_Thesis\\test images\\Standard aspect ratio\\FHD\\4k-retro-80s-wallpaper-fhd-1920x1080.jpg"
+    filePath = "C:\\Users\\longw\\Desktop\\G Drive\\Praca inżynierska\\Engineering_Thesis\\test images\\Standard aspect ratio\\FHD\\4k-retro-80s-wallpaper-fhd-1920x1080.jpg"
     filePath = 'C:/Users/longw/Desktop/G Drive/Praca inżynierska/Engineering_Thesis/test images/Standard aspect ratio/FHD/4k-retro-80s-wallpaper-fhd-1920x1080.jpg'
-    copyFile(filePath)
+    fileDelim(filePath)
 
 
 if __name__ == "__main__":
