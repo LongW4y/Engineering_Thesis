@@ -5,6 +5,7 @@ from datetime import datetime
 from csv import reader
 from shutil import copyfile
 import re
+import timeit
 
 # Global variables:
 BASEPATH = str(pathlib.Path(__file__).parent.resolve()) + '\\'
@@ -14,6 +15,7 @@ CONFIGFILE = '.\\config.properties'
 LOGCONFIG = '.\\logs_config.csv'
 SUPPORTED = ('png', 'jpg', 'jpeg')
 LOGFILE = BASEPATH + 'logs/logs_'
+
 
 def logMessage(messagetype, directory, file):
     CURRENTDATE = str(date.today().strftime("%Y_%m_%d"))
@@ -34,7 +36,7 @@ def logMessage(messagetype, directory, file):
 
 
 def writeMessage(msg, logPath):
-    print(msg[:len(msg)-1])
+    print(msg[:len(msg) - 1])
     if path.isfile(pathlib.Path(logPath)):
         ff = open(logPath, "a")
         ff.write(msg)
@@ -44,6 +46,7 @@ def writeMessage(msg, logPath):
         ff.write(msg)
         ff.close()
 
+
 def createPaths(base, dirs):
     if type(dirs) == list:
         for x in dirs:
@@ -52,6 +55,7 @@ def createPaths(base, dirs):
     elif type(dirs) == str:
         pathlib.Path(base + dirs).mkdir(parents=True, exist_ok=True)
         logMessage('newDir', base, dirs)
+
 
 def checkDirs(base, dirs):
     presentDirs = []
@@ -68,6 +72,7 @@ def checkDirs(base, dirs):
     if neededDirs:
         createPaths(base, neededDirs)
     logMessage('dirsPresent', base, True)
+
 
 def extensionChecker(filePath):
     fileExt = filePath.split(".")[-1].lower()
@@ -90,6 +95,8 @@ def extensionChecker(filePath):
             if ext != SUPPORTED[-1]:
                 print(',', end=' ')
         return False
+
+
 def copyFile(filePath):
     delimPlace = len(str(re.split('/|\\\\', filePath)[-1])) + 1
     if filePath[-delimPlace] == '/':
@@ -105,15 +112,16 @@ def copyFile(filePath):
         extensionChecker(filePath)
         copyfile(filePath, BASEPATH + IMAGESPATH + newDir + delim + filePath.split(delim)[-1])
 
+
 def fileInput():
     logMessage('waitInput', False, False)
-    filePath = input("Please put in an absolute path to an image you would like to have replicated:\n")
-#    filePath = "C:\\Users\\longw\\Desktop\\G Drive\\Praca inżynierska\\Engineering_Thesis\\test images\\Standard aspect ratio\\FHD\\4k-retro-80s-wallpaper-fhd-1920x1080.jpg"
-#    filePath = 'C:/Users/longw/Desktop/G Drive/Praca inżynierska/Engineering_Thesis/test images/Standard aspect ratio/FHD/4k-retro-80s-wallpaper-fhd-1920x1080.jpg'
+    #    filePath = input("Please put in an absolute path to an image you would like to have replicated:\n")
+    #    filePath = "C:\\Users\\longw\\Desktop\\G Drive\\Praca inżynierska\\Engineering_Thesis\\test images\\Standard aspect ratio\\FHD\\4k-retro-80s-wallpaper-fhd-1920x1080.jpg"
+    filePath = 'C:/Users/longw/Desktop/G Drive/Praca inżynierska/Engineering_Thesis/test images/Standard aspect ratio/FHD/4k-retro-80s-wallpaper-fhd-1920x1080.jpg'
     copyFile(filePath)
 
+
 if __name__ == "__main__":
-    checkDirs(BASEPATH, BASEDIRS)
-    fileInput()
-
-
+     checkDirs(BASEPATH, BASEDIRS)
+     fileInput()
+#    print(timeit.timeit('fileInput', 'from __main__ import fileInput')) # ~0.010789599999999996
