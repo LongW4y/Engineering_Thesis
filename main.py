@@ -126,8 +126,8 @@ def fileInput():
     printSupported()
     #print(INITMESSAGE)
     logMessage('waitInput', False, False)
-    #    filePath = input("Please put in an absolute path to an image you would like to have replicated:\n")
-    filePath = "C:\\Users\\longw\\Desktop\\G Drive\\Praca inżynierska\\Engineering_Thesis\\test images\\Standard aspect ratio\\FHD\\4k-retro-80s-wallpaper-fhd-1920x1080.jpg"
+    #filePath = input("Please put in an absolute path to an image you would like to have replicated:\n")
+    #filePath = "C:\\Users\\longw\\Desktop\\G Drive\\Praca inżynierska\\Engineering_Thesis\\test images\\Standard aspect ratio\\FHD\\4k-retro-80s-wallpaper-fhd-1920x1080.jpg"
     filePath = 'C:/Users/longw/Desktop/G Drive/Praca inżynierska/Engineering_Thesis/test images/Standard aspect ratio/FHD/4k-retro-80s-wallpaper-fhd-1920x1080.jpg'
     fileDelim(filePath)
 
