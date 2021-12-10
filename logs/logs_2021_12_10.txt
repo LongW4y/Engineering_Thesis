@@ -1,0 +1,24 @@
+00_31_31_400 [INFO] Directory already present - logs
+00_31_31_402 [INFO] Directory already present - backups\blocks
+00_31_31_404 [INFO] Directory already present - backups\images
+00_31_31_406 [INFO] All directories needed are present
+00_31_31_408 [INFO] Waiting for user input...
+00_31_31_409 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+00_31_31_411 [INFO] Provided file extension is supported: jpg
+00_31_31_413 [INFO] New directory has been created - 211210_00313140
+13_04_14_080 [INFO] Directory already present - logs
+13_04_14_090 [INFO] Directory already present - backups\blocks
+13_04_14_091 [INFO] Directory already present - backups\images
+13_04_14_092 [INFO] All directories needed are present
+13_04_14_094 [INFO] Waiting for user input...
+13_04_14_096 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+13_04_14_099 [INFO] Provided file extension is supported: jpg
+13_04_14_103 [INFO] New directory has been created - 211210_13041409
+13_17_29_950 [INFO] Directory already present - logs
+13_17_29_951 [INFO] Directory already present - backups\blocks
+13_17_29_953 [INFO] Directory already present - backups\images
+13_17_29_953 [INFO] All directories needed are present
+13_17_29_954 [INFO] Waiting for user input...
+13_17_29_956 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+13_17_29_958 [INFO] Provided file extension is supported: jpg
+13_17_29_960 [INFO] New directory has been created - 211210_13172995

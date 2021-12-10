@@ -50,10 +50,10 @@ def writeMessage(msg, logPath):
 def createPaths(base, dirs):
     if type(dirs) == list:
         for x in dirs:
-            pathlib.Path(base + x).mkdir(parents=True, exist_ok=True)
+            pathlib.Path(base + x).mkdir(parents = True, exist_ok = True)
             logMessage('newDir', base, x)
     elif type(dirs) == str:
-        pathlib.Path(base + dirs).mkdir(parents=True, exist_ok=True)
+        pathlib.Path(base + dirs).mkdir(parents = True, exist_ok = True)
         logMessage('newDir', base, dirs)
 
 
