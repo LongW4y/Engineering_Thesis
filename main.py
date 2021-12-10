@@ -8,16 +8,16 @@ import re
 import timeit
 
 # Global variables:
-BASEPATH = str(pathlib.Path(__file__).parent.resolve()) + '\\'
-BASEDIRS = ('logs', 'backups\\blocks', 'backups\\images')
-IMAGESPATH = 'backups\\images\\'
-CONFIGFILE = '.\\config.properties'
-LOGCONFIG = '.\\logs_config.csv'
+BASEPATH = str(pathlib.Path(__file__).parent.resolve()) + '\\' # directory of the main.py
+BASEDIRS = ('logs', 'backups\\blocks', 'backups\\images') # main directories used throughout the program
+IMAGESPATH = 'backups\\images\\' # path to where the images inputted by the user are copied to
+CONFIGFILE = '.\\config.properties' # config file
+LOGCONFIG = '.\\logs_config.csv' # config file of the logging system: msgType, msgId, msgContent, addition
 SUPPORTED = ('png', 'jpg', 'jpeg')
 LOGFILE = BASEPATH + 'logs/logs_'
 INITMESSAGE = 'Welcome to the program!'
 
-def logMessage(messagetype, directory, file):
+def logMessage(messagetype, directory, extras):
     CURRENTDATE = str(date.today().strftime("%Y_%m_%d"))
     CURRENTTIME = str(datetime.now().strftime('%H_%M_%S_%f')[:-3])
     logToday = LOGFILE + CURRENTDATE + '.txt'
@@ -27,8 +27,8 @@ def logMessage(messagetype, directory, file):
         csv_reader = reader(read_obj)
         for row in csv_reader:
             if messagetype == row[1]:
-                if row[3] == 'file':
-                    msg = CURRENTTIME + ' [' + row[0] + ']' + row[2] + file + '\n'
+                if row[3] == 'extras':
+                    msg = CURRENTTIME + ' [' + row[0] + ']' + row[2] + extras + '\n'
                     writeMessage(msg, logToday)
                 elif row[3] == '':
                     msg = CURRENTTIME + ' [' + row[0] + ']' + row[2] + '\n'
@@ -133,6 +133,7 @@ def fileInput():
 
 
 if __name__ == "__main__":
-     checkDirs(BASEPATH, BASEDIRS)
-     fileInput()
+    checkDirs(BASEPATH, BASEDIRS)
+    fileInput()
 #    print(timeit.timeit('fileInput', 'from __main__ import fileInput')) # ~0.010789599999999996
+    print(BASEPATH)

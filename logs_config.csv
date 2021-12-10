@@ -1,9 +1,9 @@
-messageType,msgId,msgText,addition
-INFO,newDir, New directory has been created - ,file
-INFO,presentDir, Directory already present - ,file
+messageType,msgId,msgContent,addition
+INFO,newDir, New directory has been created - ,extras
+INFO,presentDir, Directory already present - ,extras
 INFO,dirsPresent, All directories needed are present,
 INFO,waitInput, Waiting for user input...,
-ERROR,wrongFileExt, File with the provided extension is not supported: ,file
+ERROR,wrongFileExt, File with the provided extension is not supported: ,extras
 ERROR,noFileExt, File provided does not have any file extension defined,
-INFO,correctFile, Provided file extension is supported: ,file
-INFO,loadedFile, File loaded: ,file
+INFO,correctFile, Provided file extension is supported: ,extras
+INFO,loadedFile, File loaded: ,extras
