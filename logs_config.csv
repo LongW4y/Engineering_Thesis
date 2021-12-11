@@ -1,4 +1,4 @@
-messageType,msgId,msgContent,addition
+msgType,msgId,msgContent,addition
 INFO,newDir, New directory has been created - ,extras
 INFO,presentDir, Directory already present - ,extras
 INFO,dirsPresent, All directories needed are present,
@@ -7,3 +7,4 @@ ERROR,wrongFileExt, File with the provided extension is not supported: ,extras
 ERROR,noFileExt, File provided does not have any file extension defined,
 INFO,correctFile, Provided file extension is supported: ,extras
 INFO,loadedFile, File loaded: ,extras
+INFO,extSave, Copy of a file saved as: ,extras
