@@ -1,4 +1,5 @@
 import pathlib
+import sys
 from os import path
 from datetime import date
 from datetime import datetime
@@ -15,15 +16,59 @@ IMAGESPATH = 'backups\\images\\' # path to where the images inputted by the user
 CONFIGFILE = '.\\config.properties' # config file
 LOGCONFIG = '.\\logs_config.csv' # config file of the logging system: msgType, msgId, msgContent, addition
 SUPPORTED = ('png', 'jpg', 'jpeg') # supported file extensions
+MAXPIXELS = 33177600 # maximum amount of pixels supported, 33177600 is equal to 8k
 LOGFILE = 'logs/logs_' # directory/name of a log file
 CURRENTDATE = str(date.today().strftime('%Y_%m_%d')) # date at which the script is run
 LOGTODAY = BASEPATH + LOGFILE + CURRENTDATE + '.txt' # defining today's log path
 INITMESSAGE = 'Welcome to the program!'
-EXT = '.png' # graphic file extension we're using throughout the process
-DEFAULTLEN = 16 # default image height & width
+MAXBLOCKS, STANDBLOCKS, MINBLOCKS = 100, 60, 20 # maximum/minimum amount of Randomly Rendered Blocks(RRB) possible to generate
+BLOCKSBOUND = 15
+correctBlocksNum = 'The number of parts is correct, the program will proceed'
+incorrectBlocksNum = 'Provided number of parts is incorrect. The numbers suggested are'
+# Check what directories are present, needed and then create them with createPaths()
+def checkDirs(base, dirs):
+    presentDirs = []
+    # check what directories are present
+    if base == BASEPATH:
+        for x in pathlib.Path(base).rglob('*'): # check what directories are present within base recursively
+            if x.is_dir():
+                presentDirs.append(str(x)[len(BASEPATH):])
+    neededDirs = []
+    # check what directories are needed
+    for x in dirs:
+        if x in presentDirs:
+            logMessage('presentDir', base, x)
+        elif not x in presentDirs:
+            neededDirs.append(x)
+    #create necessary paths that are not present
+    if neededDirs:
+        createPaths(base, neededDirs)
+    logMessage('dirsPresent', base, True)
+
+# Check whether the file is supported
+def fileChecker(file: str, imWidth: int, imHeight: int):
+    fileMod = file.split('.')
+    if len(fileMod) <= 1:
+        logMessage('noFileExt', file, fileMod)
+        printSupported()
+        return False
+    else:
+        fileExt = file.split('.')[-1].lower()
+        if fileExt in SUPPORTED and imWidth*imHeight <= MAXPIXELS:
+            logMessage('correctFile', False, fileExt)
+            return True
+        elif fileExt in SUPPORTED and imWidth*imHeight > MAXPIXELS:
+            logMessage('tooBigRes', False, file)
+            printSupported()
+            return False
+        else:
+            logMessage('wrongFileExt', False, fileExt)
+            printSupported()
+            return False
 
 # Read message config from the LOGCONFIG based on msgId, then go to writeMessage
 def logMessage(msgId, directory, extras):
+    #return True # not logging in messages into logs & terminal for the sake of small tests
     currentTime = str(datetime.now().strftime('%H_%M_%S_%f')[:-3])
 
     with open(LOGCONFIG, 'r') as singleRow:
@@ -60,43 +105,6 @@ def createPaths(base, dirs):
         pathlib.Path(base + dirs).mkdir(parents = True, exist_ok = True)
         logMessage('newDir', base, dirs)
 
-# Check what directories are present, needed and then create them with createPaths()
-def checkDirs(base, dirs):
-    presentDirs = []
-    # check what directories are present
-    if base == BASEPATH:
-        for x in pathlib.Path(base).rglob('*'): # check what directories are present within base recursively
-            if x.is_dir():
-                presentDirs.append(str(x)[len(BASEPATH):])
-    neededDirs = []
-    # check what directories are needed
-    for x in dirs:
-        if x in presentDirs:
-            logMessage('presentDir', base, x)
-        elif not x in presentDirs:
-            neededDirs.append(x)
-    #create necessary paths that are not present
-    if neededDirs:
-        createPaths(base, neededDirs)
-    logMessage('dirsPresent', base, True)
-
-# Check whether the file is supported
-def extensionChecker(file):
-    fileMod = file.split('.')
-    if len(fileMod) <= 1:
-        logMessage('noFileExt', file, fileMod)
-        printSupported()
-        return False
-    else:
-        fileExt = file.split('.')[-1].lower()
-        if fileExt in SUPPORTED:
-            logMessage('correctFile', file, fileExt)
-            return True
-        else:
-            logMessage('wrongFileExt', file, fileExt)
-            printSupported()
-            return False
-        
 # print a list of supported file extensions
 def printSupported():
     print('Supported file extensions are: ', end='')
@@ -104,18 +112,20 @@ def printSupported():
         print(ext, end='')
         if ext != SUPPORTED[-1]:
             print(',', end=' ')
-    print()
+    print('And the greatest number of pixels can be: ' + str(MAXPIXELS) + ', which is equal to 7680×4320 - 8k')
 
 # return file name and delimiter the user used to enter a directory
-def fileDelim(filePath):
+def copyToDatePath(filePath):
     splitPath = re.split('\\\\', filePath) # split path on '\\', since all the directories are processed as with double backslashes
     delimPlace = len(str(splitPath[-1])) + 1
     file = filePath[len(filePath) - delimPlace + 1:]
     if filePath[-delimPlace] == '\\':
         delim = '\\'
         newDir = str(datetime.now().strftime('%Y%m%d_%H%M%S%f')[2:-4]) # define a directory, e.g. 211210_13241078
+        image = Image.open(filePath)
+        imWidth, imHeight = int(image.size[0]), int(image.size[1])
         logMessage('loadedFile', BASEPATH, file)
-        if extensionChecker(splitPath[-1]): # check whether the file extension is supported
+        if fileChecker(splitPath[-1], imWidth, imHeight): # check whether the file extension is supported and the image resolutions are correct
             createPaths(BASEPATH + IMAGESPATH, newDir) # create new directory for the file
             finalPath = BASEPATH + IMAGESPATH + newDir + delim + splitPath[-1]
             shutil.copyfile(filePath, finalPath)
@@ -125,19 +135,21 @@ def fileDelim(filePath):
 
 # Handling user input
 def fileInput():
-    printSupported()
+    #printSupported()
     #print(INITMESSAGE)
     logMessage('waitInput', False, False)
     #filePath = input('Please put in an absolute path to an image you would like to have replicated:\n')
     #filePath = 'C:\\Users\\longw\\Desktop\\G Drive\\Praca inżynierska\\Engineering_Thesis\\test images\\Standard aspect ratio\\FHD\\4k-retro-80s-wallpaper-fhd-1920x1080.jpg'
     filePath = 'C:/Users/longw/Desktop/G Drive/Praca inżynierska/Engineering_Thesis/test images/Standard aspect ratio/FHD/4k-retro-80s-wallpaper-fhd-1920x1080.jpg'
     filePath = path.realpath(filePath) # change the provided delim to '\'
-    finalPath = fileDelim(filePath)
+    finalPath = copyToDatePath(filePath)
     # next step, image processing
-    newImage = imageCopying(finalPath)
-    imageCutting(newImage)
-    
-def imageCopying(filePath: str):
+    #newImage = changeToPng(finalPath)
+    return finalPath
+
+#########################################   NOT USED (!!!!!!!!!!!!!!!!!!!!!!!!!)
+# Saving the copy of a source file as PNG
+def changeToPng(filePath: str):
     fileName = re.split('\\\\', filePath)[-1]
     image = Image.open(filePath) # https://www.developer.com/languages/displaying-and-converting-images-with-python/ <- about file extensions
     #image.show()
@@ -146,16 +158,75 @@ def imageCopying(filePath: str):
     image.close
     #print(image.close) # example: <bound method Image.close of <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1920x1080 at 0x2AC4B3DE6D0>>
     if path.isfile(pathlib.Path(finFile)):
-        logMessage('extSave', False, fileName+EXT)
+        logMessage('copiedOk', False, fileName+EXT)
         return finFile
-    
+    elif not path.isfile(pathlib.Path(finFile)):
+        logMessage('copiedFalse', False, fileName+EXT)
+
+def checkImage(myDivisor: int, imWidth: int, imHeight: int, toFind: str):
+    if not toFind:
+        imPixels = imWidth * imHeight
+        blocksArea = imPixels / myDivisor
+        blocksSize = round(pow(blocksArea,0.5))
+        blocksVertical, blocksHorizontal = imWidth / blocksSize, imHeight / blocksSize
+        restVertical, restHorizontal = float('.' + str(blocksVertical).split('.')[-1]), float('.' + str(blocksHorizontal).split('.')[-1])
+        if (restHorizontal < BLOCKSBOUND/100 and restVertical < BLOCKSBOUND/100) or (restHorizontal > 1 - BLOCKSBOUND/100 and restVertical > 1 - BLOCKSBOUND/100):
+            return (True, myDivisor, blocksSize, restHorizontal, restVertical), False, False
+        else: 
+            smallerBlock = checkImage(myDivisor-1, imWidth, imHeight, 'smaller')
+            largerBlock = checkImage(myDivisor+1, imWidth, imHeight, 'larger')
+            return False, smallerBlock, largerBlock
+        
+    elif toFind == 'smaller':
+        imPixels = imWidth * imHeight
+        blocksArea = imPixels / myDivisor
+        blocksSize = round(pow(blocksArea,0.5))
+        blocksVertical, blocksHorizontal = imWidth / blocksSize, imHeight / blocksSize
+        restVertical, restHorizontal = float('.' + str(blocksVertical).split('.')[-1]), float('.' + str(blocksHorizontal).split('.')[-1])
+        if (restHorizontal < BLOCKSBOUND/100 and restVertical < BLOCKSBOUND/100) or (restHorizontal > 1 - BLOCKSBOUND/100 and restVertical > 1 - BLOCKSBOUND/100):
+            return (myDivisor, blocksSize, restHorizontal, restVertical)
+        elif myDivisor > 1: 
+            return checkImage(myDivisor-1, imWidth, imHeight, 'smaller')
+        else:
+            print('Couldn\'t find smaller number of images that would be suitable')
+            return False
+        
+    elif toFind == 'larger':
+        imPixels = imWidth * imHeight
+        blocksArea = imPixels / myDivisor
+        blocksSize = round(pow(blocksArea,0.5))
+        blocksVertical, blocksHorizontal = imWidth / blocksSize, imHeight / blocksSize
+        restVertical, restHorizontal = float('.' + str(blocksVertical).split('.')[-1]), float('.' + str(blocksHorizontal).split('.')[-1])
+        if (restHorizontal < BLOCKSBOUND/100 and restVertical < BLOCKSBOUND/100) or (restHorizontal > 1 - BLOCKSBOUND/100 and restVertical > 1 - BLOCKSBOUND/100):
+            return (myDivisor, blocksSize, restHorizontal, restVertical)
+        elif (myDivisor < imHeight) or (myDivisor < imWidth):
+            return checkImage(myDivisor+1, imWidth, imHeight, 'larger')
+        else: 
+            print('Couldn\'t find larger number of images that would be suitable')
+            return False
+           
+# Cutting the image into smaller images
 def imageCutting(filePath: str):
     image = Image.open(filePath)
-    imageWidth, imageHeight = int(image.size[0]), int(image.size[1])
-    amountWidth, amountHeight = (imageWidth/DEFAULTLEN), (imageHeight/DEFAULTLEN)
-    if round(amountHeight) > amountHeight:
-        print('test')
+    imWidth, imHeight = int(image.size[0]), int(image.size[1])
+    while(True):
+        myDivisor = 500
+        logMessage('waitInput', False, False)
+        myDivisor = int(input('Please provide a number of parts you would like to divide your image into: '))
+        result, smaller, larger = checkImage(myDivisor, imWidth, imHeight, False)
+        #print(result)
+        #print(smaller)
+        #print(larger)
+        if type(result) == tuple and result[0] == True:
+            logMessage('correctNumberBlocks', False, str(result[1]))
+        elif type(result) == bool and result == False:
+            logMessage('correctNumberBlocks', False, str(result[1]))
+        
+            
+
     
 if __name__ == '__main__':
-    checkDirs(BASEPATH, BASEDIRS) # initial check for directories
-    fileInput()
+    #checkDirs(BASEPATH, BASEDIRS) # initial check for directories # commented as it's working properly
+    myFile = fileInput() 
+    imageCutting(myFile)
+    

@@ -7,4 +7,7 @@ ERROR,wrongFileExt, File with the provided extension is not supported: ,extras
 ERROR,noFileExt, File provided does not have any file extension defined,
 INFO,correctFile, Provided file extension is supported: ,extras
 INFO,loadedFile, File loaded: ,extras
-INFO,extSave, Copy of a file saved as: ,extras
+INFO,copiedOk, Copy of a source file saved as: ,extras
+ERROR,copiedFalse, Source file was unsuccessfully copied,
+ERROR,tooBigRes, Provided file is outside the supported maximum resolution: ,extras
+INFO,correctNumberBlocks, Provided number of parts is correct: ,extras

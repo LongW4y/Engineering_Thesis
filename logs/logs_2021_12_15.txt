@@ -1,0 +1,30 @@
+12_20_47_992 [INFO] Waiting for user input...
+12_20_48_018 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+12_20_48_019 [INFO] Provided file extension is supported: jpg
+12_20_48_020 [INFO] New directory has been created - 211215_12204799
+12_20_48_494 [INFO] Copy of a source file saved as: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg.png
+12_21_00_934 [INFO] Waiting for user input...
+12_21_00_977 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+12_21_00_978 [INFO] Provided file extension is supported: jpg
+12_21_00_980 [INFO] New directory has been created - 211215_12210093
+12_21_01_596 [INFO] Copy of a source file saved as: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg.png
+12_47_13_851 [INFO] Waiting for user input...
+12_47_13_873 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+12_47_13_874 [INFO] Provided file extension is supported: jpg
+12_47_13_875 [INFO] New directory has been created - 211215_12471385
+12_47_14_396 [INFO] Copy of a source file saved as: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg.png
+12_48_13_174 [INFO] Waiting for user input...
+12_48_13_201 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+12_48_13_202 [INFO] Provided file extension is supported: jpg
+12_48_13_204 [INFO] New directory has been created - 211215_12481317
+12_48_13_698 [INFO] Copy of a source file saved as: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg.png
+12_49_04_848 [INFO] Waiting for user input...
+12_49_04_876 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+12_49_04_877 [INFO] Provided file extension is supported: jpg
+12_49_04_878 [INFO] New directory has been created - 211215_12490485
+12_49_05_397 [INFO] Copy of a source file saved as: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg.png
+12_49_17_096 [INFO] Waiting for user input...
+12_49_17_122 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+12_49_17_123 [INFO] Provided file extension is supported: jpg
+12_49_17_125 [INFO] New directory has been created - 211215_12491709
+12_49_17_688 [INFO] Copy of a source file saved as: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg.png

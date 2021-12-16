@@ -1,0 +1,23 @@
+19_15_41_502 [INFO] Directory already present - logs
+19_15_41_510 [INFO] Directory already present - backups\blocks
+19_15_41_512 [INFO] Directory already present - backups\images
+19_15_41_513 [INFO] All directories needed are present
+19_15_41_514 [INFO] Waiting for user input...
+19_15_41_516 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+19_15_41_517 [INFO] Provided file extension is supported: jpg
+19_15_41_518 [INFO] New directory has been created - 211214_19154151
+19_15_42_228 [INFO] Copy of a file saved as: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg.png
+19_33_35_247 [INFO] Waiting for user input...
+19_33_35_248 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+19_33_35_249 [INFO] Provided file extension is supported: jpg
+19_33_35_250 [INFO] New directory has been created - 211214_19333524
+19_33_35_814 [INFO] Copy of a file saved as: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg.png
+19_48_19_814 [INFO] Directory already present - logs
+19_48_19_814 [INFO] Directory already present - backups\blocks
+19_48_19_815 [INFO] Directory already present - backups\images
+19_48_19_816 [INFO] All directories needed are present
+19_48_19_817 [INFO] Waiting for user input...
+19_48_19_818 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+19_48_19_819 [INFO] Provided file extension is supported: jpg
+19_48_19_820 [INFO] New directory has been created - 211214_19481981
+19_48_20_330 [INFO] Copy of a file saved as: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg.png
