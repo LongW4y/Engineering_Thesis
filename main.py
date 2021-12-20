@@ -1,17 +1,18 @@
 import pathlib
-import sys
 from os import path
+from sys import setrecursionlimit
 from datetime import date
 from datetime import datetime
 from csv import reader
 import shutil
-import re
 from PIL import Image
-import math
+from math import ceil
+import random
+import _thread
 
 # Global variables:
 BASEPATH = str(pathlib.Path(__file__).parent.resolve()) + '\\' # directory of the main.py
-BASEDIRS = ('logs', 'backups\\blocks', 'backups\\images') # main directories used throughout the program
+BASEDIRS = ('logs', 'backups\\images') # main directories used throughout the program
 IMAGESPATH = 'backups\\images\\' # path to where the images inputted by the user are copied to
 CONFIGFILE = '.\\config.properties' # config file
 LOGCONFIG = '.\\logs_config.csv' # config file of the logging system: msgType, msgId, msgContent, addition
@@ -23,8 +24,9 @@ LOGTODAY = BASEPATH + LOGFILE + CURRENTDATE + '.txt' # defining today's log path
 INITMESSAGE = 'Welcome to the program!'
 MAXBLOCKS, STANDBLOCKS, MINBLOCKS = 100, 60, 20 # maximum/minimum amount of Randomly Rendered Blocks(RRB) possible to generate
 BLOCKSBOUND = 15
-correctBlocksNum = 'The number of parts is correct, the program will proceed'
-incorrectBlocksNum = 'Provided number of parts is incorrect. The numbers suggested are'
+EXT = '.png' # deprecated
+BLOCKSDIR = 'blocks'
+
 # Check what directories are present, needed and then create them with createPaths()
 def checkDirs(base, dirs):
     presentDirs = []
@@ -76,10 +78,10 @@ def logMessage(msgId, directory, extras):
         for col in singleRow: # col[0] = msgType, col[1] = msgId, col[2] = msgContent, col[3] = extras(optional)
             if msgId == col[1]:
                 if col[3] == '':
-                    msg = currentTime + ' [' + col[0] + ']' + col[2] + '\n'
+                    msg = f'{currentTime} [{col[0]}] {col[2]}\n'
                     writeMessage(msg, LOGTODAY)
                 elif col[3] == 'extras':
-                    msg = currentTime + ' [' + col[0] + ']' + col[2] + extras + '\n' 
+                    msg = f'{currentTime} [{col[0]}] {col[2]} {extras}\n' 
                     writeMessage(msg, LOGTODAY)
 
 # Print the message and log it into LOGTODAY
@@ -107,16 +109,16 @@ def createPaths(base, dirs):
 
 # print a list of supported file extensions
 def printSupported():
-    print('Supported file extensions are: ', end='')
+    print('\nSupported file extensions are: ', end='')
     for ext in SUPPORTED:
         print(ext, end='')
         if ext != SUPPORTED[-1]:
             print(',', end=' ')
-    print('And the greatest number of pixels can be: ' + str(MAXPIXELS) + ', which is equal to 7680×4320 - 8k')
+    print(f'\nAnd the greatest number of pixels can be: {MAXPIXELS}, which is equal to 7680×4320 - 8k')
 
 # return file name and delimiter the user used to enter a directory
 def copyToDatePath(filePath):
-    splitPath = re.split('\\\\', filePath) # split path on '\\', since all the directories are processed as with double backslashes
+    splitPath = filePath.split('\\') # split path on '\\', since all the directories are processed as with double backslashes
     delimPlace = len(str(splitPath[-1])) + 1
     file = filePath[len(filePath) - delimPlace + 1:]
     if filePath[-delimPlace] == '\\':
@@ -124,38 +126,40 @@ def copyToDatePath(filePath):
         newDir = str(datetime.now().strftime('%Y%m%d_%H%M%S%f')[2:-4]) # define a directory, e.g. 211210_13241078
         image = Image.open(filePath)
         imWidth, imHeight = int(image.size[0]), int(image.size[1])
+        image.close()
         logMessage('loadedFile', BASEPATH, file)
         if fileChecker(splitPath[-1], imWidth, imHeight): # check whether the file extension is supported and the image resolutions are correct
             createPaths(BASEPATH + IMAGESPATH, newDir) # create new directory for the file
-            finalPath = BASEPATH + IMAGESPATH + newDir + delim + splitPath[-1]
+            datePath = BASEPATH + IMAGESPATH + newDir
+            finalPath = datePath + delim + splitPath[-1]
             shutil.copyfile(filePath, finalPath)
-            return finalPath
+            return finalPath, datePath
         else:
             exit()
 
 # Handling user input
 def fileInput():
-    #printSupported()
+    printSupported()
     #print(INITMESSAGE)
     logMessage('waitInput', False, False)
     #filePath = input('Please put in an absolute path to an image you would like to have replicated:\n')
     #filePath = 'C:\\Users\\longw\\Desktop\\G Drive\\Praca inżynierska\\Engineering_Thesis\\test images\\Standard aspect ratio\\FHD\\4k-retro-80s-wallpaper-fhd-1920x1080.jpg'
     filePath = 'C:/Users/longw/Desktop/G Drive/Praca inżynierska/Engineering_Thesis/test images/Standard aspect ratio/FHD/4k-retro-80s-wallpaper-fhd-1920x1080.jpg'
     filePath = path.realpath(filePath) # change the provided delim to '\'
-    finalPath = copyToDatePath(filePath)
+    finalPath, datePath = copyToDatePath(filePath)
     # next step, image processing
     #newImage = changeToPng(finalPath)
-    return finalPath
+    return finalPath, datePath
 
-#########################################   NOT USED (!!!!!!!!!!!!!!!!!!!!!!!!!)
+#########################################   DEPRECATED (!!!!!!!!!!!!!!!!!!!!!!!!!)
 # Saving the copy of a source file as PNG
 def changeToPng(filePath: str):
-    fileName = re.split('\\\\', filePath)[-1]
+    fileName = filePath.split('\\')[-1]
     image = Image.open(filePath) # https://www.developer.com/languages/displaying-and-converting-images-with-python/ <- about file extensions
     #image.show()
     finFile = filePath+EXT
     image.save(finFile) # saving the file as png format
-    image.close
+    image.close()
     #print(image.close) # example: <bound method Image.close of <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1920x1080 at 0x2AC4B3DE6D0>>
     if path.isfile(pathlib.Path(finFile)):
         logMessage('copiedOk', False, fileName+EXT)
@@ -164,69 +168,119 @@ def changeToPng(filePath: str):
         logMessage('copiedFalse', False, fileName+EXT)
 
 def checkImage(myDivisor: int, imWidth: int, imHeight: int, toFind: str):
+    blocksArea = (imWidth * imHeight) / myDivisor
+    blocksSize = round(pow(blocksArea,0.5))
+    blocksVertical, blocksHorizontal = imWidth / blocksSize, imHeight / blocksSize
+    totalImages = ceil(blocksHorizontal) * ceil(blocksVertical)
+    restVertical, restHorizontal = float('.' + str(blocksVertical).split('.')[-1]), float('.' + str(blocksHorizontal).split('.')[-1])
+    myCondition = (restHorizontal < BLOCKSBOUND/100 or restHorizontal > 1 - BLOCKSBOUND/100) and (restVertical < BLOCKSBOUND/100 or restVertical > 1 - BLOCKSBOUND/100)
     if not toFind:
-        imPixels = imWidth * imHeight
-        blocksArea = imPixels / myDivisor
-        blocksSize = round(pow(blocksArea,0.5))
-        blocksVertical, blocksHorizontal = imWidth / blocksSize, imHeight / blocksSize
-        restVertical, restHorizontal = float('.' + str(blocksVertical).split('.')[-1]), float('.' + str(blocksHorizontal).split('.')[-1])
-        if (restHorizontal < BLOCKSBOUND/100 and restVertical < BLOCKSBOUND/100) or (restHorizontal > 1 - BLOCKSBOUND/100 and restVertical > 1 - BLOCKSBOUND/100):
-            return (True, myDivisor, blocksSize, restHorizontal, restVertical), False, False
+        if myCondition:
+            #print(blocksVertical, blocksHorizontal)
+            return (True, myDivisor, totalImages, blocksSize, int(str(blocksHorizontal).split('.')[0]), restHorizontal, int(str(blocksVertical).split('.')[0]), restVertical), (False), (False)
         else: 
+            #print(blocksVertical, blocksHorizontal)
             smallerBlock = checkImage(myDivisor-1, imWidth, imHeight, 'smaller')
             largerBlock = checkImage(myDivisor+1, imWidth, imHeight, 'larger')
-            return False, smallerBlock, largerBlock
+            return (False, myDivisor, blocksSize, restVertical, restHorizontal), smallerBlock, largerBlock
         
     elif toFind == 'smaller':
-        imPixels = imWidth * imHeight
-        blocksArea = imPixels / myDivisor
-        blocksSize = round(pow(blocksArea,0.5))
-        blocksVertical, blocksHorizontal = imWidth / blocksSize, imHeight / blocksSize
-        restVertical, restHorizontal = float('.' + str(blocksVertical).split('.')[-1]), float('.' + str(blocksHorizontal).split('.')[-1])
-        if (restHorizontal < BLOCKSBOUND/100 and restVertical < BLOCKSBOUND/100) or (restHorizontal > 1 - BLOCKSBOUND/100 and restVertical > 1 - BLOCKSBOUND/100):
-            return (myDivisor, blocksSize, restHorizontal, restVertical)
-        elif myDivisor > 1: 
+        if myCondition:
+            return (True, myDivisor)
+        elif myDivisor > 20: 
             return checkImage(myDivisor-1, imWidth, imHeight, 'smaller')
         else:
-            print('Couldn\'t find smaller number of images that would be suitable')
-            return False
+            #print('Couldn\'t find smaller number of images that would be suitable')
+            return (False)
         
     elif toFind == 'larger':
-        imPixels = imWidth * imHeight
-        blocksArea = imPixels / myDivisor
-        blocksSize = round(pow(blocksArea,0.5))
-        blocksVertical, blocksHorizontal = imWidth / blocksSize, imHeight / blocksSize
-        restVertical, restHorizontal = float('.' + str(blocksVertical).split('.')[-1]), float('.' + str(blocksHorizontal).split('.')[-1])
-        if (restHorizontal < BLOCKSBOUND/100 and restVertical < BLOCKSBOUND/100) or (restHorizontal > 1 - BLOCKSBOUND/100 and restVertical > 1 - BLOCKSBOUND/100):
-            return (myDivisor, blocksSize, restHorizontal, restVertical)
+        if myCondition:
+            return (True, myDivisor)
         elif (myDivisor < imHeight) or (myDivisor < imWidth):
             return checkImage(myDivisor+1, imWidth, imHeight, 'larger')
         else: 
-            print('Couldn\'t find larger number of images that would be suitable')
-            return False
+            return (False)
            
+def isTrue(myVar):
+    if type(myVar) == tuple:
+        if myVar[0] == True:
+            return True
+        elif myVar[0] == False:
+            return False
+    elif type(myVar) == bool:
+        if myVar:
+            return True
+        elif not myVar:
+            return False
+        
 # Cutting the image into smaller images
-def imageCutting(filePath: str):
+def ratioAnalyzer(filePath: str):
     image = Image.open(filePath)
     imWidth, imHeight = int(image.size[0]), int(image.size[1])
+    image.close()
     while(True):
         myDivisor = 500
         logMessage('waitInput', False, False)
-        myDivisor = int(input('Please provide a number of parts you would like to divide your image into: '))
-        result, smaller, larger = checkImage(myDivisor, imWidth, imHeight, False)
-        #print(result)
-        #print(smaller)
-        #print(larger)
-        if type(result) == tuple and result[0] == True:
-            logMessage('correctNumberBlocks', False, str(result[1]))
-        elif type(result) == bool and result == False:
-            logMessage('correctNumberBlocks', False, str(result[1]))
-        
-            
+        myDivisor = int(input('Please provide a number of YxY areas you would like to divide your image into: '))
+        ratioData, smaller, larger = checkImage(myDivisor, imWidth, imHeight, False)
+        if ratioData[0] == True:
+            logMessage('configBlocksArea', False, str(ratioData[1]))
+            logMessage('configBlocksNumber', False, str(ratioData[2]))
+            logMessage('configBlocksPixels', False, str(ratioData[3]))
+            logMessage('configBlocksWidthRest', False, str(ratioData[5]))
+            logMessage('configBlocksHeightRest', False, str(ratioData[7]))
+            ratioData = ratioData[1:]
+            imageData = imageCutting(filePath, ratioData)
+            return imageData, ratioData
+        elif ratioData[0] == False:
+            logMessage('incorrectNumberBlocks', False, str(ratioData[1]))
+            if isTrue(smaller):
+                print('Closest smaller correct number of parts is: ' + str(smaller[1]))
+            if isTrue(larger):
+                print('Closest larger correct number of parts is: ' + str(larger[1]))
 
-    
+def generateBlocks(datePath: str, amount: int, size: int):
+    datePath = datePath + '\\'
+    createPaths(datePath, BLOCKSDIR)
+    blocksPath = datePath + BLOCKSDIR + '\\'
+    blocksData = []
+    old_percentage = 0
+    for singleImage in range(1, amount+1):
+        percentage = round((singleImage / amount) * 100, 0)
+        blockPath = blocksPath + str(singleImage) + '.png'
+        redAmnt = random.randrange(0,255,1)
+        greenAmnt = random.randrange(0,255,1)
+        blueAmnt = random.randrange(0,255,1)
+        blockData = (redAmnt, greenAmnt, blueAmnt)
+        img = Image.new('RGB', (size, size), blockData)
+        img.save(blockPath)
+        img.close
+        blockData = redAmnt, greenAmnt, blueAmnt, blockPath
+        blocksData.append(blockData)
+        if percentage > old_percentage:
+            old_percentage = percentage
+            percentage = str(percentage).split('.')[0]
+            #print(f'{percentage}% of images generated...')
+    logMessage('blocksGenerated', False, False)
+    return(blocksData)
+
+def imageCutting(filePath: str, ratioData: tuple):
+    image = Image.open(filePath)
+    pix = image.load()
+    imageData = []
+    i = 0
+    #print(ratioData) # e.g.: (28, 32, 272, 3, 0.9705882352941178, 7, 0.0588235294117645)
+    for partRow in range(0,ratioData[]):
+        for partCol in range(0,ratioData[]):
+            for row in (partRow * ratioData[2], (partCol) * ratioData[2]):
+                for col in range(part * ratioData[2], ratioData[2]):
+                    print(i)
+                    i = i + 1
+
 if __name__ == '__main__':
-    #checkDirs(BASEPATH, BASEDIRS) # initial check for directories # commented as it's working properly
-    myFile = fileInput() 
-    imageCutting(myFile)
+    checkDirs(BASEPATH, BASEDIRS) # initial check for directories # commented as it's working properly
+    myFile, datePath = fileInput()
+    setrecursionlimit(10000) # increase only if met with "RecursionError: maximum recursion depth exceeded while calling a Python object"
+    imageData, ratioData = ratioAnalyzer(myFile)
+    blocksData = generateBlocks(datePath, ratioData[1], ratioData[2])
     

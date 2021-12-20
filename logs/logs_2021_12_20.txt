@@ -1,0 +1,1661 @@
+15_19_35_396 [INFO] Directory already present - logs
+15_19_35_401 [INFO] Directory already present - backups\blocks
+15_19_35_402 [INFO] Directory already present - backups\images
+15_19_35_403 [INFO] All directories needed are present
+15_19_35_404 [INFO] Waiting for user input...
+15_19_35_517 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+15_19_35_518 [INFO] Provided file extension is supported: jpg
+15_19_35_519 [INFO] New directory has been created - 211220_15193540
+15_19_35_528 [INFO] Waiting for user input...
+15_19_38_329 [ERROR] The number of parts is incorrect! 30
+15_19_38_331 [INFO] Waiting for user input...
+15_19_40_377 [INFO] Provided number of parts is correct: 28
+15_19_40_380 [INFO] Number of parts used: 32
+15_19_40_381 [INFO] Width and height of a part in pixels: 272
+15_19_40_383 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+15_19_40_384 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+15_19_40_386 [INFO] Number of parts used: 32
+15_23_23_718 [INFO] Directory already present - logs
+15_23_23_719 [INFO] Directory already present - backups\blocks
+15_23_23_720 [INFO] Directory already present - backups\images
+15_23_23_721 [INFO] All directories needed are present
+15_23_23_723 [INFO] Waiting for user input...
+15_23_23_742 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+15_23_23_743 [INFO] Provided file extension is supported: jpg
+15_23_23_744 [INFO] New directory has been created - 211220_15232372
+15_23_23_752 [INFO] Waiting for user input...
+15_23_24_325 [INFO] Provided number of parts is correct: 28
+15_23_24_326 [INFO] Number of parts used: 32
+15_23_24_327 [INFO] Width and height of a part in pixels: 272
+15_23_24_328 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+15_23_24_330 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+15_23_24_331 [INFO] Number of parts used: 32
+15_23_30_168 [INFO] Directory already present - logs
+15_23_30_169 [INFO] Directory already present - backups\blocks
+15_23_30_170 [INFO] Directory already present - backups\images
+15_23_30_171 [INFO] All directories needed are present
+15_23_30_173 [INFO] Waiting for user input...
+15_23_30_191 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+15_23_30_192 [INFO] Provided file extension is supported: jpg
+15_23_30_194 [INFO] New directory has been created - 211220_15233017
+15_23_30_202 [INFO] Waiting for user input...
+15_23_30_764 [ERROR] The number of parts is incorrect! 30
+15_23_30_766 [INFO] Waiting for user input...
+15_23_35_628 [INFO] Provided number of parts is correct: 28
+15_23_35_630 [INFO] Number of parts used: 32
+15_23_35_632 [INFO] Width and height of a part in pixels: 272
+15_23_35_634 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+15_23_35_636 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+15_23_35_638 [INFO] Number of parts used: 32
+15_23_48_389 [INFO] Directory already present - logs
+15_23_48_390 [INFO] Directory already present - backups\blocks
+15_23_48_391 [INFO] Directory already present - backups\images
+15_23_48_392 [INFO] All directories needed are present
+15_23_48_394 [INFO] Waiting for user input...
+15_23_48_413 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+15_23_48_414 [INFO] Provided file extension is supported: jpg
+15_23_48_415 [INFO] New directory has been created - 211220_15234839
+15_23_48_424 [INFO] Waiting for user input...
+15_23_49_618 [INFO] Provided number of parts is correct: 28
+15_23_49_620 [INFO] Number of parts used: 32
+15_23_49_622 [INFO] Width and height of a part in pixels: 272
+15_23_49_624 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+15_23_49_626 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+15_23_49_626 [INFO] Number of parts used: 32
+15_24_19_676 [INFO] Directory already present - logs
+15_24_19_677 [INFO] Directory already present - backups\blocks
+15_24_19_678 [INFO] Directory already present - backups\images
+15_24_19_679 [INFO] All directories needed are present
+15_24_19_681 [INFO] Waiting for user input...
+15_24_19_701 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+15_24_19_702 [INFO] Provided file extension is supported: jpg
+15_24_19_703 [INFO] New directory has been created - 211220_15241968
+15_24_19_711 [INFO] Waiting for user input...
+15_24_20_559 [INFO] Provided number of parts is correct: 28
+15_24_20_561 [INFO] Number of parts used: 32
+15_24_20_563 [INFO] Width and height of a part in pixels: 272
+15_24_20_565 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+15_24_20_567 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+15_24_20_568 [INFO] Number of parts used: 32
+15_25_53_017 [INFO] Directory already present - logs
+15_25_53_018 [INFO] Directory already present - backups\blocks
+15_25_53_019 [INFO] Directory already present - backups\images
+15_25_53_020 [INFO] All directories needed are present
+15_25_53_021 [INFO] Waiting for user input...
+15_25_53_040 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+15_25_53_041 [INFO] Provided file extension is supported: jpg
+15_25_53_042 [INFO] New directory has been created - 211220_15255302
+15_25_53_050 [INFO] Waiting for user input...
+15_25_55_204 [INFO] Provided number of parts is correct: 28
+15_25_55_207 [INFO] Number of parts used: 32
+15_25_55_208 [INFO] Width and height of a part in pixels: 272
+15_25_55_210 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+15_25_55_212 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+15_25_55_214 [INFO] Number of parts used: 32
+15_29_09_758 [INFO] Directory already present - logs
+15_29_09_759 [INFO] Directory already present - backups\blocks
+15_29_09_760 [INFO] Directory already present - backups\images
+15_29_09_761 [INFO] All directories needed are present
+15_29_09_762 [INFO] Waiting for user input...
+15_29_09_780 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+15_29_09_781 [INFO] Provided file extension is supported: jpg
+15_29_09_782 [INFO] New directory has been created - 211220_15290976
+15_29_09_792 [INFO] Waiting for user input...
+15_31_24_984 [INFO] Directory already present - logs
+15_31_24_985 [INFO] Directory already present - backups\blocks
+15_31_24_986 [INFO] Directory already present - backups\images
+15_31_24_987 [INFO] All directories needed are present
+15_31_24_988 [INFO] Waiting for user input...
+15_31_25_006 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+15_31_25_007 [INFO] Provided file extension is supported: jpg
+15_31_25_008 [INFO] New directory has been created - 211220_15312499
+15_31_25_016 [INFO] Waiting for user input...
+15_31_35_917 [INFO] Number of parts used(in terms of an area): 28
+15_31_35_919 [INFO] Number of parts used(numberically): 32
+15_31_35_921 [INFO] Width and height of a part in pixels: 272
+15_31_35_923 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+15_31_35_926 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+15_31_35_927 [INFO] Number of parts used(numberically): 32
+15_31_50_353 [INFO] Directory already present - logs
+15_31_50_354 [INFO] Directory already present - backups\blocks
+15_31_50_355 [INFO] Directory already present - backups\images
+15_31_50_356 [INFO] All directories needed are present
+15_31_50_358 [INFO] Waiting for user input...
+15_31_50_379 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+15_31_50_379 [INFO] Provided file extension is supported: jpg
+15_31_50_380 [INFO] New directory has been created - 211220_15315036
+15_31_50_388 [INFO] Waiting for user input...
+15_31_51_346 [INFO] Number of parts used(in terms of an area): 28
+15_31_51_348 [INFO] Number of parts used(numberically): 32
+15_31_51_350 [INFO] Width and height of a part in pixels: 272
+15_31_51_352 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+15_31_51_354 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+15_33_35_248 [INFO] Directory already present - logs
+15_33_35_250 [INFO] Directory already present - backups\blocks
+15_33_35_251 [INFO] Directory already present - backups\images
+15_33_35_252 [INFO] All directories needed are present
+15_33_35_253 [INFO] Waiting for user input...
+15_33_35_274 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+15_33_35_275 [INFO] Provided file extension is supported: jpg
+15_33_35_277 [INFO] New directory has been created - 211220_15333525
+15_33_35_283 [INFO] Waiting for user input...
+15_33_37_763 [ERROR] The number of parts is incorrect! 29
+15_33_37_766 [INFO] Waiting for user input...
+15_33_39_857 [INFO] Number of parts used(in terms of an area): 28
+15_33_39_858 [INFO] Number of parts used(numberically): 32
+15_33_39_860 [INFO] Width and height of a part in pixels: 272
+15_33_39_861 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+15_33_39_862 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+15_33_39_863 [INFO] New directory has been created - blocks
+15_33_42_036 [INFO] Directory already present - logs
+15_33_42_037 [INFO] Directory already present - backups\blocks
+15_33_42_038 [INFO] Directory already present - backups\images
+15_33_42_039 [INFO] All directories needed are present
+15_33_42_040 [INFO] Waiting for user input...
+15_33_42_063 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+15_33_42_064 [INFO] Provided file extension is supported: jpg
+15_33_42_065 [INFO] New directory has been created - 211220_15334204
+15_33_42_073 [INFO] Waiting for user input...
+15_33_42_740 [INFO] Number of parts used(in terms of an area): 45
+15_33_42_742 [INFO] Number of parts used(numberically): 54
+15_33_42_743 [INFO] Width and height of a part in pixels: 215
+15_33_42_744 [INFO] Percentage of last row rounded vertically: 0.023255813953488
+15_33_42_745 [INFO] Percentage of last column rounded horizontally: 0.930232558139535
+15_33_42_746 [INFO] New directory has been created - blocks
+15_36_44_710 [INFO] Directory already present - logs
+15_36_44_711 [INFO] Directory already present - backups\blocks
+15_36_44_712 [INFO] Directory already present - backups\images
+15_36_44_713 [INFO] All directories needed are present
+15_36_44_714 [INFO] Waiting for user input...
+15_36_44_734 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+15_36_44_734 [INFO] Provided file extension is supported: jpg
+15_36_44_735 [INFO] New directory has been created - 211220_15364471
+15_36_44_744 [INFO] Waiting for user input...
+15_36_45_166 [INFO] Number of parts used(in terms of an area): 28
+15_36_45_168 [INFO] Number of parts used(numberically): 32
+15_36_45_169 [INFO] Width and height of a part in pixels: 272
+15_36_45_170 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+15_36_45_171 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+15_36_45_173 [INFO] New directory has been created - blocks
+15_37_44_766 [INFO] Directory already present - logs
+15_37_44_767 [INFO] Directory already present - backups\blocks
+15_37_44_768 [INFO] Directory already present - backups\images
+15_37_44_769 [INFO] All directories needed are present
+15_37_44_771 [INFO] Waiting for user input...
+15_37_44_789 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+15_37_44_791 [INFO] Provided file extension is supported: jpg
+15_37_44_792 [INFO] New directory has been created - 211220_15374477
+15_37_44_799 [INFO] Waiting for user input...
+15_37_45_238 [INFO] Number of parts used(in terms of an area): 28
+15_37_45_239 [INFO] Number of parts used(numberically): 32
+15_37_45_240 [INFO] Width and height of a part in pixels: 272
+15_37_45_241 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+15_37_45_242 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+15_37_45_243 [INFO] New directory has been created - blocks
+15_39_29_793 [INFO] Directory already present - logs
+15_39_29_794 [INFO] Directory already present - backups\blocks
+15_39_29_795 [INFO] Directory already present - backups\images
+15_39_29_796 [INFO] All directories needed are present
+15_39_29_798 [INFO] Waiting for user input...
+15_39_29_817 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+15_39_29_818 [INFO] Provided file extension is supported: jpg
+15_39_29_819 [INFO] New directory has been created - 211220_15392979
+15_39_29_826 [INFO] Waiting for user input...
+15_39_30_352 [INFO] Number of parts used(in terms of an area): 28
+15_39_30_353 [INFO] Number of parts used(numberically): 32
+15_39_30_354 [INFO] Width and height of a part in pixels: 272
+15_39_30_356 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+15_39_30_357 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+15_39_30_358 [INFO] New directory has been created - blocks
+15_43_57_014 [INFO] Directory already present - logs
+15_43_57_015 [INFO] Directory already present - backups\blocks
+15_43_57_016 [INFO] Directory already present - backups\images
+15_43_57_017 [INFO] All directories needed are present
+15_43_57_018 [INFO] Waiting for user input...
+15_43_57_037 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+15_43_57_038 [INFO] Provided file extension is supported: jpg
+15_43_57_040 [INFO] New directory has been created - 211220_15435702
+15_43_57_048 [INFO] Waiting for user input...
+15_44_06_531 [INFO] Number of parts used(in terms of an area): 28
+15_44_06_533 [INFO] Number of parts used(numberically): 32
+15_44_06_535 [INFO] Width and height of a part in pixels: 272
+15_44_06_537 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+15_44_06_539 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+15_44_06_540 [INFO] New directory has been created - blocks
+15_44_57_543 [INFO] Directory already present - logs
+15_44_57_545 [INFO] Directory already present - backups\blocks
+15_44_57_546 [INFO] Directory already present - backups\images
+15_44_57_547 [INFO] All directories needed are present
+15_44_57_548 [INFO] Waiting for user input...
+15_44_57_567 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+15_44_57_568 [INFO] Provided file extension is supported: jpg
+15_44_57_569 [INFO] New directory has been created - 211220_15445754
+15_44_57_577 [INFO] Waiting for user input...
+15_44_58_882 [INFO] Number of parts used(in terms of an area): 28
+15_44_58_883 [INFO] Number of parts used(numberically): 32
+15_44_58_884 [INFO] Width and height of a part in pixels: 272
+15_44_58_885 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+15_44_58_886 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+15_44_58_887 [INFO] New directory has been created - blocks
+15_45_38_509 [INFO] Directory already present - logs
+15_45_38_510 [INFO] Directory already present - backups\blocks
+15_45_38_511 [INFO] Directory already present - backups\images
+15_45_38_512 [INFO] All directories needed are present
+15_45_38_514 [INFO] Waiting for user input...
+15_45_38_540 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+15_45_38_541 [INFO] Provided file extension is supported: jpg
+15_45_38_543 [INFO] New directory has been created - 211220_15453851
+15_45_38_549 [INFO] Waiting for user input...
+15_45_39_252 [INFO] Number of parts used(in terms of an area): 28
+15_45_39_253 [INFO] Number of parts used(numberically): 32
+15_45_39_254 [INFO] Width and height of a part in pixels: 272
+15_45_39_255 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+15_45_39_256 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+15_45_39_257 [INFO] New directory has been created - blocks
+15_47_20_922 [INFO] Directory already present - logs
+15_47_20_923 [INFO] Directory already present - backups\blocks
+15_47_20_924 [INFO] Directory already present - backups\images
+15_47_20_925 [INFO] All directories needed are present
+15_47_20_927 [INFO] Waiting for user input...
+15_47_20_946 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+15_47_20_947 [INFO] Provided file extension is supported: jpg
+15_47_20_948 [INFO] New directory has been created - 211220_15472092
+15_47_20_956 [INFO] Waiting for user input...
+15_47_22_387 [INFO] Number of parts used(in terms of an area): 28
+15_47_22_389 [INFO] Number of parts used(numberically): 32
+15_47_22_391 [INFO] Width and height of a part in pixels: 272
+15_47_22_393 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+15_47_22_394 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+15_47_22_395 [INFO] New directory has been created - blocks
+15_47_33_010 [INFO] Directory already present - logs
+15_47_33_011 [INFO] Directory already present - backups\blocks
+15_47_33_012 [INFO] Directory already present - backups\images
+15_47_33_013 [INFO] All directories needed are present
+15_47_33_015 [INFO] Waiting for user input...
+15_47_33_034 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+15_47_33_036 [INFO] Provided file extension is supported: jpg
+15_47_33_037 [INFO] New directory has been created - 211220_15473301
+15_47_33_045 [INFO] Waiting for user input...
+15_47_33_847 [INFO] Number of parts used(in terms of an area): 28
+15_47_33_850 [INFO] Number of parts used(numberically): 32
+15_47_33_853 [INFO] Width and height of a part in pixels: 272
+15_47_33_855 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+15_47_33_856 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+15_47_33_858 [INFO] New directory has been created - blocks
+15_48_21_043 [INFO] Directory already present - logs
+15_48_21_044 [INFO] Directory already present - backups\blocks
+15_48_21_045 [INFO] Directory already present - backups\images
+15_48_21_046 [INFO] All directories needed are present
+15_48_21_047 [INFO] Waiting for user input...
+15_48_21_065 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+15_48_21_067 [INFO] Provided file extension is supported: jpg
+15_48_21_068 [INFO] New directory has been created - 211220_15482104
+15_48_21_076 [INFO] Waiting for user input...
+15_48_24_093 [INFO] Number of parts used(in terms of an area): 28
+15_48_24_095 [INFO] Number of parts used(numberically): 32
+15_48_24_097 [INFO] Width and height of a part in pixels: 272
+15_48_24_099 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+15_48_24_100 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+15_48_24_102 [INFO] New directory has been created - blocks
+15_50_47_927 [INFO] Directory already present - logs
+15_50_47_928 [INFO] Directory already present - backups\blocks
+15_50_47_929 [INFO] Directory already present - backups\images
+15_50_47_929 [INFO] All directories needed are present
+15_50_47_931 [INFO] Waiting for user input...
+15_50_47_950 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+15_50_47_952 [INFO] Provided file extension is supported: jpg
+15_50_47_953 [INFO] New directory has been created - 211220_15504793
+15_50_47_962 [INFO] Waiting for user input...
+15_50_54_244 [INFO] Number of parts used(in terms of an area): 28
+15_50_54_246 [INFO] Number of parts used(numberically): 32
+15_50_54_248 [INFO] Width and height of a part in pixels: 272
+15_50_54_250 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+15_50_54_251 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+15_50_54_253 [INFO] New directory has been created - blocks
+15_51_48_658 [INFO] Directory already present - logs
+15_51_48_659 [INFO] Directory already present - backups\blocks
+15_51_48_660 [INFO] Directory already present - backups\images
+15_51_48_661 [INFO] All directories needed are present
+15_51_48_662 [INFO] Waiting for user input...
+15_51_48_681 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+15_51_48_682 [INFO] Provided file extension is supported: jpg
+15_51_48_684 [INFO] New directory has been created - 211220_15514866
+15_51_48_692 [INFO] Waiting for user input...
+15_51_49_508 [INFO] Number of parts used(in terms of an area): 28
+15_51_49_510 [INFO] Number of parts used(numberically): 32
+15_51_49_512 [INFO] Width and height of a part in pixels: 272
+15_51_49_513 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+15_51_49_515 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+15_51_49_517 [INFO] New directory has been created - blocks
+15_52_53_600 [INFO] Directory already present - logs
+15_52_53_601 [INFO] Directory already present - backups\blocks
+15_52_53_602 [INFO] Directory already present - backups\images
+15_52_53_603 [INFO] All directories needed are present
+15_52_53_605 [INFO] Waiting for user input...
+15_52_53_624 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+15_52_53_626 [INFO] Provided file extension is supported: jpg
+15_52_53_627 [INFO] New directory has been created - 211220_15525360
+15_52_53_633 [INFO] Waiting for user input...
+15_52_54_282 [INFO] Number of parts used(in terms of an area): 28
+15_52_54_283 [INFO] Number of parts used(numberically): 32
+15_52_54_284 [INFO] Width and height of a part in pixels: 272
+15_52_54_285 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+15_52_54_286 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+15_53_06_736 [INFO] Directory already present - logs
+15_53_06_737 [INFO] Directory already present - backups\blocks
+15_53_06_738 [INFO] Directory already present - backups\images
+15_53_06_739 [INFO] All directories needed are present
+15_53_06_741 [INFO] Waiting for user input...
+15_53_06_759 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+15_53_06_760 [INFO] Provided file extension is supported: jpg
+15_53_06_761 [INFO] New directory has been created - 211220_15530674
+15_53_06_769 [INFO] Waiting for user input...
+15_53_07_427 [INFO] Number of parts used(in terms of an area): 28
+15_53_07_428 [INFO] Number of parts used(numberically): 32
+15_53_07_430 [INFO] Width and height of a part in pixels: 272
+15_53_07_431 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+15_53_07_433 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+15_53_07_435 [INFO] New directory has been created - blocks
+15_53_29_166 [INFO] Directory already present - logs
+15_53_29_167 [INFO] Directory already present - backups\blocks
+15_53_29_168 [INFO] Directory already present - backups\images
+15_53_29_169 [INFO] All directories needed are present
+15_53_29_170 [INFO] Waiting for user input...
+15_53_29_188 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+15_53_29_189 [INFO] Provided file extension is supported: jpg
+15_53_29_190 [INFO] New directory has been created - 211220_15532917
+15_53_29_198 [INFO] Waiting for user input...
+15_53_32_663 [ERROR] The number of parts is incorrect! 50
+15_53_32_665 [INFO] Waiting for user input...
+15_53_38_911 [INFO] Number of parts used(in terms of an area): 67
+15_53_38_914 [INFO] Number of parts used(numberically): 77
+15_53_38_916 [INFO] Width and height of a part in pixels: 176
+15_53_38_917 [INFO] Percentage of last row rounded vertically: 0.136363636363637
+15_53_38_919 [INFO] Percentage of last column rounded horizontally: 0.909090909090908
+15_53_38_921 [INFO] New directory has been created - blocks
+16_01_17_003 [INFO] Directory already present - logs
+16_01_17_004 [INFO] Directory already present - backups\blocks
+16_01_17_005 [INFO] Directory already present - backups\images
+16_01_17_006 [INFO] All directories needed are present
+16_01_17_008 [INFO] Waiting for user input...
+16_01_17_024 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+16_01_17_025 [INFO] Provided file extension is supported: jpg
+16_01_17_027 [INFO] New directory has been created - 211220_16011700
+16_01_17_037 [INFO] Waiting for user input...
+16_01_18_252 [ERROR] The number of parts is incorrect! 56
+16_01_18_254 [INFO] Waiting for user input...
+16_01_20_643 [INFO] Number of parts used(in terms of an area): 67
+16_01_20_645 [INFO] Number of parts used(numberically): 77
+16_01_20_647 [INFO] Width and height of a part in pixels: 176
+16_01_20_649 [INFO] Percentage of last row rounded vertically: 0.136363636363637
+16_01_20_650 [INFO] Percentage of last column rounded horizontally: 0.909090909090908
+16_01_20_652 [INFO] New directory has been created - blocks
+16_02_29_845 [INFO] Directory already present - logs
+16_02_29_847 [INFO] Directory already present - backups\blocks
+16_02_29_848 [INFO] Directory already present - backups\images
+16_02_29_848 [INFO] All directories needed are present
+16_02_29_850 [INFO] Waiting for user input...
+16_02_29_867 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+16_02_29_869 [INFO] Provided file extension is supported: jpg
+16_02_29_870 [INFO] New directory has been created - 211220_16022985
+16_02_29_877 [INFO] Waiting for user input...
+16_02_31_657 [INFO] Number of parts used(in terms of an area): 28
+16_02_31_659 [INFO] Number of parts used(numberically): 32
+16_02_31_661 [INFO] Width and height of a part in pixels: 272
+16_02_31_662 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+16_02_31_664 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+16_02_31_666 [INFO] New directory has been created - blocks
+16_03_10_003 [INFO] Directory already present - logs
+16_03_10_004 [INFO] Directory already present - backups\blocks
+16_03_10_005 [INFO] Directory already present - backups\images
+16_03_10_006 [INFO] All directories needed are present
+16_03_10_008 [INFO] Waiting for user input...
+16_03_10_026 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+16_03_10_028 [INFO] Provided file extension is supported: jpg
+16_03_10_030 [INFO] New directory has been created - 211220_16031000
+16_03_10_038 [INFO] Waiting for user input...
+16_03_10_749 [INFO] Number of parts used(in terms of an area): 67
+16_03_10_750 [INFO] Number of parts used(numberically): 77
+16_03_10_751 [INFO] Width and height of a part in pixels: 176
+16_03_10_752 [INFO] Percentage of last row rounded vertically: 0.136363636363637
+16_03_10_753 [INFO] Percentage of last column rounded horizontally: 0.909090909090908
+16_03_10_754 [INFO] New directory has been created - blocks
+16_04_30_842 [INFO] Directory already present - logs
+16_04_30_843 [INFO] Directory already present - backups\blocks
+16_04_30_843 [INFO] Directory already present - backups\images
+16_04_30_844 [INFO] All directories needed are present
+16_04_30_846 [INFO] Waiting for user input...
+16_04_30_865 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+16_04_30_867 [INFO] Provided file extension is supported: jpg
+16_04_30_868 [INFO] New directory has been created - 211220_16043084
+16_04_30_875 [INFO] Waiting for user input...
+16_04_31_649 [INFO] Number of parts used(in terms of an area): 28
+16_04_31_650 [INFO] Number of parts used(numberically): 32
+16_04_31_651 [INFO] Width and height of a part in pixels: 272
+16_04_31_652 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+16_04_31_653 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+16_04_31_655 [INFO] New directory has been created - blocks
+16_05_00_409 [INFO] Directory already present - logs
+16_05_00_410 [INFO] Directory already present - backups\blocks
+16_05_00_411 [INFO] Directory already present - backups\images
+16_05_00_412 [INFO] All directories needed are present
+16_05_00_413 [INFO] Waiting for user input...
+16_05_00_433 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+16_05_00_435 [INFO] Provided file extension is supported: jpg
+16_05_00_436 [INFO] New directory has been created - 211220_16050041
+16_05_00_442 [INFO] Waiting for user input...
+16_05_01_836 [ERROR] The number of parts is incorrect! 100
+16_05_01_838 [INFO] Waiting for user input...
+16_05_04_096 [INFO] Number of parts used(in terms of an area): 300
+16_05_04_099 [INFO] Number of parts used(numberically): 336
+16_05_04_100 [INFO] Width and height of a part in pixels: 83
+16_05_04_102 [INFO] Percentage of last row rounded vertically: 0.012048192771084
+16_05_04_103 [INFO] Percentage of last column rounded horizontally: 0.132530120481928
+16_05_04_105 [INFO] New directory has been created - blocks
+16_07_47_599 [INFO] Directory already present - logs
+16_07_47_601 [INFO] Directory already present - backups\blocks
+16_07_47_602 [INFO] Directory already present - backups\images
+16_07_47_603 [INFO] All directories needed are present
+16_07_47_604 [INFO] Waiting for user input...
+16_07_47_625 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+16_07_47_626 [INFO] Provided file extension is supported: jpg
+16_07_47_628 [INFO] New directory has been created - 211220_16074760
+16_07_47_635 [INFO] Waiting for user input...
+16_07_49_427 [INFO] Number of parts used(in terms of an area): 28
+16_07_49_430 [INFO] Number of parts used(numberically): 32
+16_07_49_432 [INFO] Width and height of a part in pixels: 272
+16_07_49_434 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+16_07_49_436 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+16_07_49_437 [INFO] New directory has been created - blocks
+16_08_53_007 [INFO] Directory already present - logs
+16_08_53_008 [INFO] Directory already present - backups\blocks
+16_08_53_009 [INFO] Directory already present - backups\images
+16_08_53_010 [INFO] All directories needed are present
+16_08_53_011 [INFO] Waiting for user input...
+16_08_53_031 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+16_08_53_031 [INFO] Provided file extension is supported: jpg
+16_08_53_032 [INFO] New directory has been created - 211220_16085301
+16_08_53_041 [INFO] Waiting for user input...
+16_08_53_487 [INFO] Number of parts used(in terms of an area): 28
+16_08_53_488 [INFO] Number of parts used(numberically): 32
+16_08_53_489 [INFO] Width and height of a part in pixels: 272
+16_08_53_490 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+16_08_53_491 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+16_08_53_493 [INFO] New directory has been created - blocks
+16_10_22_549 [INFO] Directory already present - logs
+16_10_22_550 [INFO] Directory already present - backups\blocks
+16_10_22_551 [INFO] Directory already present - backups\images
+16_10_22_552 [INFO] All directories needed are present
+16_10_22_553 [INFO] Waiting for user input...
+16_10_22_575 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+16_10_22_576 [INFO] Provided file extension is supported: jpg
+16_10_22_577 [INFO] New directory has been created - 211220_16102255
+16_10_22_591 [INFO] Waiting for user input...
+16_10_23_358 [INFO] Number of parts used(in terms of an area): 28
+16_10_23_360 [INFO] Number of parts used(numberically): 32
+16_10_23_362 [INFO] Width and height of a part in pixels: 272
+16_10_23_363 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+16_10_23_365 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+16_10_23_367 [INFO] New directory has been created - blocks
+16_11_18_434 [INFO] Directory already present - logs
+16_11_18_435 [INFO] Directory already present - backups\blocks
+16_11_18_436 [INFO] Directory already present - backups\images
+16_11_18_437 [INFO] All directories needed are present
+16_11_18_438 [INFO] Waiting for user input...
+16_11_18_458 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+16_11_18_459 [INFO] Provided file extension is supported: jpg
+16_11_18_460 [INFO] New directory has been created - 211220_16111843
+16_11_18_468 [INFO] Waiting for user input...
+16_11_18_935 [INFO] Number of parts used(in terms of an area): 28
+16_11_18_936 [INFO] Number of parts used(numberically): 32
+16_11_18_937 [INFO] Width and height of a part in pixels: 272
+16_11_18_938 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+16_11_18_939 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+16_11_18_940 [INFO] New directory has been created - blocks
+16_15_58_873 [INFO] Directory already present - logs
+16_15_58_874 [INFO] Directory already present - backups\blocks
+16_15_58_875 [INFO] Directory already present - backups\images
+16_15_58_876 [INFO] All directories needed are present
+16_15_58_877 [INFO] Waiting for user input...
+16_15_58_897 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+16_15_58_899 [INFO] Provided file extension is supported: jpg
+16_15_58_900 [INFO] New directory has been created - 211220_16155887
+16_15_58_907 [INFO] Waiting for user input...
+16_15_59_992 [INFO] Number of parts used(in terms of an area): 28
+16_15_59_993 [INFO] Number of parts used(numberically): 32
+16_15_59_994 [INFO] Width and height of a part in pixels: 272
+16_15_59_995 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+16_15_59_996 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+16_15_59_997 [INFO] New directory has been created - blocks
+16_16_15_817 [INFO] Directory already present - logs
+16_16_15_818 [INFO] Directory already present - backups\blocks
+16_16_15_820 [INFO] Directory already present - backups\images
+16_16_15_820 [INFO] All directories needed are present
+16_16_15_823 [INFO] Waiting for user input...
+16_16_15_841 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+16_16_15_842 [INFO] Provided file extension is supported: jpg
+16_16_15_844 [INFO] New directory has been created - 211220_16161582
+16_16_15_854 [INFO] Waiting for user input...
+16_16_16_386 [INFO] Number of parts used(in terms of an area): 28
+16_16_16_387 [INFO] Number of parts used(numberically): 32
+16_16_16_389 [INFO] Width and height of a part in pixels: 272
+16_16_16_390 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+16_16_16_391 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+16_16_16_392 [INFO] New directory has been created - blocks
+16_18_13_968 [INFO] Directory already present - logs
+16_18_13_970 [INFO] Directory already present - backups\blocks
+16_18_13_970 [INFO] Directory already present - backups\images
+16_18_13_971 [INFO] All directories needed are present
+16_18_13_973 [INFO] Waiting for user input...
+16_18_13_991 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+16_18_13_991 [INFO] Provided file extension is supported: jpg
+16_18_13_993 [INFO] New directory has been created - 211220_16181397
+16_18_14_000 [INFO] Waiting for user input...
+16_18_14_651 [INFO] Number of parts used(in terms of an area): 28
+16_18_14_653 [INFO] Number of parts used(numberically): 32
+16_18_14_655 [INFO] Width and height of a part in pixels: 272
+16_18_14_656 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+16_18_14_658 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+16_18_14_661 [INFO] New directory has been created - blocks
+16_18_26_036 [INFO] Directory already present - logs
+16_18_26_037 [INFO] Directory already present - backups\blocks
+16_18_26_038 [INFO] Directory already present - backups\images
+16_18_26_039 [INFO] All directories needed are present
+16_18_26_041 [INFO] Waiting for user input...
+16_18_26_063 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+16_18_26_065 [INFO] Provided file extension is supported: jpg
+16_18_26_067 [INFO] New directory has been created - 211220_16182604
+16_18_26_076 [INFO] Waiting for user input...
+16_18_26_889 [INFO] Number of parts used(in terms of an area): 28
+16_18_26_890 [INFO] Number of parts used(numberically): 32
+16_18_26_890 [INFO] Width and height of a part in pixels: 272
+16_18_26_891 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+16_18_26_892 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+16_18_26_894 [INFO] New directory has been created - blocks
+16_18_47_328 [INFO] Directory already present - logs
+16_18_47_329 [INFO] Directory already present - backups\blocks
+16_18_47_330 [INFO] Directory already present - backups\images
+16_18_47_331 [INFO] All directories needed are present
+16_18_47_334 [INFO] Waiting for user input...
+16_18_47_360 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+16_18_47_361 [INFO] Provided file extension is supported: jpg
+16_18_47_363 [INFO] New directory has been created - 211220_16184733
+16_18_47_373 [INFO] Waiting for user input...
+16_18_47_930 [INFO] Number of parts used(in terms of an area): 28
+16_18_47_932 [INFO] Number of parts used(numberically): 32
+16_18_47_934 [INFO] Width and height of a part in pixels: 272
+16_18_47_936 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+16_18_47_937 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+16_18_47_939 [INFO] New directory has been created - blocks
+16_19_27_603 [INFO] Directory already present - logs
+16_19_27_605 [INFO] Directory already present - backups\blocks
+16_19_27_606 [INFO] Directory already present - backups\images
+16_19_27_606 [INFO] All directories needed are present
+16_19_27_608 [INFO] Waiting for user input...
+16_19_27_627 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+16_19_27_628 [INFO] Provided file extension is supported: jpg
+16_19_27_629 [INFO] New directory has been created - 211220_16192760
+16_19_27_639 [INFO] Waiting for user input...
+16_19_30_200 [INFO] Number of parts used(in terms of an area): 28
+16_19_30_203 [INFO] Number of parts used(numberically): 32
+16_19_30_204 [INFO] Width and height of a part in pixels: 272
+16_19_30_206 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+16_19_30_207 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+17_36_37_577 [INFO] Directory already present - logs
+17_36_37_579 [INFO] Directory already present - backups\blocks
+17_36_37_580 [INFO] Directory already present - backups\images
+17_36_37_580 [INFO] All directories needed are present
+17_36_37_582 [INFO] Waiting for user input...
+17_36_37_605 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+17_36_37_606 [INFO] Provided file extension is supported: jpg
+17_36_37_607 [INFO] New directory has been created - 211220_17363758
+17_36_37_620 [INFO] Waiting for user input...
+17_36_40_776 [INFO] Number of parts used(in terms of an area): 500
+17_36_40_779 [INFO] Number of parts used(numberically): 510
+17_36_40_780 [INFO] Width and height of a part in pixels: 64
+17_36_40_782 [INFO] Percentage of last row rounded vertically: 0.875
+17_36_40_784 [INFO] Percentage of last column rounded horizontally: 0.0
+17_36_40_785 [INFO] New directory has been created - blocks
+17_40_36_104 [INFO] Directory already present - logs
+17_40_36_105 [INFO] Directory already present - backups\blocks
+17_40_36_105 [INFO] Directory already present - backups\images
+17_40_36_107 [INFO] All directories needed are present
+17_40_36_108 [INFO] Waiting for user input...
+17_40_36_125 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+17_40_36_127 [INFO] Provided file extension is supported: jpg
+17_40_36_128 [INFO] New directory has been created - 211220_17403610
+17_40_36_135 [INFO] Waiting for user input...
+17_40_36_739 [INFO] Number of parts used(in terms of an area): 28
+17_40_36_742 [INFO] Number of parts used(numberically): 32
+17_40_36_743 [INFO] Width and height of a part in pixels: 272
+17_40_36_745 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+17_40_36_746 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+17_40_36_747 [INFO] New directory has been created - blocks
+17_40_53_890 [INFO] Directory already present - logs
+17_40_53_891 [INFO] Directory already present - backups\blocks
+17_40_53_892 [INFO] Directory already present - backups\images
+17_40_53_893 [INFO] All directories needed are present
+17_40_53_894 [INFO] Waiting for user input...
+17_40_53_913 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+17_40_53_914 [INFO] Provided file extension is supported: jpg
+17_40_53_915 [INFO] New directory has been created - 211220_17405389
+17_40_53_925 [INFO] Waiting for user input...
+17_40_54_591 [INFO] Number of parts used(numberically): 32
+17_40_54_592 [INFO] Width and height of a part in pixels: 272
+17_40_54_593 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+17_40_54_594 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+17_40_54_595 [INFO] New directory has been created - blocks
+17_42_00_101 [INFO] Directory already present - logs
+17_42_00_102 [INFO] Directory already present - backups\blocks
+17_42_00_103 [INFO] Directory already present - backups\images
+17_42_00_104 [INFO] All directories needed are present
+17_42_00_105 [INFO] Waiting for user input...
+17_42_00_124 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+17_42_00_125 [INFO] Provided file extension is supported: jpg
+17_42_00_127 [INFO] New directory has been created - 211220_17420010
+17_42_00_135 [INFO] Waiting for user input...
+17_42_00_596 [INFO] All the blocks will cover the area of number of blocks: 28
+17_42_00_597 [INFO] Number of parts used(numberically): 32
+17_42_00_598 [INFO] Width and height of a part in pixels: 272
+17_42_00_599 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+17_42_00_600 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+17_42_00_601 [INFO] New directory has been created - blocks
+17_44_15_575 [INFO] Directory already present - logs
+17_44_15_576 [INFO] Directory already present - backups\blocks
+17_44_15_577 [INFO] Directory already present - backups\images
+17_44_15_578 [INFO] All directories needed are present
+17_44_15_579 [INFO] Waiting for user input...
+17_44_15_595 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+17_44_15_596 [INFO] Provided file extension is supported: jpg
+17_44_15_597 [INFO] New directory has been created - 211220_17441558
+17_44_15_603 [INFO] Waiting for user input...
+17_44_32_382 [ERROR] The number of parts is incorrect! 30
+17_44_32_384 [INFO] Waiting for user input...
+17_44_35_208 [INFO] All the blocks will cover the area of number of blocks: 28
+17_44_35_209 [INFO] Number of parts used(numberically): 32
+17_44_35_210 [INFO] Width and height of a part in pixels: 272
+17_44_35_211 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+17_44_35_213 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+17_44_38_006 [INFO] Directory already present - logs
+17_44_38_007 [INFO] Directory already present - backups\blocks
+17_44_38_008 [INFO] Directory already present - backups\images
+17_44_38_008 [INFO] All directories needed are present
+17_44_38_009 [INFO] Waiting for user input...
+17_44_38_025 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+17_44_38_026 [INFO] Provided file extension is supported: jpg
+17_44_38_026 [INFO] New directory has been created - 211220_17443801
+17_44_38_034 [INFO] Waiting for user input...
+17_44_46_409 [INFO] Directory already present - logs
+17_44_46_410 [INFO] Directory already present - backups\blocks
+17_44_46_410 [INFO] Directory already present - backups\images
+17_44_46_412 [INFO] All directories needed are present
+17_44_46_413 [INFO] Waiting for user input...
+17_44_46_433 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+17_44_46_434 [INFO] Provided file extension is supported: jpg
+17_44_46_435 [INFO] New directory has been created - 211220_17444641
+17_44_46_443 [INFO] Waiting for user input...
+17_45_02_831 [INFO] Directory already present - logs
+17_45_02_832 [INFO] Directory already present - backups\blocks
+17_45_02_833 [INFO] Directory already present - backups\images
+17_45_02_834 [INFO] All directories needed are present
+17_45_02_835 [INFO] Waiting for user input...
+17_45_02_856 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+17_45_02_857 [INFO] Provided file extension is supported: jpg
+17_45_02_858 [INFO] New directory has been created - 211220_17450283
+17_45_02_865 [INFO] Waiting for user input...
+17_45_03_554 [INFO] All the blocks will cover the area of number of blocks: 28
+17_45_03_555 [INFO] Number of parts used(numberically): 32
+17_45_03_557 [INFO] Width and height of a part in pixels: 272
+17_45_03_558 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+17_45_03_560 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+17_45_12_461 [INFO] Directory already present - logs
+17_45_12_462 [INFO] Directory already present - backups\blocks
+17_45_12_463 [INFO] Directory already present - backups\images
+17_45_12_464 [INFO] All directories needed are present
+17_45_12_465 [INFO] Waiting for user input...
+17_45_12_484 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+17_45_12_485 [INFO] Provided file extension is supported: jpg
+17_45_12_486 [INFO] New directory has been created - 211220_17451246
+17_45_12_496 [INFO] Waiting for user input...
+17_45_13_046 [INFO] All the blocks will cover the area of number of blocks: 28
+17_45_13_047 [INFO] Number of parts used(numberically): 32
+17_45_13_047 [INFO] Width and height of a part in pixels: 272
+17_45_13_049 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+17_45_13_049 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+17_45_13_050 [INFO] New directory has been created - blocks
+17_45_17_137 [INFO] Directory already present - logs
+17_45_17_138 [INFO] Directory already present - backups\blocks
+17_45_17_139 [INFO] Directory already present - backups\images
+17_45_17_140 [INFO] All directories needed are present
+17_45_17_141 [INFO] Waiting for user input...
+17_45_17_160 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+17_45_17_161 [INFO] Provided file extension is supported: jpg
+17_45_17_162 [INFO] New directory has been created - 211220_17451714
+17_45_17_178 [INFO] Waiting for user input...
+17_45_17_853 [INFO] All the blocks will cover the area of number of blocks: 500
+17_45_17_854 [INFO] Number of parts used(numberically): 510
+17_45_17_855 [INFO] Width and height of a part in pixels: 64
+17_45_17_856 [INFO] Percentage of last row rounded vertically: 0.875
+17_45_17_857 [INFO] Percentage of last column rounded horizontally: 0.0
+17_45_17_858 [INFO] New directory has been created - blocks
+17_45_47_432 [INFO] Directory already present - logs
+17_45_47_434 [INFO] Directory already present - backups\blocks
+17_45_47_435 [INFO] Directory already present - backups\images
+17_45_47_436 [INFO] All directories needed are present
+17_45_47_438 [INFO] Waiting for user input...
+17_45_47_457 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+17_45_47_458 [INFO] Provided file extension is supported: jpg
+17_45_47_459 [INFO] New directory has been created - 211220_17454743
+17_45_47_467 [INFO] Waiting for user input...
+17_45_49_597 [ERROR] The number of parts is incorrect! 600
+17_45_49_601 [INFO] Waiting for user input...
+17_45_55_173 [INFO] All the blocks will cover the area of number of blocks: 585
+17_45_55_175 [INFO] Number of parts used(numberically): 576
+17_45_55_177 [INFO] Width and height of a part in pixels: 60
+17_45_55_178 [INFO] Percentage of last row rounded vertically: 0.0
+17_45_55_181 [INFO] Percentage of last column rounded horizontally: 0.0
+17_45_55_183 [INFO] New directory has been created - blocks
+17_46_15_361 [INFO] Directory already present - logs
+17_46_15_362 [INFO] Directory already present - backups\blocks
+17_46_15_363 [INFO] Directory already present - backups\images
+17_46_15_364 [INFO] All directories needed are present
+17_46_15_365 [INFO] Waiting for user input...
+17_46_15_384 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+17_46_15_385 [INFO] Provided file extension is supported: jpg
+17_46_15_387 [INFO] New directory has been created - 211220_17461536
+17_46_15_395 [INFO] Waiting for user input...
+17_46_15_803 [ERROR] The number of parts is incorrect! 18
+17_46_15_805 [INFO] Waiting for user input...
+17_46_18_869 [INFO] All the blocks will cover the area of number of blocks: 27
+17_46_18_872 [INFO] Number of parts used(numberically): 28
+17_46_18_873 [INFO] Width and height of a part in pixels: 277
+17_46_18_875 [INFO] Percentage of last row rounded vertically: 0.898916967509025
+17_46_18_876 [INFO] Percentage of last column rounded horizontally: 0.931407942238267
+17_46_18_878 [INFO] New directory has been created - blocks
+17_46_44_568 [INFO] Directory already present - logs
+17_46_44_569 [INFO] Directory already present - backups\blocks
+17_46_44_570 [INFO] Directory already present - backups\images
+17_46_44_572 [INFO] All directories needed are present
+17_46_44_573 [INFO] Waiting for user input...
+17_46_44_591 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+17_46_44_593 [INFO] Provided file extension is supported: jpg
+17_46_44_594 [INFO] New directory has been created - 211220_17464457
+17_46_44_600 [INFO] Waiting for user input...
+17_46_47_999 [INFO] All the blocks will cover the area of number of blocks: 28
+17_46_48_001 [INFO] Number of parts used(numberically): 32
+17_46_48_003 [INFO] Width and height of a part in pixels: 272
+17_46_48_005 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+17_46_48_006 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+17_46_48_008 [INFO] New directory has been created - blocks
+17_48_35_895 [INFO] Directory already present - logs
+17_48_35_896 [INFO] Directory already present - backups\blocks
+17_48_35_897 [INFO] Directory already present - backups\images
+17_48_35_898 [INFO] All directories needed are present
+17_48_35_900 [INFO] Waiting for user input...
+17_48_35_918 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+17_48_35_919 [INFO] Provided file extension is supported: jpg
+17_48_35_920 [INFO] New directory has been created - 211220_17483590
+17_48_35_928 [INFO] Waiting for user input...
+17_48_36_514 [INFO] All the blocks will cover the area of number of blocks: 28
+17_48_36_515 [INFO] Number of parts used(numberically): 32
+17_48_36_516 [INFO] Width and height of a part in pixels: 272
+17_48_36_517 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+17_48_36_518 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+17_48_36_520 [INFO] New directory has been created - blocks
+17_48_45_580 [INFO] Directory already present - logs
+17_48_45_581 [INFO] Directory already present - backups\blocks
+17_48_45_582 [INFO] Directory already present - backups\images
+17_48_45_582 [INFO] All directories needed are present
+17_48_45_584 [INFO] Waiting for user input...
+17_48_45_602 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+17_48_45_603 [INFO] Provided file extension is supported: jpg
+17_48_45_604 [INFO] New directory has been created - 211220_17484558
+17_48_45_610 [INFO] Waiting for user input...
+17_48_47_330 [INFO] All the blocks will cover the area of number of blocks: 28
+17_48_47_332 [INFO] Number of parts used(numberically): 32
+17_48_47_334 [INFO] Width and height of a part in pixels: 272
+17_48_47_336 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+17_48_47_338 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+17_48_47_340 [INFO] New directory has been created - blocks
+17_54_26_713 [INFO] Directory already present - logs
+17_54_26_714 [INFO] Directory already present - backups\blocks
+17_54_26_715 [INFO] Directory already present - backups\images
+17_54_26_716 [INFO] All directories needed are present
+17_54_26_717 [INFO] Waiting for user input...
+17_54_26_736 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+17_54_26_737 [INFO] Provided file extension is supported: jpg
+17_54_26_738 [INFO] New directory has been created - 211220_17542671
+17_54_26_746 [INFO] Waiting for user input...
+17_54_27_345 [INFO] All the blocks will cover the area of number of blocks: 28
+17_54_27_346 [INFO] Number of parts used(numberically): 32
+17_54_27_347 [INFO] Width and height of a part in pixels: 272
+17_54_27_347 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+17_54_27_348 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+17_54_27_358 [INFO] New directory has been created - blocks
+17_54_30_278 [INFO] Directory already present - logs
+17_54_30_278 [INFO] Directory already present - backups\blocks
+17_54_30_279 [INFO] Directory already present - backups\images
+17_54_30_280 [INFO] All directories needed are present
+17_54_30_282 [INFO] Waiting for user input...
+17_54_30_302 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+17_54_30_303 [INFO] Provided file extension is supported: jpg
+17_54_30_312 [INFO] New directory has been created - 211220_17543028
+17_54_30_319 [INFO] Waiting for user input...
+17_54_31_001 [INFO] All the blocks will cover the area of number of blocks: 950
+17_54_31_003 [INFO] Number of parts used(numberically): 943
+17_54_31_004 [INFO] Width and height of a part in pixels: 47
+17_54_31_006 [INFO] Percentage of last row rounded vertically: 0.97872340425532
+17_54_31_007 [INFO] Percentage of last column rounded horizontally: 0.851063829787236
+17_54_31_010 [INFO] New directory has been created - blocks
+17_59_31_706 [INFO] Directory already present - logs
+17_59_31_707 [INFO] Directory already present - backups\blocks
+17_59_31_708 [INFO] Directory already present - backups\images
+17_59_31_709 [INFO] All directories needed are present
+17_59_31_711 [INFO] Waiting for user input...
+17_59_31_730 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+17_59_31_731 [INFO] Provided file extension is supported: jpg
+17_59_31_732 [INFO] New directory has been created - 211220_17593171
+17_59_31_740 [INFO] Waiting for user input...
+17_59_32_275 [INFO] All the blocks will cover the area of number of blocks: 28
+17_59_32_276 [INFO] Number of parts used(numberically): 32
+17_59_32_277 [INFO] Width and height of a part in pixels: 272
+17_59_32_278 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+17_59_32_279 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+17_59_32_281 [INFO] New directory has been created - blocks
+18_01_23_480 [INFO] Directory already present - logs
+18_01_23_481 [INFO] Directory already present - backups\blocks
+18_01_23_482 [INFO] Directory already present - backups\images
+18_01_23_483 [INFO] All directories needed are present
+18_01_23_484 [INFO] Waiting for user input...
+18_01_23_502 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+18_01_23_503 [INFO] Provided file extension is supported: jpg
+18_01_23_504 [INFO] New directory has been created - 211220_18012348
+18_01_23_511 [INFO] Waiting for user input...
+18_01_23_978 [INFO] All the blocks will cover the area of number of blocks: 28
+18_01_23_979 [INFO] Number of parts used(numberically): 32
+18_01_23_980 [INFO] Width and height of a part in pixels: 272
+18_01_23_981 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+18_01_23_982 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+18_01_23_983 [INFO] New directory has been created - blocks
+18_03_50_825 [INFO] Directory already present - logs
+18_03_50_827 [INFO] Directory already present - backups\blocks
+18_03_50_828 [INFO] Directory already present - backups\images
+18_03_50_829 [INFO] All directories needed are present
+18_03_50_830 [INFO] Waiting for user input...
+18_03_50_848 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+18_03_50_849 [INFO] Provided file extension is supported: jpg
+18_03_50_851 [INFO] New directory has been created - 211220_18035083
+18_03_50_858 [INFO] Waiting for user input...
+18_03_51_687 [ERROR] The number of parts is incorrect! 50
+18_03_51_689 [INFO] Waiting for user input...
+18_03_53_817 [INFO] All the blocks will cover the area of number of blocks: 500
+18_03_53_819 [INFO] Number of parts used(numberically): 510
+18_03_53_821 [INFO] Width and height of a part in pixels: 64
+18_03_53_823 [INFO] Percentage of last row rounded vertically: 0.875
+18_03_53_825 [INFO] Percentage of last column rounded horizontally: 0.0
+18_03_53_827 [INFO] New directory has been created - blocks
+18_04_23_665 [INFO] Directory already present - logs
+18_04_23_666 [INFO] Directory already present - backups\blocks
+18_04_23_668 [INFO] Directory already present - backups\images
+18_04_23_669 [INFO] All directories needed are present
+18_04_23_669 [INFO] Waiting for user input...
+18_04_23_688 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+18_04_23_689 [INFO] Provided file extension is supported: jpg
+18_04_23_690 [INFO] New directory has been created - 211220_18042367
+18_04_23_701 [INFO] Waiting for user input...
+18_04_24_595 [ERROR] The number of parts is incorrect! 1500
+18_04_24_597 [INFO] Waiting for user input...
+18_04_27_569 [INFO] All the blocks will cover the area of number of blocks: 1646
+18_04_27_571 [INFO] Number of parts used(numberically): 1705
+18_04_27_573 [INFO] Width and height of a part in pixels: 35
+18_04_27_576 [INFO] Percentage of last row rounded vertically: 0.857142857142858
+18_04_27_577 [INFO] Percentage of last column rounded horizontally: 0.857142857142854
+18_04_27_580 [INFO] New directory has been created - blocks
+18_07_18_480 [INFO] Directory already present - logs
+18_07_18_481 [INFO] Directory already present - backups\blocks
+18_07_18_483 [INFO] Directory already present - backups\images
+18_07_18_484 [INFO] All directories needed are present
+18_07_18_485 [INFO] Waiting for user input...
+18_07_18_505 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+18_07_18_506 [INFO] Provided file extension is supported: jpg
+18_07_18_507 [INFO] New directory has been created - 211220_18071848
+18_07_18_515 [INFO] Waiting for user input...
+18_07_28_019 [INFO] All the blocks will cover the area of number of blocks: 5000
+18_07_28_021 [INFO] Number of parts used(numberically): 5184
+18_07_28_023 [INFO] Width and height of a part in pixels: 20
+18_07_28_025 [INFO] Percentage of last row rounded vertically: 0.0
+18_07_28_026 [INFO] Percentage of last column rounded horizontally: 0.0
+18_07_28_028 [INFO] New directory has been created - blocks
+18_08_20_079 [INFO] Directory already present - logs
+18_08_20_080 [INFO] Directory already present - backups\blocks
+18_08_20_081 [INFO] Directory already present - backups\images
+18_08_20_083 [INFO] All directories needed are present
+18_08_20_085 [INFO] Waiting for user input...
+18_08_20_121 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+18_08_20_122 [INFO] Provided file extension is supported: jpg
+18_08_20_124 [INFO] New directory has been created - 211220_18082008
+18_08_20_137 [INFO] Waiting for user input...
+18_08_25_396 [INFO] Directory already present - logs
+18_08_25_397 [INFO] Directory already present - backups\blocks
+18_08_25_399 [INFO] Directory already present - backups\images
+18_08_25_400 [INFO] All directories needed are present
+18_08_25_402 [INFO] Waiting for user input...
+18_08_25_431 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+18_08_25_433 [INFO] Provided file extension is supported: jpg
+18_08_25_434 [INFO] New directory has been created - 211220_18082540
+18_08_25_444 [INFO] Waiting for user input...
+18_10_07_709 [INFO] Directory already present - logs
+18_10_07_710 [INFO] Directory already present - backups\blocks
+18_10_07_711 [INFO] Directory already present - backups\images
+18_10_07_712 [INFO] All directories needed are present
+18_10_07_714 [INFO] Waiting for user input...
+18_10_07_735 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+18_10_07_736 [INFO] Provided file extension is supported: jpg
+18_10_07_737 [INFO] New directory has been created - 211220_18100771
+18_10_07_745 [INFO] Waiting for user input...
+18_10_09_812 [INFO] All the blocks will cover the area of number of blocks: 10000
+18_10_09_813 [INFO] Number of parts used(numberically): 10764
+18_10_09_815 [INFO] Width and height of a part in pixels: 14
+18_10_09_816 [INFO] Percentage of last row rounded vertically: 0.14285714285714
+18_10_09_818 [INFO] Percentage of last column rounded horizontally: 0.14285714285714
+18_10_09_820 [INFO] New directory has been created - blocks
+18_10_26_241 [INFO] Directory already present - logs
+18_10_26_243 [INFO] Directory already present - backups\blocks
+18_10_26_244 [INFO] Directory already present - backups\images
+18_10_26_245 [INFO] All directories needed are present
+18_10_26_247 [INFO] Waiting for user input...
+18_10_26_275 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+18_10_26_278 [INFO] Provided file extension is supported: jpg
+18_10_26_280 [INFO] New directory has been created - 211220_18102624
+18_10_26_291 [INFO] Waiting for user input...
+18_10_33_208 [INFO] All the blocks will cover the area of number of blocks: 30000
+18_10_33_209 [INFO] Number of parts used(numberically): 32400
+18_10_33_210 [INFO] Width and height of a part in pixels: 8
+18_10_33_211 [INFO] Percentage of last row rounded vertically: 0.0
+18_10_33_212 [INFO] Percentage of last column rounded horizontally: 0.0
+18_10_33_214 [INFO] New directory has been created - blocks
+18_16_23_193 [INFO] Directory already present - logs
+18_16_23_194 [INFO] Directory already present - backups\blocks
+18_16_23_195 [INFO] Directory already present - backups\images
+18_16_23_196 [INFO] All directories needed are present
+18_16_23_198 [INFO] Waiting for user input...
+18_16_23_228 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+18_16_23_229 [INFO] Provided file extension is supported: jpg
+18_16_23_230 [INFO] New directory has been created - 211220_18162320
+18_16_23_243 [INFO] Waiting for user input...
+18_17_02_968 [INFO] All the blocks will cover the area of number of blocks: 1800000
+18_17_02_969 [INFO] Number of parts used(numberically): 2073600
+18_17_02_971 [INFO] Width and height of a part in pixels: 1
+18_17_02_972 [INFO] Percentage of last row rounded vertically: 0.0
+18_17_02_974 [INFO] Percentage of last column rounded horizontally: 0.0
+18_17_02_976 [INFO] New directory has been created - blocks
+18_26_01_904 [INFO] Directory already present - logs
+18_26_01_906 [INFO] Directory already present - backups\images
+18_26_01_908 [INFO] New directory has been created - backups\blocks
+18_26_01_909 [INFO] All directories needed are present
+18_26_01_911 [INFO] Waiting for user input...
+18_26_01_940 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+18_26_01_941 [INFO] Provided file extension is supported: jpg
+18_26_01_943 [INFO] New directory has been created - 211220_18260191
+18_26_01_953 [INFO] Waiting for user input...
+18_26_03_625 [INFO] All the blocks will cover the area of number of blocks: 28
+18_26_03_626 [INFO] Number of parts used(numberically): 32
+18_26_03_628 [INFO] Width and height of a part in pixels: 272
+18_26_03_629 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+18_26_03_630 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+18_26_03_632 [INFO] New directory has been created - blocks
+18_26_10_375 [INFO] Directory already present - logs
+18_26_10_377 [INFO] Directory already present - backups\blocks
+18_26_10_378 [INFO] Directory already present - backups\images
+18_26_10_379 [INFO] All directories needed are present
+18_26_10_381 [INFO] Waiting for user input...
+18_26_10_410 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+18_26_10_411 [INFO] Provided file extension is supported: jpg
+18_26_10_413 [INFO] New directory has been created - 211220_18261038
+18_26_10_424 [INFO] Waiting for user input...
+18_26_15_553 [INFO] All the blocks will cover the area of number of blocks: 180000
+18_26_15_554 [INFO] Number of parts used(numberically): 230400
+18_26_15_555 [INFO] Width and height of a part in pixels: 3
+18_26_15_556 [INFO] Percentage of last row rounded vertically: 0.0
+18_26_15_557 [INFO] Percentage of last column rounded horizontally: 0.0
+18_26_15_559 [INFO] New directory has been created - blocks
+18_27_02_141 [INFO] Directory already present - logs
+18_27_02_143 [INFO] Directory already present - backups\blocks
+18_27_02_144 [INFO] Directory already present - backups\images
+18_27_02_145 [INFO] All directories needed are present
+18_27_02_147 [INFO] Waiting for user input...
+18_27_02_169 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+18_27_02_171 [INFO] Provided file extension is supported: jpg
+18_27_02_172 [INFO] New directory has been created - 211220_18270214
+18_27_02_180 [INFO] Waiting for user input...
+18_27_03_079 [INFO] All the blocks will cover the area of number of blocks: 28
+18_27_03_081 [INFO] Number of parts used(numberically): 32
+18_27_03_082 [INFO] Width and height of a part in pixels: 272
+18_27_03_083 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+18_27_03_084 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+18_27_03_086 [INFO] New directory has been created - blocks
+18_27_16_605 [INFO] Directory already present - logs
+18_27_16_607 [INFO] Directory already present - backups\blocks
+18_27_16_608 [INFO] Directory already present - backups\images
+18_27_16_609 [INFO] All directories needed are present
+18_27_16_611 [INFO] Waiting for user input...
+18_27_16_641 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+18_27_16_642 [INFO] Provided file extension is supported: jpg
+18_27_16_643 [INFO] New directory has been created - 211220_18271661
+18_27_16_653 [INFO] Waiting for user input...
+18_27_17_439 [INFO] All the blocks will cover the area of number of blocks: 28
+18_27_17_440 [INFO] Number of parts used(numberically): 32
+18_27_17_441 [INFO] Width and height of a part in pixels: 272
+18_27_17_442 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+18_27_17_443 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+18_27_17_444 [INFO] New directory has been created - blocks
+18_28_51_263 [INFO] Directory already present - logs
+18_28_51_264 [INFO] Directory already present - backups\blocks
+18_28_51_265 [INFO] Directory already present - backups\images
+18_28_51_266 [INFO] All directories needed are present
+18_28_51_268 [INFO] Waiting for user input...
+18_28_51_298 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+18_28_51_299 [INFO] Provided file extension is supported: jpg
+18_28_51_300 [INFO] New directory has been created - 211220_18285126
+18_28_51_309 [INFO] Waiting for user input...
+18_28_54_109 [INFO] All the blocks will cover the area of number of blocks: 28
+18_28_54_110 [INFO] Number of parts used(numberically): 32
+18_28_54_111 [INFO] Width and height of a part in pixels: 272
+18_28_54_111 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+18_28_54_112 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+18_28_54_113 [INFO] New directory has been created - blocks
+18_29_15_170 [INFO] Directory already present - logs
+18_29_15_171 [INFO] Directory already present - backups\blocks
+18_29_15_172 [INFO] Directory already present - backups\images
+18_29_15_174 [INFO] All directories needed are present
+18_29_15_175 [INFO] Waiting for user input...
+18_29_15_200 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+18_29_15_201 [INFO] Provided file extension is supported: jpg
+18_29_15_203 [INFO] New directory has been created - 211220_18291517
+18_29_15_211 [INFO] Waiting for user input...
+18_29_17_080 [INFO] All the blocks will cover the area of number of blocks: 28
+18_29_17_081 [INFO] Number of parts used(numberically): 32
+18_29_17_082 [INFO] Width and height of a part in pixels: 272
+18_29_17_083 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+18_29_17_084 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+18_29_17_086 [INFO] New directory has been created - blocks
+18_29_47_784 [INFO] Directory already present - logs
+18_29_47_785 [INFO] Directory already present - backups\blocks
+18_29_47_786 [INFO] Directory already present - backups\images
+18_29_47_788 [INFO] All directories needed are present
+18_29_47_790 [INFO] Waiting for user input...
+18_29_47_813 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+18_29_47_814 [INFO] Provided file extension is supported: jpg
+18_29_47_815 [INFO] New directory has been created - 211220_18294779
+18_29_47_825 [INFO] Waiting for user input...
+18_30_13_810 [INFO] All the blocks will cover the area of number of blocks: 28
+18_30_13_811 [INFO] Number of parts used(numberically): 32
+18_30_13_812 [INFO] Width and height of a part in pixels: 272
+18_30_13_813 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+18_30_13_814 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+18_30_13_815 [INFO] New directory has been created - blocks
+18_32_13_027 [INFO] Directory already present - logs
+18_32_13_028 [INFO] Directory already present - backups\blocks
+18_32_13_029 [INFO] Directory already present - backups\images
+18_32_13_030 [INFO] All directories needed are present
+18_32_13_032 [INFO] Waiting for user input...
+18_32_13_054 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+18_32_13_054 [INFO] Provided file extension is supported: jpg
+18_32_13_055 [INFO] New directory has been created - 211220_18321303
+18_32_13_064 [INFO] Waiting for user input...
+18_32_13_737 [INFO] All the blocks will cover the area of number of blocks: 28
+18_32_13_738 [INFO] Number of parts used(numberically): 32
+18_32_13_739 [INFO] Width and height of a part in pixels: 272
+18_32_13_740 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+18_32_13_741 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+18_32_13_744 [INFO] New directory has been created - blocks
+18_32_26_563 [INFO] Directory already present - logs
+18_32_26_564 [INFO] Directory already present - backups\blocks
+18_32_26_565 [INFO] Directory already present - backups\images
+18_32_26_566 [INFO] All directories needed are present
+18_32_26_568 [INFO] Waiting for user input...
+18_32_26_589 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+18_32_26_590 [INFO] Provided file extension is supported: jpg
+18_32_26_592 [INFO] New directory has been created - 211220_18322656
+18_32_26_598 [INFO] Waiting for user input...
+18_32_27_077 [INFO] All the blocks will cover the area of number of blocks: 28
+18_32_27_078 [INFO] Number of parts used(numberically): 32
+18_32_27_079 [INFO] Width and height of a part in pixels: 272
+18_32_27_080 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+18_32_27_081 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+18_32_27_084 [INFO] New directory has been created - blocks
+18_33_26_431 [INFO] Directory already present - logs
+18_33_26_432 [INFO] Directory already present - backups\blocks
+18_33_26_434 [INFO] Directory already present - backups\images
+18_33_26_435 [INFO] All directories needed are present
+18_33_26_437 [INFO] Waiting for user input...
+18_33_26_459 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+18_33_26_460 [INFO] Provided file extension is supported: jpg
+18_33_26_461 [INFO] New directory has been created - 211220_18332643
+18_33_26_468 [INFO] Waiting for user input...
+18_33_27_182 [INFO] All the blocks will cover the area of number of blocks: 28
+18_33_27_184 [INFO] Number of parts used(numberically): 32
+18_33_27_185 [INFO] Width and height of a part in pixels: 272
+18_33_27_186 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+18_33_27_187 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+18_33_27_189 [INFO] New directory has been created - blocks
+18_33_48_222 [INFO] Directory already present - logs
+18_33_48_223 [INFO] Directory already present - backups\blocks
+18_33_48_224 [INFO] Directory already present - backups\images
+18_33_48_225 [INFO] All directories needed are present
+18_33_48_227 [INFO] Waiting for user input...
+18_33_48_253 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+18_33_48_254 [INFO] Provided file extension is supported: jpg
+18_33_48_255 [INFO] New directory has been created - 211220_18334822
+18_33_48_264 [INFO] Waiting for user input...
+18_33_49_046 [INFO] All the blocks will cover the area of number of blocks: 28
+18_33_49_047 [INFO] Number of parts used(numberically): 32
+18_33_49_048 [INFO] Width and height of a part in pixels: 272
+18_33_49_049 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+18_33_49_050 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+18_33_49_052 [INFO] New directory has been created - blocks
+18_33_56_339 [INFO] Directory already present - logs
+18_33_56_341 [INFO] Directory already present - backups\blocks
+18_33_56_342 [INFO] Directory already present - backups\images
+18_33_56_343 [INFO] All directories needed are present
+18_33_56_345 [INFO] Waiting for user input...
+18_33_56_368 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+18_33_56_370 [INFO] Provided file extension is supported: jpg
+18_33_56_371 [INFO] New directory has been created - 211220_18335634
+18_33_56_379 [INFO] Waiting for user input...
+18_33_57_016 [INFO] All the blocks will cover the area of number of blocks: 28
+18_33_57_018 [INFO] Number of parts used(numberically): 32
+18_33_57_020 [INFO] Width and height of a part in pixels: 272
+18_33_57_022 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+18_33_57_023 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+18_33_57_025 [INFO] New directory has been created - blocks
+18_34_21_428 [INFO] Directory already present - logs
+18_34_21_430 [INFO] Directory already present - backups\blocks
+18_34_21_431 [INFO] Directory already present - backups\images
+18_34_21_432 [INFO] All directories needed are present
+18_34_21_434 [INFO] Waiting for user input...
+18_34_21_457 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+18_34_21_458 [INFO] Provided file extension is supported: jpg
+18_34_21_459 [INFO] New directory has been created - 211220_18342143
+18_34_21_467 [INFO] Waiting for user input...
+18_34_22_098 [INFO] All the blocks will cover the area of number of blocks: 28
+18_34_22_100 [INFO] Number of parts used(numberically): 32
+18_34_22_101 [INFO] Width and height of a part in pixels: 272
+18_34_22_102 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+18_34_22_104 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+18_34_22_106 [INFO] New directory has been created - blocks
+18_34_30_156 [INFO] Directory already present - logs
+18_34_30_157 [INFO] Directory already present - backups\blocks
+18_34_30_158 [INFO] Directory already present - backups\images
+18_34_30_159 [INFO] All directories needed are present
+18_34_30_161 [INFO] Waiting for user input...
+18_34_30_182 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+18_34_30_183 [INFO] Provided file extension is supported: jpg
+18_34_30_184 [INFO] New directory has been created - 211220_18343016
+18_34_30_193 [INFO] Waiting for user input...
+18_34_31_510 [INFO] All the blocks will cover the area of number of blocks: 28
+18_34_31_511 [INFO] Number of parts used(numberically): 32
+18_34_31_513 [INFO] Width and height of a part in pixels: 272
+18_34_31_514 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+18_34_31_515 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+18_34_31_517 [INFO] New directory has been created - blocks
+18_35_16_274 [INFO] Directory already present - logs
+18_35_16_276 [INFO] Directory already present - backups\blocks
+18_35_16_277 [INFO] Directory already present - backups\images
+18_35_16_278 [INFO] All directories needed are present
+18_35_16_280 [INFO] Waiting for user input...
+18_35_16_302 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+18_35_16_303 [INFO] Provided file extension is supported: jpg
+18_35_16_305 [INFO] New directory has been created - 211220_18351628
+18_35_16_314 [INFO] Waiting for user input...
+18_35_16_929 [INFO] All the blocks will cover the area of number of blocks: 28
+18_35_16_931 [INFO] Number of parts used(numberically): 32
+18_35_16_932 [INFO] Width and height of a part in pixels: 272
+18_35_16_933 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+18_35_16_934 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+18_35_16_936 [INFO] New directory has been created - blocks
+18_36_40_415 [INFO] Directory already present - logs
+18_36_40_416 [INFO] Directory already present - backups\blocks
+18_36_40_417 [INFO] Directory already present - backups\images
+18_36_40_418 [INFO] All directories needed are present
+18_36_40_420 [INFO] Waiting for user input...
+18_36_40_444 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+18_36_40_446 [INFO] Provided file extension is supported: jpg
+18_36_40_447 [INFO] New directory has been created - 211220_18364042
+18_36_40_454 [INFO] Waiting for user input...
+18_36_41_542 [INFO] All the blocks will cover the area of number of blocks: 28
+18_36_41_543 [INFO] Number of parts used(numberically): 32
+18_36_41_544 [INFO] Width and height of a part in pixels: 272
+18_36_41_546 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+18_36_41_547 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+18_36_41_549 [INFO] New directory has been created - blocks
+18_37_25_091 [INFO] Directory already present - logs
+18_37_25_092 [INFO] Directory already present - backups\blocks
+18_37_25_093 [INFO] Directory already present - backups\images
+18_37_25_094 [INFO] All directories needed are present
+18_37_25_096 [INFO] Waiting for user input...
+18_37_25_123 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+18_37_25_124 [INFO] Provided file extension is supported: jpg
+18_37_25_125 [INFO] New directory has been created - 211220_18372509
+18_37_25_135 [INFO] Waiting for user input...
+18_37_25_850 [INFO] All the blocks will cover the area of number of blocks: 28
+18_37_25_850 [INFO] Number of parts used(numberically): 32
+18_37_25_851 [INFO] Width and height of a part in pixels: 272
+18_37_25_853 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+18_37_25_854 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+18_37_25_856 [INFO] New directory has been created - blocks
+18_37_47_914 [INFO] Directory already present - logs
+18_37_47_915 [INFO] Directory already present - backups\blocks
+18_37_47_916 [INFO] Directory already present - backups\images
+18_37_47_917 [INFO] All directories needed are present
+18_37_47_919 [INFO] Waiting for user input...
+18_37_47_945 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+18_37_47_946 [INFO] Provided file extension is supported: jpg
+18_37_47_947 [INFO] New directory has been created - 211220_18374792
+18_37_47_956 [INFO] Waiting for user input...
+18_37_48_779 [INFO] All the blocks will cover the area of number of blocks: 28
+18_37_48_780 [INFO] Number of parts used(numberically): 32
+18_37_48_781 [INFO] Width and height of a part in pixels: 272
+18_37_48_782 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+18_37_48_783 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+18_37_48_785 [INFO] New directory has been created - blocks
+18_38_01_933 [INFO] Directory already present - logs
+18_38_01_934 [INFO] Directory already present - backups\blocks
+18_38_01_935 [INFO] Directory already present - backups\images
+18_38_01_936 [INFO] All directories needed are present
+18_38_01_938 [INFO] Waiting for user input...
+18_38_01_962 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+18_38_01_963 [INFO] Provided file extension is supported: jpg
+18_38_01_964 [INFO] New directory has been created - 211220_18380193
+18_38_01_974 [INFO] Waiting for user input...
+18_38_06_551 [INFO] Directory already present - logs
+18_38_06_552 [INFO] Directory already present - backups\blocks
+18_38_06_553 [INFO] Directory already present - backups\images
+18_38_06_554 [INFO] All directories needed are present
+18_38_06_556 [INFO] Waiting for user input...
+18_38_06_576 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+18_38_06_577 [INFO] Provided file extension is supported: jpg
+18_38_06_578 [INFO] New directory has been created - 211220_18380655
+18_38_06_587 [INFO] Waiting for user input...
+18_38_07_305 [INFO] All the blocks will cover the area of number of blocks: 28
+18_38_07_306 [INFO] Number of parts used(numberically): 32
+18_38_07_307 [INFO] Width and height of a part in pixels: 272
+18_38_07_308 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+18_38_07_310 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+18_38_07_313 [INFO] New directory has been created - blocks
+18_38_20_804 [INFO] Directory already present - logs
+18_38_20_805 [INFO] Directory already present - backups\blocks
+18_38_20_806 [INFO] Directory already present - backups\images
+18_38_20_807 [INFO] All directories needed are present
+18_38_20_809 [INFO] Waiting for user input...
+18_38_20_831 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+18_38_20_832 [INFO] Provided file extension is supported: jpg
+18_38_20_833 [INFO] New directory has been created - 211220_18382081
+18_38_20_844 [INFO] Waiting for user input...
+18_38_23_544 [INFO] All the blocks will cover the area of number of blocks: 28
+18_38_23_545 [INFO] Number of parts used(numberically): 32
+18_38_23_546 [INFO] Width and height of a part in pixels: 272
+18_38_23_547 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+18_38_23_548 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+18_38_23_550 [INFO] New directory has been created - blocks
+18_39_55_502 [INFO] Directory already present - logs
+18_39_55_504 [INFO] Directory already present - backups\blocks
+18_39_55_505 [INFO] Directory already present - backups\images
+18_39_55_506 [INFO] All directories needed are present
+18_39_55_508 [INFO] Waiting for user input...
+18_39_55_531 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+18_39_55_532 [INFO] Provided file extension is supported: jpg
+18_39_55_533 [INFO] New directory has been created - 211220_18395551
+18_39_55_542 [INFO] Waiting for user input...
+18_39_56_822 [INFO] All the blocks will cover the area of number of blocks: 28
+18_39_56_823 [INFO] Number of parts used(numberically): 32
+18_39_56_824 [INFO] Width and height of a part in pixels: 272
+18_39_56_825 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+18_39_56_826 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+18_39_56_827 [INFO] New directory has been created - blocks
+18_40_03_015 [INFO] Directory already present - logs
+18_40_03_016 [INFO] Directory already present - backups\blocks
+18_40_03_017 [INFO] Directory already present - backups\images
+18_40_03_018 [INFO] All directories needed are present
+18_40_03_020 [INFO] Waiting for user input...
+18_40_03_043 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+18_40_03_044 [INFO] Provided file extension is supported: jpg
+18_40_03_046 [INFO] New directory has been created - 211220_18400302
+18_40_03_056 [INFO] Waiting for user input...
+18_40_09_234 [INFO] Directory already present - logs
+18_40_09_235 [INFO] Directory already present - backups\blocks
+18_40_09_236 [INFO] Directory already present - backups\images
+18_40_09_237 [INFO] All directories needed are present
+18_40_09_239 [INFO] Waiting for user input...
+18_40_09_262 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+18_40_09_263 [INFO] Provided file extension is supported: jpg
+18_40_09_264 [INFO] New directory has been created - 211220_18400923
+18_40_09_271 [INFO] Waiting for user input...
+18_40_15_866 [INFO] All the blocks will cover the area of number of blocks: 30000
+18_40_15_867 [INFO] Number of parts used(numberically): 32400
+18_40_15_868 [INFO] Width and height of a part in pixels: 8
+18_40_15_868 [INFO] Percentage of last row rounded vertically: 0.0
+18_40_15_869 [INFO] Percentage of last column rounded horizontally: 0.0
+18_40_15_870 [INFO] New directory has been created - blocks
+18_45_00_294 [INFO] Directory already present - logs
+18_45_00_295 [INFO] Directory already present - backups\blocks
+18_45_00_297 [INFO] Directory already present - backups\images
+18_45_00_298 [INFO] All directories needed are present
+18_45_00_300 [INFO] Waiting for user input...
+18_45_00_334 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+18_45_00_335 [INFO] Provided file extension is supported: jpg
+18_45_00_337 [INFO] New directory has been created - 211220_18450030
+18_45_00_347 [INFO] Waiting for user input...
+18_45_02_029 [ERROR] The number of parts is incorrect! 30
+18_45_02_030 [INFO] Waiting for user input...
+18_45_04_357 [INFO] All the blocks will cover the area of number of blocks: 45
+18_45_04_358 [INFO] Number of parts used(numberically): 54
+18_45_04_359 [INFO] Width and height of a part in pixels: 215
+18_45_04_360 [INFO] Percentage of last row rounded vertically: 0.023255813953488
+18_45_04_361 [INFO] Percentage of last column rounded horizontally: 0.930232558139535
+18_45_04_362 [INFO] New directory has been created - blocks
+18_45_10_531 [INFO] Directory already present - logs
+18_45_10_532 [INFO] Directory already present - backups\blocks
+18_45_10_533 [INFO] Directory already present - backups\images
+18_45_10_534 [INFO] All directories needed are present
+18_45_10_536 [INFO] Waiting for user input...
+18_45_10_557 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+18_45_10_558 [INFO] Provided file extension is supported: jpg
+18_45_10_560 [INFO] New directory has been created - 211220_18451053
+18_45_10_569 [INFO] Waiting for user input...
+18_45_11_265 [ERROR] The number of parts is incorrect! 100
+18_45_11_267 [INFO] Waiting for user input...
+18_45_12_653 [INFO] All the blocks will cover the area of number of blocks: 110
+18_45_12_654 [INFO] Number of parts used(numberically): 120
+18_45_12_655 [INFO] Width and height of a part in pixels: 137
+18_45_12_656 [INFO] Percentage of last row rounded vertically: 0.883211678832117
+18_45_12_657 [INFO] Percentage of last column rounded horizontally: 0.014598540145986
+18_45_12_658 [INFO] New directory has been created - blocks
+18_45_17_409 [INFO] Directory already present - logs
+18_45_17_410 [INFO] Directory already present - backups\blocks
+18_45_17_411 [INFO] Directory already present - backups\images
+18_45_17_412 [INFO] All directories needed are present
+18_45_17_414 [INFO] Waiting for user input...
+18_45_17_436 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+18_45_17_438 [INFO] Provided file extension is supported: jpg
+18_45_17_439 [INFO] New directory has been created - 211220_18451741
+18_45_17_447 [INFO] Waiting for user input...
+18_45_24_265 [INFO] All the blocks will cover the area of number of blocks: 300000
+18_45_24_266 [INFO] Number of parts used(numberically): 230400
+18_45_24_267 [INFO] Width and height of a part in pixels: 3
+18_45_24_268 [INFO] Percentage of last row rounded vertically: 0.0
+18_45_24_269 [INFO] Percentage of last column rounded horizontally: 0.0
+18_45_24_270 [INFO] New directory has been created - blocks
+18_49_40_438 [INFO] Directory already present - logs
+18_49_40_443 [INFO] Directory already present - backups\blocks
+18_49_40_444 [INFO] Directory already present - backups\images
+18_49_40_445 [INFO] All directories needed are present
+18_49_40_447 [INFO] Waiting for user input...
+18_49_40_472 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+18_49_40_474 [INFO] Provided file extension is supported: jpg
+18_49_40_475 [INFO] New directory has been created - 211220_18494044
+18_49_40_483 [INFO] Waiting for user input...
+18_49_48_232 [INFO] All the blocks will cover the area of number of blocks: 28
+18_49_48_234 [INFO] Number of parts used(numberically): 32
+18_49_48_235 [INFO] Width and height of a part in pixels: 272
+18_49_48_236 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+18_49_48_237 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+18_49_48_238 [INFO] New directory has been created - blocks
+18_49_48_244 [INFO] All the blocks have been successfully generated
+18_49_48_250 [INFO] All the blocks have been successfully generated
+18_49_48_255 [INFO] All the blocks have been successfully generated
+18_49_48_260 [INFO] All the blocks have been successfully generated
+18_49_48_268 [INFO] All the blocks have been successfully generated
+18_49_48_281 [INFO] All the blocks have been successfully generated
+18_49_48_286 [INFO] All the blocks have been successfully generated
+18_49_48_292 [INFO] All the blocks have been successfully generated
+18_49_48_300 [INFO] All the blocks have been successfully generated
+18_49_48_307 [INFO] All the blocks have been successfully generated
+18_49_48_314 [INFO] All the blocks have been successfully generated
+18_49_48_320 [INFO] All the blocks have been successfully generated
+18_49_48_326 [INFO] All the blocks have been successfully generated
+18_49_48_330 [INFO] All the blocks have been successfully generated
+18_49_48_337 [INFO] All the blocks have been successfully generated
+18_49_48_345 [INFO] All the blocks have been successfully generated
+18_49_48_351 [INFO] All the blocks have been successfully generated
+18_49_48_357 [INFO] All the blocks have been successfully generated
+18_49_48_362 [INFO] All the blocks have been successfully generated
+18_49_48_367 [INFO] All the blocks have been successfully generated
+18_49_48_374 [INFO] All the blocks have been successfully generated
+18_49_48_379 [INFO] All the blocks have been successfully generated
+18_49_48_384 [INFO] All the blocks have been successfully generated
+18_49_48_391 [INFO] All the blocks have been successfully generated
+18_49_48_397 [INFO] All the blocks have been successfully generated
+18_49_48_402 [INFO] All the blocks have been successfully generated
+18_49_48_409 [INFO] All the blocks have been successfully generated
+18_49_48_414 [INFO] All the blocks have been successfully generated
+18_49_48_420 [INFO] All the blocks have been successfully generated
+18_49_48_425 [INFO] All the blocks have been successfully generated
+18_49_48_430 [INFO] All the blocks have been successfully generated
+18_49_48_437 [INFO] All the blocks have been successfully generated
+18_50_23_818 [INFO] Directory already present - logs
+18_50_23_820 [INFO] Directory already present - backups\blocks
+18_50_23_821 [INFO] Directory already present - backups\images
+18_50_23_822 [INFO] All directories needed are present
+18_50_23_824 [INFO] Waiting for user input...
+18_50_23_856 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+18_50_23_857 [INFO] Provided file extension is supported: jpg
+18_50_23_859 [INFO] New directory has been created - 211220_18502382
+18_50_23_871 [INFO] Waiting for user input...
+18_50_29_556 [INFO] All the blocks will cover the area of number of blocks: 28
+18_50_29_557 [INFO] Number of parts used(numberically): 32
+18_50_29_558 [INFO] Width and height of a part in pixels: 272
+18_50_29_560 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+18_50_29_562 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+18_50_29_564 [INFO] New directory has been created - blocks
+18_50_29_771 [INFO] All the blocks have been successfully generated
+18_51_56_443 [INFO] Directory already present - logs
+18_51_56_444 [INFO] Directory already present - backups\blocks
+18_51_56_445 [INFO] Directory already present - backups\images
+18_51_56_446 [INFO] All directories needed are present
+18_51_56_448 [INFO] Waiting for user input...
+18_51_56_471 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+18_51_56_472 [INFO] Provided file extension is supported: jpg
+18_51_56_473 [INFO] New directory has been created - 211220_18515645
+18_51_56_481 [INFO] Waiting for user input...
+18_51_58_141 [INFO] All the blocks will cover the area of number of blocks: 28
+18_51_58_142 [INFO] Number of parts used(numberically): 32
+18_51_58_143 [INFO] Width and height of a part in pixels: 272
+18_51_58_144 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+18_51_58_145 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+18_51_58_146 [INFO] New directory has been created - blocks
+18_52_50_410 [INFO] Directory already present - logs
+18_52_50_412 [INFO] Directory already present - backups\blocks
+18_52_50_413 [INFO] Directory already present - backups\images
+18_52_50_414 [INFO] All directories needed are present
+18_52_50_416 [INFO] Waiting for user input...
+18_52_50_437 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+18_52_50_438 [INFO] Provided file extension is supported: jpg
+18_52_50_439 [INFO] New directory has been created - 211220_18525041
+18_52_50_449 [INFO] Waiting for user input...
+18_52_51_330 [INFO] All the blocks will cover the area of number of blocks: 28
+18_52_51_331 [INFO] Number of parts used(numberically): 32
+18_52_51_332 [INFO] Width and height of a part in pixels: 272
+18_52_51_333 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+18_52_51_334 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+18_52_51_336 [INFO] New directory has been created - blocks
+18_52_51_483 [INFO] All the blocks have been successfully generated
+18_55_32_401 [INFO] Directory already present - logs
+18_55_32_403 [INFO] Directory already present - backups\blocks
+18_55_32_403 [INFO] Directory already present - backups\images
+18_55_32_404 [INFO] All directories needed are present
+18_55_32_405 [INFO] Waiting for user input...
+18_55_32_455 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+18_55_32_456 [INFO] Provided file extension is supported: jpg
+18_55_32_458 [INFO] New directory has been created - 211220_18553240
+18_55_32_494 [INFO] Waiting for user input...
+18_55_34_074 [INFO] All the blocks will cover the area of number of blocks: 28
+18_55_34_075 [INFO] Number of parts used(numberically): 32
+18_55_34_076 [INFO] Width and height of a part in pixels: 272
+18_55_34_077 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+18_55_34_078 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+18_55_34_079 [INFO] New directory has been created - blocks
+18_55_34_194 [INFO] All the blocks have been successfully generated
+18_55_45_923 [INFO] Directory already present - logs
+18_55_45_925 [INFO] Directory already present - backups\blocks
+18_55_45_926 [INFO] Directory already present - backups\images
+18_55_45_927 [INFO] All directories needed are present
+18_55_45_928 [INFO] Waiting for user input...
+18_55_45_953 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+18_55_45_954 [INFO] Provided file extension is supported: jpg
+18_55_45_955 [INFO] New directory has been created - 211220_18554593
+18_55_45_966 [INFO] Waiting for user input...
+18_55_46_455 [INFO] All the blocks will cover the area of number of blocks: 28
+18_55_46_457 [INFO] Number of parts used(numberically): 32
+18_55_46_458 [INFO] Width and height of a part in pixels: 272
+18_55_46_459 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+18_55_46_460 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+18_55_46_461 [INFO] New directory has been created - blocks
+18_55_46_595 [INFO] All the blocks have been successfully generated
+18_56_32_081 [INFO] Directory already present - logs
+18_56_32_082 [INFO] Directory already present - backups\blocks
+18_56_32_083 [INFO] Directory already present - backups\images
+18_56_32_084 [INFO] All directories needed are present
+18_56_32_085 [INFO] Waiting for user input...
+18_56_32_107 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+18_56_32_108 [INFO] Provided file extension is supported: jpg
+18_56_32_109 [INFO] New directory has been created - 211220_18563208
+18_56_32_118 [INFO] Waiting for user input...
+18_56_32_649 [INFO] All the blocks will cover the area of number of blocks: 28
+18_56_32_650 [INFO] Number of parts used(numberically): 32
+18_56_32_651 [INFO] Width and height of a part in pixels: 272
+18_56_32_652 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+18_56_32_653 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+18_56_32_655 [INFO] New directory has been created - blocks
+18_56_32_808 [INFO] All the blocks have been successfully generated
+18_59_43_795 [INFO] Directory already present - logs
+18_59_43_796 [INFO] Directory already present - backups\blocks
+18_59_43_797 [INFO] Directory already present - backups\images
+18_59_43_798 [INFO] All directories needed are present
+18_59_43_800 [INFO] Waiting for user input...
+18_59_43_825 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+18_59_43_826 [INFO] Provided file extension is supported: jpg
+18_59_43_827 [INFO] New directory has been created - 211220_18594380
+18_59_43_835 [INFO] Waiting for user input...
+19_06_20_766 [INFO] Directory already present - logs
+19_06_20_768 [INFO] Directory already present - backups\blocks
+19_06_20_769 [INFO] Directory already present - backups\images
+19_06_20_770 [INFO] All directories needed are present
+19_06_20_772 [INFO] Waiting for user input...
+19_06_20_797 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+19_06_20_798 [INFO] Provided file extension is supported: jpg
+19_06_20_800 [INFO] New directory has been created - 211220_19062077
+19_06_20_808 [INFO] Waiting for user input...
+19_06_23_965 [INFO] All the blocks will cover the area of number of blocks: 28
+19_06_23_966 [INFO] Number of parts used(numberically): 32
+19_06_23_967 [INFO] Width and height of a part in pixels: 272
+19_06_23_968 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+19_06_23_969 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+19_06_23_970 [INFO] New directory has been created - blocks
+19_06_24_066 [INFO] All the blocks have been successfully generated
+19_06_37_228 [INFO] Directory already present - logs
+19_06_37_229 [INFO] Directory already present - backups\images
+19_06_37_231 [INFO] New directory has been created - backups\blocks
+19_06_37_232 [INFO] All directories needed are present
+19_06_37_233 [INFO] Waiting for user input...
+19_06_37_259 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+19_06_37_260 [INFO] Provided file extension is supported: jpg
+19_06_37_263 [INFO] New directory has been created - 211220_19063723
+19_06_37_288 [INFO] Waiting for user input...
+19_06_38_138 [INFO] All the blocks will cover the area of number of blocks: 28
+19_06_38_144 [INFO] Number of parts used(numberically): 32
+19_06_38_154 [INFO] Width and height of a part in pixels: 272
+19_06_38_158 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+19_06_38_159 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+19_06_38_161 [INFO] New directory has been created - blocks
+19_06_38_315 [INFO] All the blocks have been successfully generated
+19_07_00_598 [INFO] Directory already present - logs
+19_07_00_599 [INFO] Directory already present - backups\images
+19_07_00_600 [INFO] All directories needed are present
+19_07_00_602 [INFO] Waiting for user input...
+19_07_00_627 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+19_07_00_628 [INFO] Provided file extension is supported: jpg
+19_07_00_630 [INFO] New directory has been created - 211220_19070060
+19_07_00_638 [INFO] Waiting for user input...
+19_07_03_142 [INFO] All the blocks will cover the area of number of blocks: 28
+19_07_03_143 [INFO] Number of parts used(numberically): 32
+19_07_03_144 [INFO] Width and height of a part in pixels: 272
+19_07_03_145 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+19_07_03_147 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+19_07_03_148 [INFO] New directory has been created - blocks
+19_07_03_253 [INFO] All the blocks have been successfully generated
+19_11_41_481 [INFO] Directory already present - logs
+19_11_41_482 [INFO] Directory already present - backups\images
+19_11_41_483 [INFO] All directories needed are present
+19_11_41_485 [INFO] Waiting for user input...
+19_11_41_508 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+19_11_41_510 [INFO] Provided file extension is supported: jpg
+19_11_41_511 [INFO] New directory has been created - 211220_19114148
+19_11_41_520 [INFO] Waiting for user input...
+19_11_42_754 [INFO] All the blocks will cover the area of number of blocks: 28
+19_11_42_755 [INFO] Number of parts used(numberically): 32
+19_11_42_756 [INFO] Width and height of a part in pixels: 272
+19_11_42_757 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+19_11_42_758 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+19_11_42_760 [INFO] New directory has been created - blocks
+19_11_42_867 [INFO] All the blocks have been successfully generated
+19_12_22_383 [INFO] Directory already present - logs
+19_12_22_384 [INFO] Directory already present - backups\images
+19_12_22_385 [INFO] All directories needed are present
+19_12_22_386 [INFO] Waiting for user input...
+19_12_22_413 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+19_12_22_414 [INFO] Provided file extension is supported: jpg
+19_12_22_415 [INFO] New directory has been created - 211220_19122238
+19_12_22_422 [INFO] Waiting for user input...
+19_12_23_393 [INFO] All the blocks will cover the area of number of blocks: 28
+19_12_23_394 [INFO] Number of parts used(numberically): 32
+19_12_23_395 [INFO] Width and height of a part in pixels: 272
+19_12_23_397 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+19_12_23_399 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+19_12_23_455 [INFO] New directory has been created - blocks
+19_12_23_608 [INFO] All the blocks have been successfully generated
+19_14_04_023 [INFO] Directory already present - logs
+19_14_04_025 [INFO] Directory already present - backups\images
+19_14_04_027 [INFO] All directories needed are present
+19_14_04_028 [INFO] Waiting for user input...
+19_14_04_049 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+19_14_04_050 [INFO] Provided file extension is supported: jpg
+19_14_04_052 [INFO] New directory has been created - 211220_19140403
+19_14_04_061 [INFO] Waiting for user input...
+19_14_06_478 [INFO] All the blocks will cover the area of number of blocks: 28
+19_14_06_479 [INFO] Number of parts used(numberically): 32
+19_14_06_480 [INFO] Width and height of a part in pixels: 272
+19_14_06_481 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+19_14_06_482 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+19_14_06_553 [INFO] New directory has been created - blocks
+19_14_06_651 [INFO] All the blocks have been successfully generated
+19_15_49_853 [INFO] Directory already present - logs
+19_15_49_854 [INFO] Directory already present - backups\images
+19_15_49_855 [INFO] All directories needed are present
+19_15_49_857 [INFO] Waiting for user input...
+19_15_49_877 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+19_15_49_878 [INFO] Provided file extension is supported: jpg
+19_15_49_880 [INFO] New directory has been created - 211220_19154985
+19_15_49_887 [INFO] Waiting for user input...
+19_15_50_581 [INFO] All the blocks will cover the area of number of blocks: 28
+19_15_50_582 [INFO] Number of parts used(numberically): 32
+19_15_50_583 [INFO] Width and height of a part in pixels: 272
+19_15_50_584 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+19_15_50_585 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+19_15_50_738 [INFO] New directory has been created - blocks
+19_15_50_873 [INFO] All the blocks have been successfully generated
+19_19_11_824 [INFO] Directory already present - logs
+19_19_11_825 [INFO] Directory already present - backups\images
+19_19_11_826 [INFO] All directories needed are present
+19_19_11_827 [INFO] Waiting for user input...
+19_19_11_853 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+19_19_11_854 [INFO] Provided file extension is supported: jpg
+19_19_11_855 [INFO] New directory has been created - 211220_19191182
+19_19_11_864 [INFO] Waiting for user input...
+19_19_12_254 [INFO] All the blocks will cover the area of number of blocks: 28
+19_19_12_255 [INFO] Number of parts used(numberically): 32
+19_19_12_256 [INFO] Width and height of a part in pixels: 272
+19_19_12_257 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+19_19_12_259 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+19_19_12_282 [INFO] New directory has been created - blocks
+19_19_12_397 [INFO] All the blocks have been successfully generated
