@@ -3,7 +3,7 @@ from os import path
 from sys import setrecursionlimit
 from datetime import date
 from datetime import datetime
-from csv import reader
+import csv
 import shutil
 from PIL import Image
 from math import ceil
@@ -74,7 +74,7 @@ def logMessage(msgId, directory, extras):
     currentTime = str(datetime.now().strftime('%H_%M_%S_%f')[:-3])
 
     with open(LOGCONFIG, 'r') as singleRow:
-        singleRow = reader(singleRow) # read a single row
+        singleRow = csv.reader(singleRow) # read a single row
         for col in singleRow: # col[0] = msgType, col[1] = msgId, col[2] = msgContent, col[3] = extras(optional)
             if msgId == col[1]:
                 if col[3] == '':
@@ -147,6 +147,7 @@ def fileInput():
     filePath = 'C:/Users/longw/Desktop/G Drive/Praca inżynierska/Engineering_Thesis/test images/Standard aspect ratio/FHD/4k-retro-80s-wallpaper-fhd-1920x1080.jpg'
     filePath = path.realpath(filePath) # change the provided delim to '\'
     finalPath, datePath = copyToDatePath(filePath)
+    datePath = datePath + '\\'
     # next step, image processing
     #newImage = changeToPng(finalPath)
     return finalPath, datePath
@@ -176,10 +177,8 @@ def checkImage(myDivisor: int, imWidth: int, imHeight: int, toFind: str):
     myCondition = (restHorizontal < BLOCKSBOUND/100 or restHorizontal > 1 - BLOCKSBOUND/100) and (restVertical < BLOCKSBOUND/100 or restVertical > 1 - BLOCKSBOUND/100)
     if not toFind:
         if myCondition:
-            #print(blocksVertical, blocksHorizontal)
             return (True, myDivisor, totalImages, blocksSize, int(str(blocksHorizontal).split('.')[0]), restHorizontal, int(str(blocksVertical).split('.')[0]), restVertical), (False), (False)
         else: 
-            #print(blocksVertical, blocksHorizontal)
             smallerBlock = checkImage(myDivisor-1, imWidth, imHeight, 'smaller')
             largerBlock = checkImage(myDivisor+1, imWidth, imHeight, 'larger')
             return (False, myDivisor, blocksSize, restVertical, restHorizontal), smallerBlock, largerBlock
@@ -190,7 +189,6 @@ def checkImage(myDivisor: int, imWidth: int, imHeight: int, toFind: str):
         elif myDivisor > 20: 
             return checkImage(myDivisor-1, imWidth, imHeight, 'smaller')
         else:
-            #print('Couldn\'t find smaller number of images that would be suitable')
             return (False)
         
     elif toFind == 'larger':
@@ -214,7 +212,7 @@ def isTrue(myVar):
             return False
         
 # Cutting the image into smaller images
-def ratioAnalyzer(filePath: str):
+def ratioAnalyzer(filePath: str, datePath: str):
     image = Image.open(filePath)
     imWidth, imHeight = int(image.size[0]), int(image.size[1])
     image.close()
@@ -231,6 +229,7 @@ def ratioAnalyzer(filePath: str):
             logMessage('configBlocksHeightRest', False, str(ratioData[7]))
             ratioData = ratioData[1:]
             imageData = imageCutting(filePath, ratioData)
+            saveAsCsv('imageData.csv', datePath, imageData)
             return imageData, ratioData
         elif ratioData[0] == False:
             logMessage('incorrectNumberBlocks', False, str(ratioData[1]))
@@ -240,7 +239,6 @@ def ratioAnalyzer(filePath: str):
                 print('Closest larger correct number of parts is: ' + str(larger[1]))
 
 def generateBlocks(datePath: str, amount: int, size: int):
-    datePath = datePath + '\\'
     createPaths(datePath, BLOCKSDIR)
     blocksPath = datePath + BLOCKSDIR + '\\'
     blocksData = []
@@ -260,27 +258,72 @@ def generateBlocks(datePath: str, amount: int, size: int):
         if percentage > old_percentage:
             old_percentage = percentage
             percentage = str(percentage).split('.')[0]
-            #print(f'{percentage}% of images generated...')
+            print(f'{percentage}% of images generated...')
     logMessage('blocksGenerated', False, False)
+    saveAsCsv('blocksData.csv', datePath, blocksData)
     return(blocksData)
 
 def imageCutting(filePath: str, ratioData: tuple):
     image = Image.open(filePath)
     pix = image.load()
     imageData = []
-    i = 0
+    lastCol = round(ratioData[6] * ratioData[2])
+    lastRow = round(ratioData[4] * ratioData[2])
     #print(ratioData) # e.g.: (28, 32, 272, 3, 0.9705882352941178, 7, 0.0588235294117645)
-    for partRow in range(0,ratioData[]):
-        for partCol in range(0,ratioData[]):
-            for row in (partRow * ratioData[2], (partCol) * ratioData[2]):
-                for col in range(part * ratioData[2], ratioData[2]):
-                    print(i)
-                    i = i + 1
-
+    for myRow in range(0, ratioData[3] + 1):
+        for myCol in range(0, ratioData[5] + 1):
+            red = 0
+            blue = 0
+            green = 0
+            if (myRow != ratioData[3] and myCol != ratioData[5]):
+                for y in range(myRow * ratioData[2], (myRow + 1) * ratioData[2]):
+                    for x in range(myCol * ratioData[2], (myCol + 1) * ratioData[2]):
+                        color = pix[x, y]
+                        red = red + color[0]
+                        green = green + color[1]
+                        blue = blue + color[2]
+                partMean = (round(red/pow(ratioData[2], 2)), round(green/pow(ratioData[2], 2)), round(blue/pow(ratioData[2], 2)))
+                imageData.append(partMean)
+            if myCol == ratioData[5] and myRow != ratioData[3]:
+                    for y in range(myRow * ratioData[2], (myRow + 1) * ratioData[2]):
+                        for x in range(myCol * ratioData[2], myCol * ratioData[2] + lastCol):
+                            color = pix[x, y]
+                            red = red + color[0]
+                            green = green + color[1]
+                            blue = blue + color[2]
+                    partMean = (round(red/pow(ratioData[2], 2)), round(green/pow(ratioData[2], 2)), round(blue/pow(ratioData[2], 2)))
+                    imageData.append(partMean)
+            elif myCol != ratioData[5] and myRow == ratioData[3]:
+                    for y in range(myRow * ratioData[2], myRow * ratioData[2] + lastRow):
+                        for x in range(myCol * ratioData[2], (myCol + 1) * ratioData[2]):
+                            color = pix[x, y]
+                            red = red + color[0]
+                            green = green + color[1]
+                            blue = blue + color[2]
+                    partMean = (round(red/pow(ratioData[2], 2)), round(green/pow(ratioData[2], 2)), round(blue/pow(ratioData[2], 2)))
+                    imageData.append(partMean)
+            elif myCol == ratioData[5] and myRow == ratioData[3]:
+                    for y in range(myRow * ratioData[2], myRow * ratioData[2] + lastRow):
+                        for x in range(myCol * ratioData[2], myCol * ratioData[2] + lastCol):
+                            color = pix[x, y]
+                            red = red + color[0]
+                            green = green + color[1]
+                            blue = blue + color[2]
+                    partMean = (round(red/pow(ratioData[2], 2)), round(green/pow(ratioData[2], 2)), round(blue/pow(ratioData[2], 2)))
+                    imageData.append(partMean)
+    if imageData:
+        return imageData
+            
+def saveAsCsv(name: str,filePath: str, data: list or tuple):
+    with open(filePath + name, 'w', newline='', encoding='UTF8') as f:
+        writer = csv.writer(f)
+        for row in data:
+            writer.writerow(row)
+              
 if __name__ == '__main__':
     checkDirs(BASEPATH, BASEDIRS) # initial check for directories # commented as it's working properly
     myFile, datePath = fileInput()
     setrecursionlimit(10000) # increase only if met with "RecursionError: maximum recursion depth exceeded while calling a Python object"
-    imageData, ratioData = ratioAnalyzer(myFile)
+    imageData, ratioData = ratioAnalyzer(myFile, datePath)
     blocksData = generateBlocks(datePath, ratioData[1], ratioData[2])
     
