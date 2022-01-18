@@ -1,0 +1,15 @@
+16_18_38_293 [INFO] Directory already present - logs
+16_18_38_303 [INFO] Directory already present - backups\images
+16_18_38_306 [INFO] All directories needed are present
+16_18_38_309 [INFO] Waiting for user input...
+16_18_38_534 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+16_18_38_536 [INFO] Provided file extension is supported: jpg
+16_18_38_538 [INFO] New directory has been created - 211221_16183831
+16_18_38_554 [INFO] Waiting for user input...
+16_18_39_214 [INFO] All the blocks will cover the area of number of blocks: 28
+16_18_39_216 [INFO] Number of parts used(numberically): 32
+16_18_39_217 [INFO] Width and height of a part in pixels: 272
+16_18_39_218 [INFO] Percentage of last row rounded vertically: 0.9705882352941178
+16_18_39_221 [INFO] Percentage of last column rounded horizontally: 0.0588235294117645
+16_18_41_654 [INFO] New directory has been created - blocks
+16_18_41_888 [INFO] All the blocks have been successfully generated

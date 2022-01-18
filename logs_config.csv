@@ -14,7 +14,7 @@ INFO,correctNumberBlocks,Number of parts used(in terms of an area):,extras
 ERROR,incorrectNumberBlocks,The number of parts is incorrect!,extras
 INFO,configBlocksNumber,Number of parts used(numberically):,extras
 INFO,configBlocksPixels,Width and height of a part in pixels:,extras
-INFO,configBlocksWidthRest,Percentage of last row rounded vertically:,extras
-INFO,configBlocksHeightRest,Percentage of last column rounded horizontally:,extras
+INFO,configBlocksWidthRest,Percentage edges rounded vertically:,extras
+INFO,configBlocksHeightRest,Percentage edges rounded horizontally:,extras
 INFO,configBlocksArea,All the blocks will cover the area of number of blocks:,extras
 INFO,blocksGenerated,All the blocks have been successfully generated,

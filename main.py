@@ -8,7 +8,6 @@ import shutil
 from PIL import Image
 from math import ceil
 import random
-import _thread
 
 # Global variables:
 BASEPATH = str(pathlib.Path(__file__).parent.resolve()) + '\\' # directory of the main.py
@@ -18,15 +17,16 @@ CONFIGFILE = '.\\config.properties' # config file
 LOGCONFIG = '.\\logs_config.csv' # config file of the logging system: msgType, msgId, msgContent, addition
 SUPPORTED = ('png', 'jpg', 'jpeg') # supported file extensions
 MAXPIXELS = 33177600 # maximum amount of pixels supported, 33177600 is equal to 8k
-LOGFILE = 'logs/logs_' # directory/name of a log file
+LOGFILE = 'logs\\logs_' # directory/name of a log file
 CURRENTDATE = str(date.today().strftime('%Y_%m_%d')) # date at which the script is run
 LOGTODAY = BASEPATH + LOGFILE + CURRENTDATE + '.txt' # defining today's log path
 INITMESSAGE = 'Welcome to the program!'
 MAXBLOCKS, STANDBLOCKS, MINBLOCKS = 100, 60, 20 # maximum/minimum amount of Randomly Rendered Blocks(RRB) possible to generate
-BLOCKSBOUND = 15
+BLOCKSBOUNDARY = 15
 EXT = '.png' # deprecated
 BLOCKSDIR = 'blocks'
-
+BLOCKFILENAME = 'blocksData.csv'
+IMAGEFILENAME = 'imageData.csv'
 # Check what directories are present, needed and then create them with createPaths()
 def checkDirs(base, dirs):
     presentDirs = []
@@ -143,8 +143,8 @@ def fileInput():
     #print(INITMESSAGE)
     logMessage('waitInput', False, False)
     #filePath = input('Please put in an absolute path to an image you would like to have replicated:\n')
-    #filePath = 'C:\\Users\\longw\\Desktop\\G Drive\\Praca inżynierska\\Engineering_Thesis\\test images\\Standard aspect ratio\\FHD\\4k-retro-80s-wallpaper-fhd-1920x1080.jpg'
-    filePath = 'C:/Users/longw/Desktop/G Drive/Praca inżynierska/Engineering_Thesis/test images/Standard aspect ratio/FHD/4k-retro-80s-wallpaper-fhd-1920x1080.jpg'
+    #filePath = 'C:\\Users\\longw\\Desktop\\G Drive\\Praca_inżynierska\\Engineering_Thesis\\test images\\Standard aspect ratio\\FHD\\4k-retro-80s-wallpaper-fhd-1920x1080.jpg'
+    filePath = 'C:/Users/longw/Desktop/G Drive/Praca_inżynierska/Engineering_Thesis/test images/Standard aspect ratio/FHD/4k-retro-80s-wallpaper-fhd-1920x1080.jpg'
     filePath = path.realpath(filePath) # change the provided delim to '\'
     finalPath, datePath = copyToDatePath(filePath)
     datePath = datePath + '\\'
@@ -174,17 +174,22 @@ def checkImage(myDivisor: int, imWidth: int, imHeight: int, toFind: str):
     blocksVertical, blocksHorizontal = imWidth / blocksSize, imHeight / blocksSize
     totalImages = ceil(blocksHorizontal) * ceil(blocksVertical)
     restVertical, restHorizontal = float('.' + str(blocksVertical).split('.')[-1]), float('.' + str(blocksHorizontal).split('.')[-1])
-    myCondition = (restHorizontal < BLOCKSBOUND/100 or restHorizontal > 1 - BLOCKSBOUND/100) and (restVertical < BLOCKSBOUND/100 or restVertical > 1 - BLOCKSBOUND/100)
+    myCondition = ((restHorizontal > 1 - BLOCKSBOUNDARY/100) and (restVertical > 1 - BLOCKSBOUNDARY/100))
+    conditionSkipLastRowCol = ((restHorizontal < BLOCKSBOUNDARY/100) and (restVertical < BLOCKSBOUNDARY/100))
     if not toFind:
         if myCondition:
             return (True, myDivisor, totalImages, blocksSize, int(str(blocksHorizontal).split('.')[0]), restHorizontal, int(str(blocksVertical).split('.')[0]), restVertical), (False), (False)
+        if conditionSkipLastRowCol:
+            horizontal = int(str(blocksHorizontal).split('.')[0])
+            vertical = int(str(blocksVertical).split('.')[0])
+            return (True, myDivisor, horizontal * vertical, blocksSize, horizontal, restHorizontal, vertical, restVertical), (False), (False)
         else: 
             smallerBlock = checkImage(myDivisor-1, imWidth, imHeight, 'smaller')
             largerBlock = checkImage(myDivisor+1, imWidth, imHeight, 'larger')
             return (False, myDivisor, blocksSize, restVertical, restHorizontal), smallerBlock, largerBlock
         
     elif toFind == 'smaller':
-        if myCondition:
+        if myCondition or conditionSkipLastRowCol:
             return (True, myDivisor)
         elif myDivisor > 20: 
             return checkImage(myDivisor-1, imWidth, imHeight, 'smaller')
@@ -192,13 +197,13 @@ def checkImage(myDivisor: int, imWidth: int, imHeight: int, toFind: str):
             return (False)
         
     elif toFind == 'larger':
-        if myCondition:
+        if myCondition or conditionSkipLastRowCol:
             return (True, myDivisor)
         elif (myDivisor < imHeight) or (myDivisor < imWidth):
             return checkImage(myDivisor+1, imWidth, imHeight, 'larger')
         else: 
             return (False)
-           
+        
 def isTrue(myVar):
     if type(myVar) == tuple:
         if myVar[0] == True:
@@ -229,7 +234,7 @@ def ratioAnalyzer(filePath: str, datePath: str):
             logMessage('configBlocksHeightRest', False, str(ratioData[7]))
             ratioData = ratioData[1:]
             imageData = imageCutting(filePath, ratioData)
-            saveAsCsv('imageData.csv', datePath, imageData)
+            saveAsCsv(IMAGEFILENAME, datePath, imageData)
             return imageData, ratioData
         elif ratioData[0] == False:
             logMessage('incorrectNumberBlocks', False, str(ratioData[1]))
@@ -243,6 +248,8 @@ def generateBlocks(datePath: str, amount: int, size: int):
     blocksPath = datePath + BLOCKSDIR + '\\'
     blocksData = []
     old_percentage = 0
+    
+    # generate {amount} amount of images to the /blocks children directory within the /backups/images/[date]/ directory
     for singleImage in range(1, amount+1):
         percentage = round((singleImage / amount) * 100, 0)
         blockPath = blocksPath + str(singleImage) + '.png'
@@ -255,12 +262,14 @@ def generateBlocks(datePath: str, amount: int, size: int):
         img.close
         blockData = redAmnt, greenAmnt, blueAmnt, blockPath
         blocksData.append(blockData)
+        
+        # print the progress of image generation
         if percentage > old_percentage:
             old_percentage = percentage
             percentage = str(percentage).split('.')[0]
             print(f'{percentage}% of images generated...')
     logMessage('blocksGenerated', False, False)
-    saveAsCsv('blocksData.csv', datePath, blocksData)
+    saveAsCsv(BLOCKFILENAME, datePath, blocksData)
     return(blocksData)
 
 def imageCutting(filePath: str, ratioData: tuple):
