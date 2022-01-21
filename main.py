@@ -8,6 +8,8 @@ import shutil
 from PIL import Image
 from math import ceil
 import random
+import pandas as pd
+import numpy as np
 
 # Global variables:
 BASEPATH = str(pathlib.Path(__file__).parent.resolve()) + '\\' # directory of the main.py
@@ -27,8 +29,8 @@ EXT = '.png' # deprecated
 BLOCKSDIR = 'blocks'
 BLOCKFILENAME = 'blocksData.csv'
 IMAGEFILENAME = 'imageData.csv'
-# Check what directories are present, needed and then create them with createPaths()
-def checkDirs(base, dirs):
+# Check what directories are present, needed and then create them
+def checkDirs(base: str, dirs: list().__class__ == str):
     presentDirs = []
     # check what directories are present
     if base == BASEPATH:
@@ -39,37 +41,38 @@ def checkDirs(base, dirs):
     # check what directories are needed
     for x in dirs:
         if x in presentDirs:
-            logMessage('presentDir', base, x)
+            logMessage('presentDir', x)
         elif not x in presentDirs:
             neededDirs.append(x)
     #create necessary paths that are not present
     if neededDirs:
         createPaths(base, neededDirs)
-    logMessage('dirsPresent', base, True)
+    logMessage('dirsPresent', True)
+    return True
 
 # Check whether the file is supported
 def fileChecker(file: str, imWidth: int, imHeight: int):
     fileMod = file.split('.')
     if len(fileMod) <= 1:
-        logMessage('noFileExt', file, fileMod)
+        logMessage('noFileExt', fileMod)
         printSupported()
         return False
     else:
         fileExt = file.split('.')[-1].lower()
         if fileExt in SUPPORTED and imWidth*imHeight <= MAXPIXELS:
-            logMessage('correctFile', False, fileExt)
+            logMessage('correctFile', fileExt)
             return True
         elif fileExt in SUPPORTED and imWidth*imHeight > MAXPIXELS:
-            logMessage('tooBigRes', False, file)
+            logMessage('tooBigRes', file)
             printSupported()
             return False
         else:
-            logMessage('wrongFileExt', False, fileExt)
+            logMessage('wrongFileExt', fileExt)
             printSupported()
             return False
 
 # Read message config from the LOGCONFIG based on msgId, then go to writeMessage
-def logMessage(msgId, directory, extras):
+def logMessage(msgId: str, extras: str):
     #return True # not logging in messages into logs & terminal for the sake of small tests
     currentTime = str(datetime.now().strftime('%H_%M_%S_%f')[:-3])
 
@@ -85,7 +88,7 @@ def logMessage(msgId, directory, extras):
                     writeMessage(msg, LOGTODAY)
 
 # Print the message and log it into LOGTODAY
-def writeMessage(msg, logPath):
+def writeMessage(msg: str, logPath: str):
     print(msg[13:len(msg) - 1]) # print msg without the date at the start and without a newline at the end
     #log msg into LOGTODAY
     if path.isfile(pathlib.Path(logPath)):
@@ -98,14 +101,14 @@ def writeMessage(msg, logPath):
         ff.close()
 
 # Create paths
-def createPaths(base, dirs):
+def createPaths(base: str, dirs: list or str):
     if type(dirs) == list:
         for x in dirs:
             pathlib.Path(base + x).mkdir(parents = True, exist_ok = True)
-            logMessage('newDir', base, x)
+            logMessage('newDir', x)
     elif type(dirs) == str:
         pathlib.Path(base + dirs).mkdir(parents = True, exist_ok = True)
-        logMessage('newDir', base, dirs)
+        logMessage('newDir', dirs)
 
 # print a list of supported file extensions
 def printSupported():
@@ -117,7 +120,7 @@ def printSupported():
     print(f'\nAnd the greatest number of pixels can be: {MAXPIXELS}, which is equal to 7680×4320 - 8k')
 
 # return file name and delimiter the user used to enter a directory
-def copyToDatePath(filePath):
+def copyToDatePath(filePath: str):
     splitPath = filePath.split('\\') # split path on '\\', since all the directories are processed as with double backslashes
     delimPlace = len(str(splitPath[-1])) + 1
     file = filePath[len(filePath) - delimPlace + 1:]
@@ -127,7 +130,7 @@ def copyToDatePath(filePath):
         image = Image.open(filePath)
         imWidth, imHeight = int(image.size[0]), int(image.size[1])
         image.close()
-        logMessage('loadedFile', BASEPATH, file)
+        logMessage('loadedFile', file)
         if fileChecker(splitPath[-1], imWidth, imHeight): # check whether the file extension is supported and the image resolutions are correct
             createPaths(BASEPATH + IMAGESPATH, newDir) # create new directory for the file
             datePath = BASEPATH + IMAGESPATH + newDir
@@ -141,7 +144,7 @@ def copyToDatePath(filePath):
 def fileInput():
     printSupported()
     #print(INITMESSAGE)
-    logMessage('waitInput', False, False)
+    logMessage('waitInput', False)
     #filePath = input('Please put in an absolute path to an image you would like to have replicated:\n')
     #filePath = 'C:\\Users\\longw\\Desktop\\G Drive\\Praca_inżynierska\\Engineering_Thesis\\test images\\Standard aspect ratio\\FHD\\4k-retro-80s-wallpaper-fhd-1920x1080.jpg'
     filePath = 'C:/Users/longw/Desktop/G Drive/Praca_inżynierska/Engineering_Thesis/test images/Standard aspect ratio/FHD/4k-retro-80s-wallpaper-fhd-1920x1080.jpg'
@@ -163,10 +166,10 @@ def changeToPng(filePath: str):
     image.close()
     #print(image.close) # example: <bound method Image.close of <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1920x1080 at 0x2AC4B3DE6D0>>
     if path.isfile(pathlib.Path(finFile)):
-        logMessage('copiedOk', False, fileName+EXT)
+        logMessage('copiedOk', fileName+EXT)
         return finFile
     elif not path.isfile(pathlib.Path(finFile)):
-        logMessage('copiedFalse', False, fileName+EXT)
+        logMessage('copiedFalse', fileName+EXT)
 
 def checkImage(myDivisor: int, imWidth: int, imHeight: int, toFind: str):
     blocksArea = (imWidth * imHeight) / myDivisor
@@ -223,21 +226,21 @@ def ratioAnalyzer(filePath: str, datePath: str):
     image.close()
     while(True):
         myDivisor = 500
-        logMessage('waitInput', False, False)
+        logMessage('waitInput', False)
         myDivisor = int(input('Please provide a number of YxY areas you would like to divide your image into: '))
         ratioData, smaller, larger = checkImage(myDivisor, imWidth, imHeight, False)
         if ratioData[0] == True:
-            logMessage('configBlocksArea', False, str(ratioData[1]))
-            logMessage('configBlocksNumber', False, str(ratioData[2]))
-            logMessage('configBlocksPixels', False, str(ratioData[3]))
-            logMessage('configBlocksWidthRest', False, str(ratioData[5]))
-            logMessage('configBlocksHeightRest', False, str(ratioData[7]))
+            logMessage('configBlocksArea', str(ratioData[1]))
+            logMessage('configBlocksNumber', str(ratioData[2]))
+            logMessage('configBlocksPixels', str(ratioData[3]))
+            logMessage('configBlocksWidthRest', str(ratioData[5]))
+            logMessage('configBlocksHeightRest', str(ratioData[7]))
             ratioData = ratioData[1:]
             imageData = imageCutting(filePath, ratioData)
             saveAsCsv(IMAGEFILENAME, datePath, imageData)
             return imageData, ratioData
         elif ratioData[0] == False:
-            logMessage('incorrectNumberBlocks', False, str(ratioData[1]))
+            logMessage('incorrectNumberBlocks', str(ratioData[1]))
             if isTrue(smaller):
                 print('Closest smaller correct number of parts is: ' + str(smaller[1]))
             if isTrue(larger):
@@ -268,7 +271,7 @@ def generateBlocks(datePath: str, amount: int, size: int):
             old_percentage = percentage
             percentage = str(percentage).split('.')[0]
             print(f'{percentage}% of images generated...')
-    logMessage('blocksGenerated', False, False)
+    logMessage('blocksGenerated', False)
     saveAsCsv(BLOCKFILENAME, datePath, blocksData)
     return(blocksData)
 
@@ -291,7 +294,7 @@ def imageCutting(filePath: str, ratioData: tuple):
                         red = red + color[0]
                         green = green + color[1]
                         blue = blue + color[2]
-                partMean = (round(red/pow(ratioData[2], 2)), round(green/pow(ratioData[2], 2)), round(blue/pow(ratioData[2], 2)))
+                partMean = (myRow, myCol, round(red/pow(ratioData[2], 2)), round(green/pow(ratioData[2], 2)), round(blue/pow(ratioData[2], 2)))
                 imageData.append(partMean)
             if myCol == ratioData[5] and myRow != ratioData[3]:
                     for y in range(myRow * ratioData[2], (myRow + 1) * ratioData[2]):
@@ -300,7 +303,7 @@ def imageCutting(filePath: str, ratioData: tuple):
                             red = red + color[0]
                             green = green + color[1]
                             blue = blue + color[2]
-                    partMean = (round(red/pow(ratioData[2], 2)), round(green/pow(ratioData[2], 2)), round(blue/pow(ratioData[2], 2)))
+                    partMean = (myRow, myCol, round(red/pow(ratioData[2], 2)), round(green/pow(ratioData[2], 2)), round(blue/pow(ratioData[2], 2)))
                     imageData.append(partMean)
             elif myCol != ratioData[5] and myRow == ratioData[3]:
                     for y in range(myRow * ratioData[2], myRow * ratioData[2] + lastRow):
@@ -309,7 +312,7 @@ def imageCutting(filePath: str, ratioData: tuple):
                             red = red + color[0]
                             green = green + color[1]
                             blue = blue + color[2]
-                    partMean = (round(red/pow(ratioData[2], 2)), round(green/pow(ratioData[2], 2)), round(blue/pow(ratioData[2], 2)))
+                    partMean = (myRow, myCol, round(red/pow(ratioData[2], 2)), round(green/pow(ratioData[2], 2)), round(blue/pow(ratioData[2], 2)))
                     imageData.append(partMean)
             elif myCol == ratioData[5] and myRow == ratioData[3]:
                     for y in range(myRow * ratioData[2], myRow * ratioData[2] + lastRow):
@@ -318,21 +321,105 @@ def imageCutting(filePath: str, ratioData: tuple):
                             red = red + color[0]
                             green = green + color[1]
                             blue = blue + color[2]
-                    partMean = (round(red/pow(ratioData[2], 2)), round(green/pow(ratioData[2], 2)), round(blue/pow(ratioData[2], 2)))
+                    partMean = (myRow, myCol, round(red/pow(ratioData[2], 2)), round(green/pow(ratioData[2], 2)), round(blue/pow(ratioData[2], 2)))
                     imageData.append(partMean)
     if imageData:
         return imageData
             
-def saveAsCsv(name: str,filePath: str, data: list or tuple):
+def saveAsCsv(name: str, filePath: str, data: list or tuple):
     with open(filePath + name, 'w', newline='', encoding='UTF8') as f:
         writer = csv.writer(f)
         for row in data:
             writer.writerow(row)
-              
-if __name__ == '__main__':
-    checkDirs(BASEPATH, BASEDIRS) # initial check for directories # commented as it's working properly
-    myFile, datePath = fileInput()
-    setrecursionlimit(10000) # increase only if met with "RecursionError: maximum recursion depth exceeded while calling a Python object"
-    imageData, ratioData = ratioAnalyzer(myFile, datePath)
-    blocksData = generateBlocks(datePath, ratioData[1], ratioData[2])
+
+# to find the correct block, we will need to calculate the three-dimensional Euclidean distance
+# the mathematical formula for that would be: pow((x2-x1)**2+(y2-y1)**2+(z2-z1)**2, 0.5)  
+def euclidian_distance_vector_single_block(block: tuple, images: pd.DataFrame):
+    largeDistanceListWithIndexes = []
+    largeDistanceList = []
+    y = []
+    for index in range(0, images.index[-1]+1):
+        x = (((images['R_images'][index]-block[0])**2 + (images['G_images'][index]-block[1])**2 + (images['B_images'][index]-block[2])**2)**0.5)
+        y.append(x)
+        y.append(index)
+        largeDistanceListWithIndexes.append(y)
+        largeDistanceList.append(x)
+        y = []
+    return largeDistanceListWithIndexes, largeDistanceList
+
+# find the closest number within array which is the closest to the mean
+def find_closest(array, mean: float):
+    newArray = []
+    for n in range(0, len(array)-1):
+        if len(array[n]) == 2:
+            newArray.append(array[n][0])
+        else:
+            newArray.append(-1)
+    array2 = np.asarray(newArray)
+    idx = (np.abs(array2 - mean)).argmin()
+    return array[idx]
+# remove an element from a list
+def removeElement(distanceList: list, index: int):
+    for n in range(0, len(distanceList)):
+        newList = distanceList[n]
+        newList[index].pop(0)
+        newList[index].pop(0)
+        distanceList[n] = newList
+    return distanceList
+
+def comparingImagesAndBlocks():
+    trainPath = BASEPATH + IMAGESPATH
+    #print(trainPath) # C:\Users\longw\Desktop\G Drive\Praca_inżynierska\Engineering_Thesis\backups\images\
+        
+    # find the newest directory within backups/images/
+    withinImages= pathlib.Path(trainPath).glob('*')
+    dataPaths = [file for file in withinImages if file.is_dir()]
+    newestDir = str(dataPaths[-1]) + '\\'
+    #print(newestDir) # C:\Users\longw\Desktop\G Drive\Praca_inżynierska\Engineering_Thesis\backups\images\220117_21214749\
+
+    dfImages = pd.read_csv(newestDir + IMAGEFILENAME, index_col=None, header=None, names=['image row', 'image col', 'R_images','G_images','B_images'])
+    dfBlocks = pd.read_csv(newestDir + BLOCKFILENAME, index_col=None, header=None, names=['R_blocks','G_blocks','B_blocks', 'Path'])
+
+    # new dataframe columns, the element will be changed once the block is assigned to the part of an image
+    dfBlocks['assigned row'] = 0 
+    dfBlocks['assigned col'] = 0
+
+    # deleting unnecessary data if the image's edges were rounded
+    dfImages = dfImages[0:len(dfBlocks)]
+    singleBlockDistanceWithIndexes = []
+    singleBlockDistance = []
+    for n in range(0, dfBlocks.index[-1]+1):
+        x, y = euclidian_distance_vector_single_block((dfBlocks['R_blocks'][n], dfBlocks['G_blocks'][n], dfBlocks['B_blocks'][n]), dfImages)
+        singleBlockDistanceWithIndexes.append(x)
+        singleBlockDistance.append(y)
+    meanBlockDistance = []
+    for n in range(0, dfBlocks.index[-1]+1):
+        x = np.mean(singleBlockDistance[n])
+        meanBlockDistance.append(x)
+    closestBlocks = []
+    for n in range(0, dfBlocks.index[-1]):
+        x = find_closest(singleBlockDistanceWithIndexes[n], meanBlockDistance[n])
+        y = [x[0], x[1], n]
+        if n != dfBlocks.index[-1]-1:
+            closestBlocks.append(y)
+        singleBlockDistanceWithIndexes = removeElement(singleBlockDistanceWithIndexes, x[1])
+        
+    for n in singleBlockDistanceWithIndexes[dfBlocks.index[-1]]:
+        if n:
+            closestBlocks.append([n[0], n[1], dfBlocks.index[-1]])
+    #print(closestBlocks)
+    for n in closestBlocks:
+        dfBlocks['assigned row'][n[2]] = dfImages['image row'][n[1]]
+        dfBlocks['assigned col'][n[2]] = dfImages['image col'][n[1]]
+    dfBlocksColumns = dfBlocks.columns.tolist()
+    dfBlocksColumns = dfBlocksColumns[0:3] + dfBlocksColumns[4:] + dfBlocksColumns[3:4]
+    dfBlocks = dfBlocks[dfBlocksColumns]
+    dfBlocks.to_csv(newestDir + 'blocksAssignedToImages.csv', index=False)
     
+if __name__ == '__main__':
+    if checkDirs(BASEPATH, BASEDIRS): # initial check for directories # commented as it's working properly
+        myFile, datePath = fileInput()
+        setrecursionlimit(10000) # increase only if met with "RecursionError: maximum recursion depth exceeded while calling a Python object"
+        imageData, ratioData = ratioAnalyzer(myFile, datePath)
+        blocksData = generateBlocks(datePath, ratioData[1], ratioData[2])
+        comparingImagesAndBlocks()
