@@ -1,0 +1,32 @@
+12_36_02_075 [INFO] Directory already present - logs
+12_36_02_087 [INFO] Directory already present - backups\images
+12_36_02_087 [INFO] All directories needed are present
+12_36_02_089 [INFO] Waiting for user input...
+12_36_02_192 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+12_36_02_194 [INFO] Provided file extension is supported: jpg
+12_36_02_195 [INFO] New directory has been created - 220123_12360209
+12_36_02_205 [INFO] Waiting for user input...
+12_36_03_234 [INFO] All the blocks will cover the area of number of blocks: 300
+12_36_03_235 [INFO] Number of parts used(numberically): 299
+12_36_03_236 [INFO] Width and height of a part in pixels: 83
+12_36_03_237 [INFO] Percentage edges rounded vertically: 0.012048192771084
+12_36_03_238 [INFO] Percentage edges rounded horizontally: 0.132530120481928
+12_36_03_813 [INFO] New directory has been created - blocks
+12_36_04_144 [INFO] All the blocks have been successfully generated
+12_38_06_635 [INFO] Directory already present - logs
+12_38_06_635 [INFO] Directory already present - backups\images
+12_38_06_650 [INFO] All directories needed are present
+12_38_06_651 [INFO] Waiting for user input...
+12_38_06_665 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+12_38_06_666 [INFO] Provided file extension is supported: jpg
+12_38_06_668 [INFO] New directory has been created - 220123_12380665
+12_38_06_674 [INFO] Waiting for user input...
+12_38_07_928 [ERROR] The number of parts is incorrect! 1500
+12_38_07_930 [INFO] Waiting for user input...
+12_38_11_764 [INFO] All the blocks will cover the area of number of blocks: 1646
+12_38_11_766 [INFO] Number of parts used(numberically): 1705
+12_38_11_768 [INFO] Width and height of a part in pixels: 35
+12_38_11_769 [INFO] Percentage edges rounded vertically: 0.857142857142858
+12_38_11_771 [INFO] Percentage edges rounded horizontally: 0.857142857142854
+12_38_12_307 [INFO] New directory has been created - blocks
+12_38_13_892 [INFO] All the blocks have been successfully generated
