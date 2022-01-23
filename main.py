@@ -18,12 +18,11 @@ IMAGESPATH = 'backups\\images\\' # path to where the images inputted by the user
 CONFIGFILE = '.\\config.properties' # config file
 LOGCONFIG = '.\\logs_config.csv' # config file of the logging system: msgType, msgId, msgContent, addition
 SUPPORTED = ('png', 'jpg', 'jpeg') # supported file extensions
-MAXPIXELS = 33177600 # maximum amount of pixels supported, 33177600 is equal to 8k
+MAXPIXELS = 8294400 # maximum amount of pixels supported, 8294400 is equal to 4k, 33177600 is equal to 8k
 LOGFILE = 'logs\\logs_' # directory/name of a log file
 CURRENTDATE = str(date.today().strftime('%Y_%m_%d')) # date at which the script is run
 LOGTODAY = BASEPATH + LOGFILE + CURRENTDATE + '.txt' # defining today's log path
-INITMESSAGE = 'Welcome to the program!'
-MAXBLOCKS, STANDBLOCKS, MINBLOCKS = 100, 60, 20 # maximum/minimum amount of Randomly Rendered Blocks(RRB) possible to generate
+INITMESSAGE = 'Welcome to the program!\n'+'It is handle your input, divide the image into N (provided by the user) YxY path.\n' + 'Do not worry, just input any number and the program will tell you if the number is incorrect.\n' + 'Once the number is correct, the program will calculate each part\'s mean color.\n' + 'Then, N number of YxY blocks with random colors will be generated.\n' + 'At last they will be assigned to images\' parts to match the original image in the most accurate way.' 
 BLOCKSBOUNDARY = 15
 EXT = '.png' # deprecated
 BLOCKSDIR = 'blocks'
@@ -117,7 +116,7 @@ def printSupported():
         print(ext, end='')
         if ext != SUPPORTED[-1]:
             print(',', end=' ')
-    print(f'\nAnd the greatest number of pixels can be: {MAXPIXELS}, which is equal to 7680×4320 - 8k')
+    print(f'\nAnd the greatest number of pixels can be: {MAXPIXELS}, which is equal to 3840x2160 - 4k')
 
 # return file name and delimiter the user used to enter a directory
 def copyToDatePath(filePath: str):
@@ -143,11 +142,11 @@ def copyToDatePath(filePath: str):
 # Handling user input
 def fileInput():
     printSupported()
-    #print(INITMESSAGE)
+    print(INITMESSAGE)
     logMessage('waitInput', False)
-    #filePath = input('Please put in an absolute path to an image you would like to have replicated:\n')
+    filePath = input('Please put in an absolute path to an image you would like to have replicated:\n')
     #filePath = 'C:\\Users\\longw\\Desktop\\G Drive\\Praca_inżynierska\\Engineering_Thesis\\test images\\Standard aspect ratio\\FHD\\4k-retro-80s-wallpaper-fhd-1920x1080.jpg'
-    filePath = 'C:/Users/longw/Desktop/G Drive/Praca_inżynierska/Engineering_Thesis/test images/Standard aspect ratio/FHD/4k-retro-80s-wallpaper-fhd-1920x1080.jpg'
+    #filePath = 'C:/Users/longw/Desktop/G Drive/Praca_inżynierska/Engineering_Thesis/test images/Standard aspect ratio/FHD/4k-retro-80s-wallpaper-fhd-1920x1080.jpg'
     filePath = path.realpath(filePath) # change the provided delim to '\'
     finalPath, datePath = copyToDatePath(filePath)
     datePath = datePath + '\\'
@@ -416,10 +415,13 @@ def comparingImagesAndBlocks():
     dfBlocks = dfBlocks[dfBlocksColumns]
     dfBlocks.to_csv(newestDir + 'blocksAssignedToImages.csv', index=False)
     
-if __name__ == '__main__':
+def main():
     if checkDirs(BASEPATH, BASEDIRS): # initial check for directories # commented as it's working properly
         myFile, datePath = fileInput()
         setrecursionlimit(10000) # increase only if met with "RecursionError: maximum recursion depth exceeded while calling a Python object"
-        imageData, ratioData = ratioAnalyzer(myFile, datePath)
-        blocksData = generateBlocks(datePath, ratioData[1], ratioData[2])
+        ratioData = ratioAnalyzer(myFile, datePath)
+        generateBlocks(datePath, ratioData[1], ratioData[2])
         comparingImagesAndBlocks()
+        
+if __name__ == '__main__':
+    main()

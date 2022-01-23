@@ -30,3 +30,83 @@
 12_38_11_771 [INFO] Percentage edges rounded horizontally: 0.857142857142854
 12_38_12_307 [INFO] New directory has been created - blocks
 12_38_13_892 [INFO] All the blocks have been successfully generated
+20_09_12_807 [INFO] Directory already present - logs
+20_09_12_809 [INFO] Directory already present - backups\images
+20_09_12_810 [INFO] All directories needed are present
+20_09_12_812 [INFO] Waiting for user input...
+20_09_12_829 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+20_09_12_830 [INFO] Provided file extension is supported: jpg
+20_09_12_832 [INFO] New directory has been created - 220123_20091281
+20_09_12_842 [INFO] Waiting for user input...
+20_09_14_115 [INFO] All the blocks will cover the area of number of blocks: 27
+20_09_14_116 [INFO] Number of parts used(numberically): 28
+20_09_14_117 [INFO] Width and height of a part in pixels: 277
+20_09_14_119 [INFO] Percentage edges rounded vertically: 0.898916967509025
+20_09_14_122 [INFO] Percentage edges rounded horizontally: 0.931407942238267
+20_09_14_661 [INFO] New directory has been created - blocks
+20_09_14_766 [INFO] All the blocks have been successfully generated
+20_13_04_308 [INFO] Directory already present - logs
+20_13_04_309 [INFO] Directory already present - backups\images
+20_13_04_310 [INFO] All directories needed are present
+20_13_04_312 [INFO] Waiting for user input...
+20_28_40_227 [INFO] Directory already present - logs
+20_28_40_229 [INFO] Directory already present - backups\images
+20_28_40_230 [INFO] All directories needed are present
+20_28_40_232 [INFO] Waiting for user input...
+20_28_47_336 [INFO] Directory already present - logs
+20_28_47_337 [INFO] Directory already present - backups\images
+20_28_47_338 [INFO] All directories needed are present
+20_28_47_340 [INFO] Waiting for user input...
+20_29_20_724 [INFO] File loaded: 242747628_2170453619774430_6716318759484597320_n.jpg
+20_29_20_726 [INFO] Provided file extension is supported: jpg
+20_29_20_727 [INFO] New directory has been created - 220123_20292071
+20_29_20_734 [INFO] Waiting for user input...
+20_29_23_610 [ERROR] The number of parts is incorrect! 27
+20_29_23_613 [INFO] Waiting for user input...
+20_29_33_983 [ERROR] The number of parts is incorrect! 60
+20_29_33_986 [INFO] Waiting for user input...
+20_29_37_029 [INFO] All the blocks will cover the area of number of blocks: 49
+20_29_37_031 [INFO] Number of parts used(numberically): 48
+20_29_37_032 [INFO] Width and height of a part in pixels: 253
+20_29_37_035 [INFO] Percentage edges rounded vertically: 0.09486166007905
+20_29_37_037 [INFO] Percentage edges rounded horizontally: 0.071146245059288
+20_29_37_730 [INFO] New directory has been created - blocks
+20_29_37_877 [INFO] All the blocks have been successfully generated
+20_34_43_320 [INFO] Directory already present - logs
+20_34_43_321 [INFO] Directory already present - backups\images
+20_34_43_322 [INFO] All directories needed are present
+20_34_43_324 [INFO] Waiting for user input...
+20_34_51_411 [INFO] File loaded: 540654.jpg
+20_34_51_412 [INFO] Provided file extension is supported: jpg
+20_34_51_413 [INFO] New directory has been created - 220123_20345139
+20_34_51_428 [INFO] Waiting for user input...
+20_34_53_436 [ERROR] The number of parts is incorrect! 50
+20_34_53_438 [INFO] Waiting for user input...
+20_34_55_123 [INFO] All the blocks will cover the area of number of blocks: 47
+20_34_55_125 [INFO] Number of parts used(numberically): 45
+20_34_55_126 [INFO] Width and height of a part in pixels: 280
+20_34_55_127 [INFO] Percentage edges rounded vertically: 0.142857142857143
+20_34_55_128 [INFO] Percentage edges rounded horizontally: 0.142857142857142
+20_34_55_968 [INFO] New directory has been created - blocks
+20_34_56_154 [INFO] All the blocks have been successfully generated
+20_35_36_854 [INFO] Directory already present - logs
+20_35_36_855 [INFO] Directory already present - backups\images
+20_35_36_856 [INFO] All directories needed are present
+20_35_36_858 [INFO] Waiting for user input...
+20_35_44_898 [INFO] File loaded: 0236-solo-czarna-herbata-o-sm-brzoskwiniowym-960x960.jpg
+20_35_44_900 [INFO] Provided file extension is supported: jpg
+20_35_44_902 [INFO] New directory has been created - 220123_20354487
+20_35_44_909 [INFO] Waiting for user input...
+20_35_50_892 [ERROR] The number of parts is incorrect! 27
+20_35_50_895 [INFO] Waiting for user input...
+20_36_02_123 [INFO] All the blocks will cover the area of number of blocks: 26
+20_36_02_125 [INFO] Number of parts used(numberically): 25
+20_36_02_127 [INFO] Width and height of a part in pixels: 188
+20_36_02_129 [INFO] Percentage edges rounded vertically: 0.1063829787234045
+20_36_02_131 [INFO] Percentage edges rounded horizontally: 0.1063829787234045
+20_36_02_344 [INFO] New directory has been created - blocks
+20_36_02_404 [INFO] All the blocks have been successfully generated
+20_59_08_606 [INFO] Directory already present - logs
+20_59_08_611 [INFO] Directory already present - backups\images
+20_59_08_612 [INFO] All directories needed are present
+20_59_08_615 [INFO] Waiting for user input...
