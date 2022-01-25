@@ -7,14 +7,12 @@ ERROR,wrongFileExt,File with the provided extension is not supported:,extras
 ERROR,noFileExt,File provided does not have any file extension defined,
 INFO,correctFile,Provided file extension is supported:,extras
 INFO,loadedFile,File loaded:,extras
-INFO,copiedOk,Copy of a source file saved as:,extras
-ERROR,copiedFalse,Source file was unsuccessfully copied,
 ERROR,tooBigRes,Provided file is outside the supported maximum resolution:,extras
-INFO,correctNumberBlocks,Number of parts used(in terms of an area):,extras
+INFO,correctNumberBlocks,Number of parts used(in terms of an area covered):,extras
 ERROR,incorrectNumberBlocks,The number of parts is incorrect!,extras
-INFO,configBlocksNumber,Number of parts used(numberically):,extras
-INFO,configBlocksPixels,Width and height of a part in pixels:,extras
-INFO,configBlocksWidthRest,Percentage edges rounded vertically:,extras
-INFO,configBlocksHeightRest,Percentage edges rounded horizontally:,extras
-INFO,configBlocksArea,All the blocks will cover the area of number of blocks:,extras
+INFO,configBlocksNumber,Total number of parts used:,extras
+INFO,configBlocksPixels,Width and height of every part in pixels(excluding last row & column):,extras
+INFO,configBlocksWidthRest,Percentage of edges rounded vertically:,extras
+INFO,configBlocksHeightRest,Percentage of edges rounded horizontally:,extras
+INFO,configBlocksArea,Number of parts used(in terms of an area covered):,extras
 INFO,blocksGenerated,All the blocks have been successfully generated,

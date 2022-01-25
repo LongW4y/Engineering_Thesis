@@ -11,6 +11,7 @@ import random
 import pandas as pd
 import numpy as np
 
+#############################################################################################################################
 # Global variables:
 BASEPATH = str(pathlib.Path(__file__).parent.resolve()) + '\\' # directory of the main.py
 BASEDIRS = ('logs', 'backups\\images') # main directories used throughout the program
@@ -19,21 +20,24 @@ CONFIGFILE = '.\\config.properties' # config file
 LOGCONFIG = '.\\logs_config.csv' # config file of the logging system: msgType, msgId, msgContent, addition
 SUPPORTED = ('png', 'jpg', 'jpeg') # supported file extensions
 MAXPIXELS = 8294400 # maximum amount of pixels supported, 8294400 is equal to 4k, 33177600 is equal to 8k
-LOGFILE = 'logs\\logs_' # directory/name of a log file
+LOGFILE = f'{BASEDIRS[0]}\\logs_' # directory\name of a log file
 CURRENTDATE = str(date.today().strftime('%Y_%m_%d')) # date at which the script is run
 LOGTODAY = BASEPATH + LOGFILE + CURRENTDATE + '.txt' # defining today's log path
-INITMESSAGE = 'Welcome to the program!\n'+'It is handle your input, divide the image into N (provided by the user) YxY path.\n' + 'Do not worry, just input any number and the program will tell you if the number is incorrect.\n' + 'Once the number is correct, the program will calculate each part\'s mean color.\n' + 'Then, N number of YxY blocks with random colors will be generated.\n' + 'At last they will be assigned to images\' parts to match the original image in the most accurate way.' 
+INITMESSAGE = 'Welcome to the program!\n' + 'It is handle your input, divide the image into N (provided by the user) YxY path.\n' + 'Do not worry, just input any number and the program will tell you if the number is incorrect.\n' + 'Once the number is correct, the program will calculate each part\'s mean color.\n' + 'Then, N number of YxY blocks with random colors will be generated.\n' + 'At last they will be assigned to images\' parts to match the original image in the most accurate way.' 
 BLOCKSBOUNDARY = 15
-EXT = '.png' # deprecated
 BLOCKSDIR = 'blocks'
 BLOCKFILENAME = 'blocksData.csv'
 IMAGEFILENAME = 'imageData.csv'
+ASSIGNEDFILENAME = 'blocksAssignedToImages.csv'
+
+#############################################################################################################################
 # Check what directories are present, needed and then create them
 def checkDirs(base: str, dirs: list().__class__ == str):
     presentDirs = []
     # check what directories are present
     if base == BASEPATH:
-        for x in pathlib.Path(base).rglob('*'): # check what directories are present within base recursively
+        # check what directories are present within base recursively
+        for x in pathlib.Path(base).rglob('*'): 
             if x.is_dir():
                 presentDirs.append(str(x)[len(BASEPATH):])
     neededDirs = []
@@ -77,7 +81,8 @@ def logMessage(msgId: str, extras: str):
 
     with open(LOGCONFIG, 'r') as singleRow:
         singleRow = csv.reader(singleRow) # read a single row
-        for col in singleRow: # col[0] = msgType, col[1] = msgId, col[2] = msgContent, col[3] = extras(optional)
+        for col in singleRow:
+            # col[0] = msgType, col[1] = msgId, col[2] = msgContent, col[3] = extras(optional)
             if msgId == col[1]:
                 if col[3] == '':
                     msg = f'{currentTime} [{col[0]}] {col[2]}\n'
@@ -88,7 +93,8 @@ def logMessage(msgId: str, extras: str):
 
 # Print the message and log it into LOGTODAY
 def writeMessage(msg: str, logPath: str):
-    print(msg[13:len(msg) - 1]) # print msg without the date at the start and without a newline at the end
+    # print msg without the date at the start and without a newline at the end
+    print(msg[13:len(msg) - 1]) 
     #log msg into LOGTODAY
     if path.isfile(pathlib.Path(logPath)):
         ff = open(logPath, 'a')
@@ -120,7 +126,8 @@ def printSupported():
 
 # return file name and delimiter the user used to enter a directory
 def copyToDatePath(filePath: str):
-    splitPath = filePath.split('\\') # split path on '\\', since all the directories are processed as with double backslashes
+    # split path on '\\', since all the directories are processed as with double backslashes
+    splitPath = filePath.split('\\') 
     delimPlace = len(str(splitPath[-1])) + 1
     file = filePath[len(filePath) - delimPlace + 1:]
     if filePath[-delimPlace] == '\\':
@@ -130,8 +137,10 @@ def copyToDatePath(filePath: str):
         imWidth, imHeight = int(image.size[0]), int(image.size[1])
         image.close()
         logMessage('loadedFile', file)
-        if fileChecker(splitPath[-1], imWidth, imHeight): # check whether the file extension is supported and the image resolutions are correct
-            createPaths(BASEPATH + IMAGESPATH, newDir) # create new directory for the file
+        # check whether the file extension is supported and the image resolutions are correct
+        if fileChecker(splitPath[-1], imWidth, imHeight): 
+            # create new directory for the file
+            createPaths(BASEPATH + IMAGESPATH, newDir) 
             datePath = BASEPATH + IMAGESPATH + newDir
             finalPath = datePath + delim + splitPath[-1]
             shutil.copyfile(filePath, finalPath)
@@ -141,34 +150,17 @@ def copyToDatePath(filePath: str):
 
 # Handling user input
 def fileInput():
-    printSupported()
     print(INITMESSAGE)
+    printSupported()
     logMessage('waitInput', False)
-    filePath = input('Please put in an absolute path to an image you would like to have replicated:\n')
+    #filePath = input('Please put in an absolute path to an image you would like to have replicated:\n')
     #filePath = 'C:\\Users\\longw\\Desktop\\G Drive\\Praca_inżynierska\\Engineering_Thesis\\test images\\Standard aspect ratio\\FHD\\4k-retro-80s-wallpaper-fhd-1920x1080.jpg'
-    #filePath = 'C:/Users/longw/Desktop/G Drive/Praca_inżynierska/Engineering_Thesis/test images/Standard aspect ratio/FHD/4k-retro-80s-wallpaper-fhd-1920x1080.jpg'
+    filePath = 'C:/Users/longw/Desktop/G Drive/Praca_inżynierska/Engineering_Thesis/test images/Standard aspect ratio/FHD/4k-retro-80s-wallpaper-fhd-1920x1080.jpg'
     filePath = path.realpath(filePath) # change the provided delim to '\'
     finalPath, datePath = copyToDatePath(filePath)
     datePath = datePath + '\\'
-    # next step, image processing
-    #newImage = changeToPng(finalPath)
-    return finalPath, datePath
 
-#########################################   DEPRECATED (!!!!!!!!!!!!!!!!!!!!!!!!!)
-# Saving the copy of a source file as PNG
-def changeToPng(filePath: str):
-    fileName = filePath.split('\\')[-1]
-    image = Image.open(filePath) # https://www.developer.com/languages/displaying-and-converting-images-with-python/ <- about file extensions
-    #image.show()
-    finFile = filePath+EXT
-    image.save(finFile) # saving the file as png format
-    image.close()
-    #print(image.close) # example: <bound method Image.close of <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=1920x1080 at 0x2AC4B3DE6D0>>
-    if path.isfile(pathlib.Path(finFile)):
-        logMessage('copiedOk', fileName+EXT)
-        return finFile
-    elif not path.isfile(pathlib.Path(finFile)):
-        logMessage('copiedFalse', fileName+EXT)
+    return finalPath, datePath
 
 def checkImage(myDivisor: int, imWidth: int, imHeight: int, toFind: str):
     blocksArea = (imWidth * imHeight) / myDivisor
@@ -176,12 +168,12 @@ def checkImage(myDivisor: int, imWidth: int, imHeight: int, toFind: str):
     blocksVertical, blocksHorizontal = imWidth / blocksSize, imHeight / blocksSize
     totalImages = ceil(blocksHorizontal) * ceil(blocksVertical)
     restVertical, restHorizontal = float('.' + str(blocksVertical).split('.')[-1]), float('.' + str(blocksHorizontal).split('.')[-1])
-    myCondition = ((restHorizontal > 1 - BLOCKSBOUNDARY/100) and (restVertical > 1 - BLOCKSBOUNDARY/100))
-    conditionSkipLastRowCol = ((restHorizontal < BLOCKSBOUNDARY/100) and (restVertical < BLOCKSBOUNDARY/100))
+    myCondition = ((restHorizontal >= 1 - BLOCKSBOUNDARY/100) and (restVertical >= 1 - BLOCKSBOUNDARY/100))
+    conditionSkipLastRowCol = ((restHorizontal <= BLOCKSBOUNDARY/100) and (restVertical <= BLOCKSBOUNDARY/100))
     if not toFind:
         if myCondition:
             return (True, myDivisor, totalImages, blocksSize, int(str(blocksHorizontal).split('.')[0]), restHorizontal, int(str(blocksVertical).split('.')[0]), restVertical), (False), (False)
-        if conditionSkipLastRowCol:
+        elif conditionSkipLastRowCol:
             horizontal = int(str(blocksHorizontal).split('.')[0])
             vertical = int(str(blocksVertical).split('.')[0])
             return (True, myDivisor, horizontal * vertical, blocksSize, horizontal, restHorizontal, vertical, restVertical), (False), (False)
@@ -193,7 +185,7 @@ def checkImage(myDivisor: int, imWidth: int, imHeight: int, toFind: str):
     elif toFind == 'smaller':
         if myCondition or conditionSkipLastRowCol:
             return (True, myDivisor)
-        elif myDivisor > 20: 
+        elif myDivisor >= 20: 
             return checkImage(myDivisor-1, imWidth, imHeight, 'smaller')
         else:
             return (False)
@@ -226,18 +218,21 @@ def ratioAnalyzer(filePath: str, datePath: str):
     while(True):
         myDivisor = 500
         logMessage('waitInput', False)
-        myDivisor = int(input('Please provide a number of YxY areas you would like to divide your image into: '))
+        myDivisor = int(input('Please provide a number of YxY parts you would like to divide your image into: '))
         ratioData, smaller, larger = checkImage(myDivisor, imWidth, imHeight, False)
         if ratioData[0] == True:
-            logMessage('configBlocksArea', str(ratioData[1]))
-            logMessage('configBlocksNumber', str(ratioData[2]))
-            logMessage('configBlocksPixels', str(ratioData[3]))
-            logMessage('configBlocksWidthRest', str(ratioData[5]))
-            logMessage('configBlocksHeightRest', str(ratioData[7]))
-            ratioData = ratioData[1:]
-            imageData = imageCutting(filePath, ratioData)
-            saveAsCsv(IMAGEFILENAME, datePath, imageData)
-            return imageData, ratioData
+            x = input(f'Provided number of parts is correct: {myDivisor}. To proceed enter \'Yes\'/\'Y\', or press enter: ')
+            x = x.lower()
+            if x == 'yes' or x == 'y' or x == '':
+                logMessage('configBlocksArea', str(ratioData[1]))
+                logMessage('configBlocksNumber', str(ratioData[2]))
+                logMessage('configBlocksPixels', str(ratioData[3]))
+                logMessage('configBlocksWidthRest', str(1-ratioData[5]))
+                logMessage('configBlocksHeightRest', str(1-ratioData[7]))
+                ratioData = ratioData[1:]
+                imageData = imageCutting(filePath, ratioData)
+                saveAsCsv(IMAGEFILENAME, datePath, imageData)
+                return ratioData
         elif ratioData[0] == False:
             logMessage('incorrectNumberBlocks', str(ratioData[1]))
             if isTrue(smaller):
@@ -413,14 +408,27 @@ def comparingImagesAndBlocks():
     dfBlocksColumns = dfBlocks.columns.tolist()
     dfBlocksColumns = dfBlocksColumns[0:3] + dfBlocksColumns[4:] + dfBlocksColumns[3:4]
     dfBlocks = dfBlocks[dfBlocksColumns]
-    dfBlocks.to_csv(newestDir + 'blocksAssignedToImages.csv', index=False)
+    dfBlocks.to_csv(newestDir + ASSIGNEDFILENAME, index=False)
     
 def main():
-    if checkDirs(BASEPATH, BASEDIRS): # initial check for directories # commented as it's working properly
+    # initial check for directories # commented as it's working properly
+    if checkDirs(BASEPATH, BASEDIRS): 
+        #handling user input
         myFile, datePath = fileInput()
-        setrecursionlimit(10000) # increase only if met with "RecursionError: maximum recursion depth exceeded while calling a Python object"
+        
+        # increase only if met with "RecursionError: maximum recursion depth exceeded while calling a Python object"
+        setrecursionlimit(10000) 
+        
+        # image processing
         ratioData = ratioAnalyzer(myFile, datePath)
+        
+        # generation of N YxY blocks based on the data of the original image (Amount of parts, Height/Width of a single part)
         generateBlocks(datePath, ratioData[1], ratioData[2])
+        
+        # disabling the false positive message which pandas return in regards with the operation
+        pd.options.mode.chained_assignment = None
+        
+        # matching blocks to images' parts
         comparingImagesAndBlocks()
         
 if __name__ == '__main__':
