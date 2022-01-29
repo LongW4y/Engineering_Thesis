@@ -16,3 +16,7 @@ INFO,configBlocksWidthRest,Percentage of edges rounded vertically:,extras
 INFO,configBlocksHeightRest,Percentage of edges rounded horizontally:,extras
 INFO,configBlocksArea,Number of parts used(in terms of an area covered):,extras
 INFO,blocksGenerated,All the blocks have been successfully generated,
+INFO,imageGenerated,Final image has been successfully generated. Terminating the application.,
+INFO,blocksMatched,Blocks have been successfully assigned to parts of the original image,
+INFO,csvGenerated,A csv file has been generated: ,extras
+INFO,imageAnalyzed,Image used as a base has been successfully analyzed!,

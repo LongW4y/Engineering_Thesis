@@ -1,0 +1,27 @@
+12_36_37_987 [INFO] Directory already present - logs
+12_36_37_989 [INFO] Directory already present - images
+12_36_37_990 [INFO] All directories needed are present
+12_36_37_992 [INFO] Waiting for user input...
+12_36_41_446 [INFO] File loaded: moonlight_night-wallpaper-1920x1080.jpg
+12_36_41_447 [INFO] Provided file extension is supported: jpg
+12_36_41_450 [INFO] New directory has been created - 220129_1236414
+12_36_47_418 [INFO] Directory already present - logs
+12_36_47_419 [INFO] Directory already present - images
+12_36_47_429 [INFO] All directories needed are present
+12_36_47_432 [INFO] Waiting for user input...
+12_36_53_437 [INFO] File loaded: moonlight_night-wallpaper-1920x1080.jpg
+12_36_53_439 [INFO] Provided file extension is supported: jpg
+12_36_53_442 [INFO] New directory has been created - 220129_1236534
+12_36_53_463 [INFO] Waiting for user input...
+12_37_01_964 [INFO] Number of parts used(in terms of an area covered): 292
+12_37_01_966 [INFO] Total number of parts used: 299
+12_37_01_968 [INFO] Width and height of every part in pixels(excluding last row & column): 84
+12_37_01_970 [INFO] Percentage of edges rounded vertically: 0.14285714285714202
+12_37_01_971 [INFO] Percentage of edges rounded horizontally: 0.14285714285714202
+12_37_02_453 [INFO] Image used as a base has been successfully analyzed!
+12_37_02_455 [INFO] A csv file has been generated:  imageData.csv
+12_37_02_485 [INFO] All the blocks have been successfully generated
+12_37_02_487 [INFO] A csv file has been generated:  blocksData.csv
+12_37_05_238 [INFO] Blocks have been successfully assigned to parts of the original image
+12_37_05_244 [INFO] A csv file has been generated:  blocksAssignedToImages.csv
+12_37_05_359 [INFO] Final image has been successfully generated. Terminating the application.
