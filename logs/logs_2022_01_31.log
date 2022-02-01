@@ -1,0 +1,223 @@
+16_45_56_750 [INFO] Directory already present - logs
+16_45_56_755 [INFO] Directory already present - images
+16_45_56_758 [INFO] All directories needed are present
+16_45_56_760 [INFO] Waiting for user input...
+16_46_11_995 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+16_46_11_996 [INFO] Provided file extension is supported: jpg
+16_46_11_999 [INFO] New directory has been created - 220131_1646119
+16_46_12_116 [INFO] Waiting for user input...
+16_46_16_084 [INFO] Number of parts used(in terms of an area covered): 292
+16_46_16_088 [INFO] Total number of parts used: 299
+16_46_16_090 [INFO] Width and height of every part in pixels(excluding last row & column): 84
+16_46_16_093 [INFO] Percentage of edges rounded vertically: 0.14285714285714202
+16_46_16_095 [INFO] Percentage of edges rounded horizontally: 0.14285714285714202
+16_46_16_595 [INFO] Image used as a base has been successfully analyzed!
+16_46_16_601 [INFO] A csv file has been generated:  imageData.csv
+16_46_16_604 [INFO] New directory has been created - blocks
+16_46_16_932 [INFO] All the blocks have been successfully generated
+16_46_16_935 [INFO] A csv file has been generated:  blocksData.csv
+18_55_38_830 [INFO] Blocks have been successfully assigned to parts of the original image
+18_55_38_841 [INFO] A csv file has been generated:  blocksAssignedToImages.csv
+18_55_38_966 [INFO] Final image has been successfully generated. Terminating the application.
+18_58_06_471 [INFO] Directory already present - logs
+18_58_06_472 [INFO] Directory already present - images
+18_58_06_473 [INFO] All directories needed are present
+18_58_06_475 [INFO] Waiting for user input...
+18_58_10_183 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+18_58_10_184 [INFO] Provided file extension is supported: jpg
+18_58_10_185 [INFO] New directory has been created - 220131_1858101
+18_58_10_209 [INFO] Waiting for user input...
+18_58_12_471 [INFO] Number of parts used(in terms of an area covered): 292
+18_58_12_473 [INFO] Total number of parts used: 299
+18_58_12_474 [INFO] Width and height of every part in pixels(excluding last row & column): 84
+18_58_12_475 [INFO] Percentage of edges rounded vertically: 0.14285714285714202
+18_58_12_476 [INFO] Percentage of edges rounded horizontally: 0.14285714285714202
+18_58_12_978 [INFO] Image used as a base has been successfully analyzed!
+18_58_12_980 [INFO] A csv file has been generated:  imageData.csv
+18_58_12_989 [INFO] New directory has been created - blocks
+18_58_13_303 [INFO] All the blocks have been successfully generated
+18_58_13_305 [INFO] A csv file has been generated:  blocksData.csv
+18_58_17_298 [INFO] Blocks have been successfully assigned to parts of the original image
+18_58_17_305 [INFO] A csv file has been generated:  blocksAssignedToImages.csv
+18_58_36_790 [INFO] Final image has been successfully generated. Terminating the application.
+18_58_45_849 [INFO] Directory already present - logs
+18_58_45_850 [INFO] Directory already present - images
+18_58_45_851 [INFO] All directories needed are present
+18_58_45_854 [INFO] Waiting for user input...
+18_58_47_732 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+18_58_47_733 [INFO] Provided file extension is supported: jpg
+18_58_47_735 [INFO] New directory has been created - 220131_1858477
+18_58_47_757 [INFO] Waiting for user input...
+18_58_51_251 [INFO] Number of parts used(in terms of an area covered): 9000
+18_58_51_252 [INFO] Total number of parts used: 9216
+18_58_51_253 [INFO] Width and height of every part in pixels(excluding last row & column): 15
+18_58_51_254 [INFO] Percentage of edges rounded vertically: 1.0
+18_58_51_255 [INFO] Percentage of edges rounded horizontally: 1.0
+18_58_51_799 [INFO] Image used as a base has been successfully analyzed!
+18_58_51_810 [INFO] A csv file has been generated:  imageData.csv
+18_58_51_814 [INFO] New directory has been created - blocks
+18_59_00_083 [INFO] All the blocks have been successfully generated
+18_59_00_101 [INFO] A csv file has been generated:  blocksData.csv
+19_31_00_316 [INFO] Blocks have been successfully assigned to parts of the original image
+19_31_00_528 [INFO] A csv file has been generated:  blocksAssignedToImages.csv
+19_38_46_608 [INFO] Final image has been successfully generated. Terminating the application.
+19_49_37_094 [INFO] Final image has been successfully generated. Terminating the application.
+19_50_16_536 [INFO] Directory already present - logs
+19_50_16_537 [INFO] Directory already present - images
+19_50_16_538 [INFO] All directories needed are present
+19_50_16_541 [INFO] Waiting for user input...
+19_50_17_956 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+19_50_17_958 [INFO] Provided file extension is supported: jpg
+19_50_17_960 [INFO] New directory has been created - 220131_1950179
+19_50_17_983 [INFO] Waiting for user input...
+19_50_19_751 [INFO] Number of parts used(in terms of an area covered): 9000
+19_50_19_753 [INFO] Total number of parts used: 9216
+19_50_19_754 [INFO] Width and height of every part in pixels(excluding last row & column): 15
+19_50_19_755 [INFO] Percentage of edges rounded vertically: 1.0
+19_50_19_756 [INFO] Percentage of edges rounded horizontally: 1.0
+19_50_20_382 [INFO] Image used as a base has been successfully analyzed!
+19_50_20_393 [INFO] A csv file has been generated:  imageData.csv
+19_50_20_395 [INFO] New directory has been created - blocks
+19_50_28_445 [INFO] All the blocks have been successfully generated
+19_50_28_462 [INFO] A csv file has been generated:  blocksData.csv
+20_03_29_727 [INFO] Directory already present - logs
+20_03_29_728 [INFO] Directory already present - images
+20_03_29_730 [INFO] All directories needed are present
+20_03_29_732 [INFO] Waiting for user input...
+20_03_36_147 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+20_03_36_148 [INFO] Provided file extension is supported: jpg
+20_03_36_150 [INFO] New directory has been created - 220131_2003361
+20_03_36_171 [INFO] Waiting for user input...
+20_03_46_796 [INFO] Number of parts used(in terms of an area covered): 9000
+20_03_46_798 [INFO] Total number of parts used: 9216
+20_03_46_800 [INFO] Width and height of every part in pixels(excluding last row & column): 15
+20_03_46_802 [INFO] Percentage of edges rounded vertically: 1.0
+20_03_46_805 [INFO] Percentage of edges rounded horizontally: 1.0
+20_03_47_339 [INFO] Image used as a base has been successfully analyzed!
+20_03_47_347 [INFO] A csv file has been generated:  imageData.csv
+20_03_47_359 [INFO] New directory has been created - blocks
+20_03_56_877 [INFO] All the blocks have been successfully generated
+20_03_56_889 [INFO] A csv file has been generated:  blocksData.csv
+20_07_02_582 [INFO] Directory already present - logs
+20_07_02_584 [INFO] Directory already present - images
+20_07_02_585 [INFO] All directories needed are present
+20_07_02_591 [INFO] Waiting for user input...
+20_07_08_388 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+20_07_08_390 [INFO] Provided file extension is supported: jpg
+20_07_08_393 [INFO] New directory has been created - 220131_2007083
+20_07_08_421 [INFO] Waiting for user input...
+20_07_17_808 [INFO] Number of parts used(in terms of an area covered): 9000
+20_07_17_809 [INFO] Total number of parts used: 9216
+20_07_17_811 [INFO] Width and height of every part in pixels(excluding last row & column): 15
+20_07_17_812 [INFO] Percentage of edges rounded vertically: 1.0
+20_07_17_814 [INFO] Percentage of edges rounded horizontally: 1.0
+20_07_18_571 [INFO] Image used as a base has been successfully analyzed!
+20_07_18_590 [INFO] A csv file has been generated:  imageData.csv
+20_07_18_594 [INFO] New directory has been created - blocks
+20_07_29_333 [INFO] All the blocks have been successfully generated
+20_07_29_345 [INFO] A csv file has been generated:  blocksData.csv
+20_31_35_882 [INFO] Directory already present - logs
+20_31_35_888 [INFO] Directory already present - images
+20_31_35_890 [INFO] All directories needed are present
+20_31_35_892 [INFO] Waiting for user input...
+20_31_38_876 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+20_31_38_878 [INFO] Provided file extension is supported: jpg
+20_31_38_880 [INFO] New directory has been created - 220131_2031388
+20_31_39_002 [INFO] Waiting for user input...
+20_31_44_271 [INFO] Number of parts used(in terms of an area covered): 9000
+20_31_44_272 [INFO] Total number of parts used: 9216
+20_31_44_273 [INFO] Width and height of every part in pixels(excluding last row & column): 15
+20_31_44_274 [INFO] Percentage of edges rounded vertically: 1.0
+20_31_44_275 [INFO] Percentage of edges rounded horizontally: 1.0
+20_31_44_802 [INFO] Image used as a base has been successfully analyzed!
+20_31_44_811 [INFO] A csv file has been generated:  imageData.csv
+20_31_44_813 [INFO] New directory has been created - blocks
+20_31_55_916 [INFO] All the blocks have been successfully generated
+20_31_55_931 [INFO] A csv file has been generated:  blocksData.csv
+21_08_39_681 [INFO] Final image has been successfully generated. Terminating the application.
+21_12_39_121 [INFO] Final image has been successfully generated. Terminating the application.
+21_46_48_878 [INFO] Directory already present - logs
+21_46_48_880 [INFO] Directory already present - images
+21_46_48_881 [INFO] All directories needed are present
+21_46_48_883 [INFO] Waiting for user input...
+21_46_52_262 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+21_46_52_263 [INFO] Provided file extension is supported: jpg
+21_46_52_264 [INFO] New directory has been created - 220131_2146522
+21_46_52_288 [INFO] Waiting for user input...
+21_46_54_948 [INFO] Number of parts used(in terms of an area covered): 292
+21_46_54_950 [INFO] Total number of parts used: 299
+21_46_54_952 [INFO] Width and height of every part in pixels(excluding last row & column): 84
+21_46_54_955 [INFO] Percentage of edges rounded vertically: 0.14285714285714202
+21_46_54_957 [INFO] Percentage of edges rounded horizontally: 0.14285714285714202
+21_46_55_479 [INFO] Image used as a base has been successfully analyzed!
+21_46_55_490 [INFO] A csv file has been generated:  imageData.csv
+21_46_55_492 [INFO] New directory has been created - blocks
+21_46_55_820 [INFO] All the blocks have been successfully generated
+21_46_55_823 [INFO] A csv file has been generated:  blocksData.csv
+21_47_00_188 [INFO] Blocks have been successfully assigned to parts of the original image
+21_47_00_199 [INFO] A csv file has been generated:  blocksAssignedToImages.csv
+21_47_15_565 [INFO] Final image has been successfully generated. Terminating the application.
+22_58_16_432 [INFO] Directory already present - logs
+22_58_16_433 [INFO] Directory already present - images
+22_58_16_434 [INFO] All directories needed are present
+22_58_16_437 [INFO] Waiting for user input...
+22_58_18_396 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+22_58_18_397 [INFO] Provided file extension is supported: jpg
+22_58_18_398 [INFO] New directory has been created - 220131_2258183
+22_58_18_424 [INFO] Waiting for user input...
+22_58_20_896 [INFO] Number of parts used(in terms of an area covered): 292
+22_58_20_897 [INFO] Total number of parts used: 299
+22_58_20_899 [INFO] Width and height of every part in pixels(excluding last row & column): 84
+22_58_20_902 [INFO] Percentage of edges rounded vertically: 0.14285714285714202
+22_58_20_904 [INFO] Percentage of edges rounded horizontally: 0.14285714285714202
+22_58_21_649 [INFO] Image used as a base has been successfully analyzed!
+22_58_21_651 [INFO] A csv file has been generated:  imageData.csv
+22_58_21_661 [INFO] New directory has been created - blocks
+22_58_22_036 [INFO] All the blocks have been successfully generated
+22_58_22_038 [INFO] A csv file has been generated:  blocksData.csv
+22_58_26_222 [INFO] Blocks have been successfully assigned to parts of the original image
+22_58_26_231 [INFO] A csv file has been generated:  blocksAssignedToImages.csv
+22_58_26_620 [INFO] Final image has been successfully generated. Terminating the application.
+22_58_43_480 [INFO] Directory already present - logs
+22_58_43_482 [INFO] Directory already present - images
+22_58_43_483 [INFO] All directories needed are present
+22_58_43_486 [INFO] Waiting for user input...
+22_58_50_966 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+22_58_50_967 [INFO] Provided file extension is supported: jpg
+22_58_50_968 [INFO] New directory has been created - 220131_2258509
+22_58_50_988 [INFO] Waiting for user input...
+22_59_27_115 [ERROR] The number of parts is incorrect! 1000
+22_59_27_118 [INFO] Waiting for user input...
+22_59_34_820 [INFO] Number of parts used(in terms of an area covered): 959
+22_59_34_822 [INFO] Total number of parts used: 943
+22_59_34_824 [INFO] Width and height of every part in pixels(excluding last row & column): 47
+22_59_34_825 [INFO] Percentage of edges rounded vertically: 0.021276595744679994
+22_59_34_827 [INFO] Percentage of edges rounded horizontally: 0.14893617021276395
+22_59_35_370 [INFO] Image used as a base has been successfully analyzed!
+22_59_35_380 [INFO] A csv file has been generated:  imageData.csv
+22_59_35_382 [INFO] New directory has been created - blocks
+22_59_36_182 [INFO] All the blocks have been successfully generated
+22_59_36_186 [INFO] A csv file has been generated:  blocksData.csv
+23_00_08_773 [INFO] Blocks have been successfully assigned to parts of the original image
+23_00_08_781 [INFO] A csv file has been generated:  blocksAssignedToImages.csv
+23_00_09_636 [INFO] Final image has been successfully generated. Terminating the application.
+23_01_14_928 [INFO] Directory already present - logs
+23_01_14_929 [INFO] Directory already present - images
+23_01_14_930 [INFO] All directories needed are present
+23_01_14_934 [INFO] Waiting for user input...
+23_01_16_972 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+23_01_16_973 [INFO] Provided file extension is supported: jpg
+23_01_16_974 [INFO] New directory has been created - 220131_2301169
+23_01_17_000 [INFO] Waiting for user input...
+23_01_18_732 [INFO] Number of parts used(in terms of an area covered): 292
+23_01_18_733 [INFO] Total number of parts used: 299
+23_01_18_733 [INFO] Width and height of every part in pixels(excluding last row & column): 84
+23_01_18_734 [INFO] Percentage of edges rounded vertically: 0.14285714285714202
+23_01_18_735 [INFO] Percentage of edges rounded horizontally: 0.14285714285714202
+23_01_19_256 [INFO] Image used as a base has been successfully analyzed!
+23_01_19_258 [INFO] A csv file has been generated:  imageData.csv
+23_01_19_268 [INFO] New directory has been created - blocks
+23_01_19_595 [INFO] All the blocks have been successfully generated
+23_01_19_597 [INFO] A csv file has been generated:  blocksData.csv
+23_01_24_106 [INFO] Blocks have been successfully assigned to parts of the original image
+23_01_24_113 [INFO] A csv file has been generated:  blocksAssignedToImages.csv

@@ -1,5 +1,6 @@
 from pathlib import Path
 from os import path
+from pickle import FALSE
 from sys import setrecursionlimit
 from datetime import date, datetime
 from csv import reader, writer
@@ -31,7 +32,7 @@ CURRENTDATE = str(date.today().strftime('%Y_%m_%d'))
 # defining today's log path
 LOGTODAY = BASEPATH + LOGFILE + CURRENTDATE + '.log' 
 # first message shown to the user introducing to the program
-INITMESSAGE = 'Welcome to the program!\n' + 'It is handle your input, divide the image into N (provided by the user) YxY path.\n' + 'Do not worry, just input any number and the program will tell you if the number is incorrect.\n' + 'Once the number is correct, the program will calculate each part\'s mean color.\n' + 'Then, N number of YxY blocks with random colors will be generated.\n' + 'At last they will be assigned to images\' parts to match the original image in the most accurate way.' 
+INITMESSAGE = 'Welcome to the program!\n' + 'What it does?\n' + 'It handles your input, divides the image into N (provided by the user) YxY path.\n' + 'Do not worry, just input any number and the program will tell you if the number is incorrect.\n' + 'Once the number is correct, the program will calculate each part\'s mean color.\n' + 'Then, N number of YxY blocks with random colors will be generated.\n' + 'At last they will be assigned to images\' parts to match the original image in the most accurate way.' 
 # rounding boundary accepted, set it to a value between [0, 100)
 BLOCKSBOUNDARY = 15
 # directory in which the blocks with randomly generated colors would be put in
@@ -88,12 +89,12 @@ def fileChecker(file: str):
             return False
 
 # Read message config from the LOGCONFIG based on msgId, then go to writeMessage
-def logMessage(msgId: str, extras: str):
-    #return True # not logging in messages into logs & terminal for the sake of small tests
+def logMessage(msgId: str, toAdd: str):
     currentTime = str(datetime.now().strftime('%H_%M_%S_%f')[:-3])
 
     with open(LOGCONFIG, 'r') as singleRow:
-        singleRow = reader(singleRow) # read a single row
+        # read a single row
+        singleRow = reader(singleRow) 
         for col in singleRow:
             # col[0] = msgType, col[1] = msgId, col[2] = msgContent, col[3] = extras(optional)
             if msgId == col[1]:
@@ -101,7 +102,7 @@ def logMessage(msgId: str, extras: str):
                     msg = f'{currentTime} [{col[0]}] {col[2]}\n'
                     writeMessage(msg, LOGTODAY)
                 elif col[3] == 'extras':
-                    msg = f'{currentTime} [{col[0]}] {col[2]} {extras}\n' 
+                    msg = f'{currentTime} [{col[0]}] {col[2]} {toAdd}\n' 
                     writeMessage(msg, LOGTODAY)
 
 # Print the message and log it into LOGTODAY
@@ -135,6 +136,21 @@ def printSupported():
         print(ext, end='')
         if ext != SUPPORTED[-1]:
             print(',', end=' ')
+    print()
+
+# Handling user input
+def fileInput():
+    print(INITMESSAGE)
+    printSupported()
+    logMessage('waitInput', False)
+    filePath = input('Please put in an absolute path to an image you would like to have replicated:\n')
+    #filePath = 'C:\\Users\\longw\\Desktop\\G Drive\\Praca_inzynierska\\Engineering_Thesis\\test images\\Standard aspect ratio\\FHD\\4k-retro-80s-wallpaper-fhd-1920x1080.jpg'
+    #filePath = 'C:/Users/longw/Desktop/G Drive/Praca_inzynierska/Engineering_Thesis/test images/Standard aspect ratio/FHD/4k-retro-80s-wallpaper-fhd-1920x1080.jpg'
+    filePath = path.realpath(filePath) # change the provided delim to '\'
+    finalPath, datePath = copyToDatePath(filePath)
+    datePath = datePath + '\\'
+
+    return finalPath, datePath
 
 # return file name and delimiter the user used to enter a directory
 def copyToDatePath(filePath: str):
@@ -157,68 +173,6 @@ def copyToDatePath(filePath: str):
         else:
             exit()
 
-# Handling user input
-def fileInput():
-    print(INITMESSAGE)
-    printSupported()
-    logMessage('waitInput', False)
-    filePath = input('Please put in an absolute path to an image you would like to have replicated:\n')
-    #filePath = 'C:\\Users\\longw\\Desktop\\G Drive\\Praca_inżynierska\\Engineering_Thesis\\test images\\Standard aspect ratio\\FHD\\4k-retro-80s-wallpaper-fhd-1920x1080.jpg'
-    #filePath = 'C:/Users/longw/Desktop/G Drive/Praca_inzynierska/Engineering_Thesis/test images/Standard aspect ratio/FHD/4k-retro-80s-wallpaper-fhd-1920x1080.jpg'
-    filePath = path.realpath(filePath) # change the provided delim to '\'
-    finalPath, datePath = copyToDatePath(filePath)
-    datePath = datePath + '\\'
-
-    return finalPath, datePath
-
-def checkImage(myDivisor: int, imWidth: int, imHeight: int, toFind: str):
-    blocksArea = (imWidth * imHeight) / myDivisor
-    blocksSize = round(pow(blocksArea,0.5))
-    blocksVertical, blocksHorizontal = imWidth / blocksSize, imHeight / blocksSize
-    totalImages = ceil(blocksHorizontal) * ceil(blocksVertical)
-    restVertical, restHorizontal = float('.' + str(blocksVertical).split('.')[-1]), float('.' + str(blocksHorizontal).split('.')[-1])
-    myCondition = ((restHorizontal >= 1 - BLOCKSBOUNDARY/100) and (restVertical >= 1 - BLOCKSBOUNDARY/100))
-    conditionSkipLastRowCol = ((restHorizontal <= BLOCKSBOUNDARY/100) and (restVertical <= BLOCKSBOUNDARY/100))
-    if not toFind:
-        if myCondition:
-            return (True, myDivisor, totalImages, blocksSize, int(str(blocksHorizontal).split('.')[0]), restHorizontal, int(str(blocksVertical).split('.')[0]), restVertical), (False), (False)
-        elif conditionSkipLastRowCol:
-            horizontal = int(str(blocksHorizontal).split('.')[0])
-            vertical = int(str(blocksVertical).split('.')[0])
-            return (True, myDivisor, horizontal * vertical, blocksSize, horizontal, restHorizontal, vertical, restVertical), (False), (False)
-        else: 
-            smallerBlock = checkImage(myDivisor-1, imWidth, imHeight, 'smaller')
-            largerBlock = checkImage(myDivisor+1, imWidth, imHeight, 'larger')
-            return (False, myDivisor, blocksSize, restVertical, restHorizontal), smallerBlock, largerBlock
-        
-    elif toFind == 'smaller':
-        if myCondition or conditionSkipLastRowCol:
-            return (True, myDivisor)
-        elif myDivisor >= 20: 
-            return checkImage(myDivisor-1, imWidth, imHeight, 'smaller')
-        else:
-            return (False)
-        
-    elif toFind == 'larger':
-        if myCondition or conditionSkipLastRowCol:
-            return (True, myDivisor)
-        elif (myDivisor < imHeight) or (myDivisor < imWidth):
-            return checkImage(myDivisor+1, imWidth, imHeight, 'larger')
-        else: 
-            return (False)
-        
-def isTrue(myVar):
-    if type(myVar) == tuple:
-        if myVar[0] == True:
-            return True
-        elif myVar[0] == False:
-            return False
-    elif type(myVar) == bool:
-        if myVar:
-            return True
-        elif not myVar:
-            return False
-        
 # Cutting the image into smaller images
 def ratioAnalyzer(filePath: str, datePath: str):
     image = Image.open(filePath)
@@ -256,39 +210,57 @@ def ratioAnalyzer(filePath: str, datePath: str):
                 if isTrue(larger):
                     print('Closest larger correct number of parts is: ' + str(larger[1]))
 
-def generateSingleImage(path: str, sizeTuple: tuple, colorTuple: tuple):
-    img = Image.new('RGB', sizeTuple, colorTuple)
-    img.save(path)
-    img.close
-    
-def generateBlocks(datePath: str, amount: int, size: int):
-    
-    #createPaths(datePath, BLOCKSDIR)
-    blocksPath = datePath + BLOCKSDIR + '\\'
-    blocksData = []
-    old_percentage = 0
-    
-    # generate {amount} amount of images to the /blocks children directory within the /backups/images/[date]/ directory
-    for singleImage in range(1, amount+1):
-        percentage = round((singleImage / amount) * 100, 0)
-        blockPath = blocksPath + str(singleImage) + '.png'
-        redAmnt = randrange(0,255,1)
-        greenAmnt = randrange(0,255,1)
-        blueAmnt = randrange(0,255,1)
-        blockData = (redAmnt, greenAmnt, blueAmnt)
-        blocksData.append(blockData)
-        #generateSingleImage(blockPath, (size, size), blockData)
+# checking number of parts input by the user, returning True and statistics if the number is correct and returning suggested one smaller and one larger number of parts if the number is incorrect
+def checkImage(myDivisor: int, imWidth: int, imHeight: int, toFind: str):
+    blocksArea = (imWidth * imHeight) / myDivisor
+    blocksSize = round(pow(blocksArea,0.5))
+    blocksVertical, blocksHorizontal = imWidth / blocksSize, imHeight / blocksSize
+    totalImages = ceil(blocksHorizontal) * ceil(blocksVertical)
+    restVertical, restHorizontal = float('.' + str(blocksVertical).split('.')[-1]), float('.' + str(blocksHorizontal).split('.')[-1])
+    myCondition = ((restHorizontal >= 1 - BLOCKSBOUNDARY/100) and (restVertical >= 1 - BLOCKSBOUNDARY/100))
+    conditionSkipLastRowCol = ((restHorizontal <= BLOCKSBOUNDARY/100) and (restVertical <= BLOCKSBOUNDARY/100))
+    if not toFind:
+        if myCondition:
+            return (True, myDivisor, totalImages, blocksSize, int(str(blocksHorizontal).split('.')[0]), restHorizontal, int(str(blocksVertical).split('.')[0]), restVertical), (False), (False)
+        elif conditionSkipLastRowCol:
+            horizontal = int(str(blocksHorizontal).split('.')[0])
+            vertical = int(str(blocksVertical).split('.')[0])
+            return (True, myDivisor, horizontal * vertical, blocksSize, horizontal, restHorizontal, vertical, restVertical), (False), (False)
+        else: 
+            smallerBlock = checkImage(myDivisor-1, imWidth, imHeight, 'smaller')
+            largerBlock = checkImage(myDivisor+1, imWidth, imHeight, 'larger')
+            return (False, myDivisor, blocksSize, restVertical, restHorizontal), smallerBlock, largerBlock
         
-        # print the progress of image generation
-        if percentage > old_percentage:
-            old_percentage = percentage
-            percentage = str(percentage).split('.')[0]
-            print(f'{percentage}% of images generated...')
-    logMessage('blocksGenerated', False)
-    saveAsCsv(BLOCKFILENAME, datePath, blocksData)
-    logMessage('csvGenerated', BLOCKFILENAME)
-    return(blocksData)
+    elif toFind == 'smaller':
+        if myCondition or conditionSkipLastRowCol:
+            return (True, myDivisor)
+        elif myDivisor >= MINPARTS: 
+            return checkImage(myDivisor-1, imWidth, imHeight, 'smaller')
+        else:
+            return (False)
+        
+    elif toFind == 'larger':
+        if myCondition or conditionSkipLastRowCol:
+            return (True, myDivisor)
+        elif myDivisor < MAXPARTS:
+            return checkImage(myDivisor+1, imWidth, imHeight, 'larger')
+        else: 
+            return (False)
 
+# check whether the variable is true based on it's type
+def isTrue(myVar):
+    if type(myVar) == tuple:
+        if myVar[0] == True:
+            return True
+        elif myVar[0] == False:
+            return False
+    elif type(myVar) == bool:
+        if myVar:
+            return True
+        elif not myVar:
+            return False
+
+# analyze parts of an image, by appending the list with row, column, and mean R, G, B values
 def imageCutting(filePath: str, ratioData: tuple):
     image = Image.open(filePath)
     pix = image.load()
@@ -301,7 +273,7 @@ def imageCutting(filePath: str, ratioData: tuple):
     else:
         width = ratioData[3]
         height = ratioData[5]
-    #print(ratioData) # e.g.: (28, 32, 272, 3, 0.9705882352941178, 7, 0.0588235294117645)
+    #print(ratioData) # e.g.: (298, 289, 70, 17, 0.142857142857142, 17, 0.142857142857142)
     for myRow in range(0, width):
         for myCol in range(0, height):
             red = 0
@@ -345,6 +317,38 @@ def imageCutting(filePath: str, ratioData: tuple):
                     imageData.append(partMean)
     if imageData:
         return imageData
+
+def generateSingleImage(path: str, sizeTuple: tuple, colorTuple: tuple):
+    img = Image.new('RGB', sizeTuple, colorTuple)
+    img.save(path)
+    img.close
+    
+def generateBlocks(datePath: str, amount: int, size: int):
+    createPaths(datePath, BLOCKSDIR)
+    blocksPath = datePath + BLOCKSDIR + '\\'
+    blocksData = []
+    old_percentage = 0
+    
+    # generate {amount} amount of images to the /blocks children directory within the /backups/images/[date]/ directory
+    for singleImage in range(1, amount+1):
+        percentage = round((singleImage / amount) * 100, 0)
+        blockPath = blocksPath + str(singleImage) + '.png'
+        redAmnt = randrange(0,255,1)
+        greenAmnt = randrange(0,255,1)
+        blueAmnt = randrange(0,255,1)
+        blockData = (redAmnt, greenAmnt, blueAmnt)
+        blocksData.append(blockData)
+        generateSingleImage(blockPath, (size, size), blockData)
+        
+        # print the progress of image generation
+        if percentage > old_percentage:
+            old_percentage = percentage
+            percentage = str(percentage).split('.')[0]
+            print(f'{percentage}% of images generated...')
+    logMessage('blocksGenerated', False)
+    saveAsCsv(BLOCKFILENAME, datePath, blocksData)
+    logMessage('csvGenerated', BLOCKFILENAME)
+    return(blocksData)
             
 def saveAsCsv(name: str, filePath: str, data: list or tuple):
     with open(filePath + name, 'w', newline='', encoding='UTF8') as f:
@@ -442,6 +446,7 @@ def comparingImagesAndBlocks():
             print(f'{percentage}% of mapping done...')
         singleBlockDistanceWithIndexes.append(x)
         singleBlockDistance.append(y)
+    print('We are finalizing some things, please don\'t exit the application. This is expected!')
     if answer == '1':
         meanBlockDistance = []
         for n in range(0, length + 1):
@@ -503,17 +508,22 @@ def generateImage(imWidthHeight: tuple):
     imagePath = dataPath + FINALIMAGE
     #print(newestDir) # C:\Users\longw\Desktop\G Drive\Praca_inżynierska\Engineering_Thesis\backups\images\220125_23002288\blocksAssignedToImages.csv
     generateSingleImage(imagePath, (imWidthHeight[0], imWidthHeight[1]), (255, 255, 255))
-    
+    n = 1
+    print('Keep pushing any key to see the progress of image generation!')
     with open(dataFile, 'r') as singleRow:
         singleRow = reader(singleRow) # read a single row
         next(singleRow)
         img = cv2.imread(imagePath)
         for col in singleRow:
+            n = n + 1
             color = (col[0], col[1], col[2])
             rowNum = int(col[3])
             colNum = int(col[4])
             size = int(imWidthHeight[2])
             img[rowNum*size:(rowNum+1)*size,colNum*size:(colNum+1)*size] = color
+            if n % 5 == 0:
+                cv2.imshow("img",img)
+                cv2.waitKey()
 
     #cv2.imshow("img",img)
     #cv2.waitKey()
@@ -521,6 +531,7 @@ def generateImage(imWidthHeight: tuple):
     cv2.imwrite(imagePath, img)
     logMessage('imageGenerated', True)
     print('Final image generated!')
+    print(f'{imagePath}')
     
 def main():
     # initial check for directories # commented as it's working properly
@@ -529,7 +540,7 @@ def main():
         myFile, datePath = fileInput()
         
         # increase only if met with "RecursionError: maximum recursion depth exceeded while calling a Python object"
-        setrecursionlimit(10000) 
+        setrecursionlimit(100000) 
         
         # image processing
         imWidthHeight, ratioData = ratioAnalyzer(myFile, datePath)

@@ -7,7 +7,6 @@ ERROR,wrongFileExt,File with the provided extension is not supported:,extras
 ERROR,noFileExt,File provided does not have any file extension defined,
 INFO,correctFile,Provided file extension is supported:,extras
 INFO,loadedFile,File loaded:,extras
-ERROR,tooBigRes,Provided file is outside the supported maximum resolution:,extras
 INFO,correctNumberBlocks,Number of parts used(in terms of an area covered):,extras
 ERROR,incorrectNumberBlocks,The number of parts is incorrect!,extras
 INFO,configBlocksNumber,Total number of parts used:,extras

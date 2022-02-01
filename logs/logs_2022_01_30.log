@@ -1,0 +1,229 @@
+15_05_31_391 [INFO] Directory already present - logs
+15_05_31_410 [INFO] Directory already present - images
+15_05_31_411 [INFO] All directories needed are present
+15_05_31_412 [INFO] Waiting for user input...
+15_06_08_202 [INFO] File loaded: _src_12688-jak_robic_ostre_zdjecia_01.jpg
+15_06_08_203 [INFO] Provided file extension is supported: jpg
+15_06_08_204 [INFO] New directory has been created - 220130_1506082
+15_06_08_311 [INFO] Waiting for user input...
+15_06_11_574 [ERROR] The number of parts is incorrect! 300
+15_06_11_577 [INFO] Waiting for user input...
+15_06_43_412 [INFO] Number of parts used(in terms of an area covered): 298
+15_06_43_414 [INFO] Total number of parts used: 289
+15_06_43_416 [INFO] Width and height of every part in pixels(excluding last row & column): 70
+15_06_43_417 [INFO] Percentage of edges rounded vertically: 0.857142857142858
+15_06_43_418 [INFO] Percentage of edges rounded horizontally: 0.857142857142858
+15_06_43_732 [INFO] Image used as a base has been successfully analyzed!
+15_06_43_752 [INFO] A csv file has been generated:  imageData.csv
+15_06_43_798 [INFO] All the blocks have been successfully generated
+15_06_43_800 [INFO] A csv file has been generated:  blocksData.csv
+15_07_28_118 [INFO] Blocks have been successfully assigned to parts of the original image
+15_07_28_136 [INFO] A csv file has been generated:  blocksAssignedToImages.csv
+15_07_28_229 [INFO] Final image has been successfully generated. Terminating the application.
+15_08_59_388 [INFO] Directory already present - logs
+15_08_59_388 [INFO] Directory already present - images
+15_08_59_394 [INFO] All directories needed are present
+15_08_59_397 [INFO] Waiting for user input...
+15_09_01_445 [INFO] File loaded: _src_12688-jak_robic_ostre_zdjecia_01.jpg
+15_09_01_446 [INFO] Provided file extension is supported: jpg
+15_09_01_449 [INFO] New directory has been created - 220130_1509014
+15_09_01_470 [INFO] Waiting for user input...
+15_09_04_449 [INFO] Number of parts used(in terms of an area covered): 298
+15_09_04_450 [INFO] Total number of parts used: 289
+15_09_04_451 [INFO] Width and height of every part in pixels(excluding last row & column): 70
+15_09_04_452 [INFO] Percentage of edges rounded vertically: 0.857142857142858
+15_09_04_453 [INFO] Percentage of edges rounded horizontally: 0.857142857142858
+15_09_04_799 [INFO] Image used as a base has been successfully analyzed!
+15_09_04_801 [INFO] A csv file has been generated:  imageData.csv
+15_09_04_824 [INFO] All the blocks have been successfully generated
+15_09_04_833 [INFO] A csv file has been generated:  blocksData.csv
+15_09_15_963 [INFO] Blocks have been successfully assigned to parts of the original image
+15_09_15_968 [INFO] A csv file has been generated:  blocksAssignedToImages.csv
+15_09_16_050 [INFO] Final image has been successfully generated. Terminating the application.
+15_24_28_350 [INFO] Directory already present - logs
+15_24_28_350 [INFO] Directory already present - images
+15_24_28_363 [INFO] All directories needed are present
+15_24_28_365 [INFO] Waiting for user input...
+15_24_29_840 [INFO] File loaded: _src_12688-jak_robic_ostre_zdjecia_01.jpg
+15_24_29_842 [INFO] Provided file extension is supported: jpg
+15_24_29_844 [INFO] New directory has been created - 220130_1524298
+15_24_29_865 [INFO] Waiting for user input...
+15_24_34_131 [INFO] Number of parts used(in terms of an area covered): 298
+15_24_34_133 [INFO] Total number of parts used: 289
+15_24_34_134 [INFO] Width and height of every part in pixels(excluding last row & column): 70
+15_24_34_136 [INFO] Percentage of edges rounded vertically: 0.857142857142858
+15_24_34_137 [INFO] Percentage of edges rounded horizontally: 0.857142857142858
+15_24_34_465 [INFO] Image used as a base has been successfully analyzed!
+15_24_34_469 [INFO] A csv file has been generated:  imageData.csv
+15_24_34_491 [INFO] All the blocks have been successfully generated
+15_24_34_501 [INFO] A csv file has been generated:  blocksData.csv
+15_25_03_207 [INFO] Directory already present - logs
+15_25_03_207 [INFO] Directory already present - images
+15_25_03_209 [INFO] All directories needed are present
+15_25_03_212 [INFO] Waiting for user input...
+15_25_06_787 [INFO] File loaded: _src_12688-jak_robic_ostre_zdjecia_01.jpg
+15_25_06_788 [INFO] Provided file extension is supported: jpg
+15_25_06_791 [INFO] New directory has been created - 220130_1525067
+15_25_06_813 [INFO] Waiting for user input...
+15_25_09_561 [ERROR] The number of parts is incorrect! 300
+15_25_09_564 [INFO] Waiting for user input...
+15_25_14_234 [INFO] Number of parts used(in terms of an area covered): 317
+15_25_14_236 [INFO] Total number of parts used: 324
+15_25_14_238 [INFO] Width and height of every part in pixels(excluding last row & column): 67
+15_25_14_238 [INFO] Percentage of edges rounded vertically: 0.08955223880596996
+15_25_14_238 [INFO] Percentage of edges rounded horizontally: 0.08955223880596996
+15_25_14_564 [INFO] Image used as a base has been successfully analyzed!
+15_25_14_574 [INFO] A csv file has been generated:  imageData.csv
+15_25_14_600 [INFO] All the blocks have been successfully generated
+15_25_14_610 [INFO] A csv file has been generated:  blocksData.csv
+15_25_17_472 [INFO] Blocks have been successfully assigned to parts of the original image
+15_25_17_476 [INFO] A csv file has been generated:  blocksAssignedToImages.csv
+15_25_17_561 [INFO] Final image has been successfully generated. Terminating the application.
+15_53_10_224 [INFO] Directory already present - logs
+15_53_10_225 [INFO] Directory already present - images
+15_53_10_226 [INFO] All directories needed are present
+15_53_10_229 [INFO] Waiting for user input...
+15_53_12_861 [INFO] File loaded: _src_12688-jak_robic_ostre_zdjecia_01.jpg
+15_53_12_863 [INFO] Provided file extension is supported: jpg
+15_53_12_867 [INFO] New directory has been created - 220130_1553128
+15_53_12_894 [INFO] Waiting for user input...
+15_53_15_739 [ERROR] The number of parts is incorrect! 1000
+15_53_15_740 [INFO] Waiting for user input...
+15_53_18_076 [INFO] Number of parts used(in terms of an area covered): 922
+15_53_18_077 [INFO] Total number of parts used: 900
+15_53_18_079 [INFO] Width and height of every part in pixels(excluding last row & column): 40
+15_53_18_080 [INFO] Percentage of edges rounded vertically: 1.0
+15_53_18_081 [INFO] Percentage of edges rounded horizontally: 1.0
+15_53_18_441 [INFO] Image used as a base has been successfully analyzed!
+15_53_18_443 [INFO] A csv file has been generated:  imageData.csv
+15_53_18_470 [INFO] All the blocks have been successfully generated
+15_53_18_480 [INFO] A csv file has been generated:  blocksData.csv
+15_53_32_697 [INFO] Blocks have been successfully assigned to parts of the original image
+15_53_32_703 [INFO] A csv file has been generated:  blocksAssignedToImages.csv
+15_53_32_819 [INFO] Final image has been successfully generated. Terminating the application.
+15_53_57_132 [INFO] Directory already present - logs
+15_53_57_133 [INFO] Directory already present - images
+15_53_57_134 [INFO] All directories needed are present
+15_53_57_137 [INFO] Waiting for user input...
+15_53_59_050 [INFO] File loaded: _src_12688-jak_robic_ostre_zdjecia_01.jpg
+15_53_59_052 [INFO] Provided file extension is supported: jpg
+15_53_59_054 [INFO] New directory has been created - 220130_1553590
+15_53_59_076 [INFO] Waiting for user input...
+15_54_02_332 [ERROR] The number of parts is incorrect! 2000
+15_54_02_334 [INFO] Waiting for user input...
+15_54_06_622 [INFO] Number of parts used(in terms of an area covered): 2215
+15_54_06_625 [INFO] Total number of parts used: 2304
+15_54_06_627 [INFO] Width and height of every part in pixels(excluding last row & column): 25
+15_54_06_629 [INFO] Percentage of edges rounded vertically: 1.0
+15_54_06_631 [INFO] Percentage of edges rounded horizontally: 1.0
+15_54_06_979 [INFO] Image used as a base has been successfully analyzed!
+15_54_06_982 [INFO] A csv file has been generated:  imageData.csv
+15_54_06_992 [INFO] New directory has been created - blocks
+15_54_08_971 [INFO] All the blocks have been successfully generated
+15_54_08_975 [INFO] A csv file has been generated:  blocksData.csv
+15_56_34_930 [INFO] Blocks have been successfully assigned to parts of the original image
+15_56_34_941 [INFO] A csv file has been generated:  blocksAssignedToImages.csv
+15_56_35_390 [INFO] Final image has been successfully generated. Terminating the application.
+15_56_55_557 [INFO] Directory already present - logs
+15_56_55_558 [INFO] Directory already present - images
+15_56_55_559 [INFO] All directories needed are present
+15_56_55_562 [INFO] Waiting for user input...
+15_56_58_236 [INFO] File loaded: _src_12688-jak_robic_ostre_zdjecia_01.jpg
+15_56_58_239 [INFO] Provided file extension is supported: jpg
+15_56_58_241 [INFO] New directory has been created - 220130_1556582
+15_56_58_274 [INFO] Waiting for user input...
+15_57_00_615 [ERROR] The number of parts is incorrect! 9000
+15_57_00_616 [INFO] Waiting for user input...
+15_57_06_827 [INFO] Number of parts used(in terms of an area covered): 6848
+15_57_06_829 [INFO] Total number of parts used: 6400
+15_57_06_831 [INFO] Width and height of every part in pixels(excluding last row & column): 15
+15_57_06_833 [INFO] Percentage of edges rounded vertically: 1.0
+15_57_06_836 [INFO] Percentage of edges rounded horizontally: 1.0
+15_57_07_228 [INFO] Image used as a base has been successfully analyzed!
+15_57_07_235 [INFO] A csv file has been generated:  imageData.csv
+15_57_07_237 [INFO] New directory has been created - blocks
+15_57_13_153 [INFO] All the blocks have been successfully generated
+15_57_13_161 [INFO] A csv file has been generated:  blocksData.csv
+16_12_51_997 [INFO] Blocks have been successfully assigned to parts of the original image
+16_12_52_013 [INFO] A csv file has been generated:  blocksAssignedToImages.csv
+16_12_54_578 [INFO] Final image has been successfully generated. Terminating the application.
+16_16_50_018 [INFO] Directory already present - logs
+16_16_50_019 [INFO] Directory already present - images
+16_16_50_020 [INFO] All directories needed are present
+16_16_50_023 [INFO] Waiting for user input...
+16_16_56_981 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+16_16_56_983 [INFO] Provided file extension is supported: jpg
+16_16_56_985 [INFO] New directory has been created - 220130_1616569
+16_16_57_003 [INFO] Waiting for user input...
+16_17_00_206 [INFO] Number of parts used(in terms of an area covered): 9000
+16_17_00_208 [INFO] Total number of parts used: 9216
+16_17_00_210 [INFO] Width and height of every part in pixels(excluding last row & column): 15
+16_17_00_212 [INFO] Percentage of edges rounded vertically: 1.0
+16_17_00_213 [INFO] Percentage of edges rounded horizontally: 1.0
+16_17_00_735 [INFO] Image used as a base has been successfully analyzed!
+16_17_00_749 [INFO] A csv file has been generated:  imageData.csv
+16_17_00_754 [INFO] New directory has been created - blocks
+16_17_08_589 [INFO] All the blocks have been successfully generated
+16_17_08_614 [INFO] A csv file has been generated:  blocksData.csv
+16_17_17_751 [INFO] Directory already present - logs
+16_17_17_752 [INFO] Directory already present - images
+16_17_17_754 [INFO] All directories needed are present
+16_17_17_757 [INFO] Waiting for user input...
+16_17_20_024 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+16_17_20_025 [INFO] Provided file extension is supported: jpg
+16_17_20_026 [INFO] New directory has been created - 220130_1617200
+16_17_20_053 [INFO] Waiting for user input...
+16_17_25_092 [INFO] Number of parts used(in terms of an area covered): 9000
+16_17_25_093 [INFO] Total number of parts used: 9216
+16_17_25_095 [INFO] Width and height of every part in pixels(excluding last row & column): 15
+16_17_25_096 [INFO] Percentage of edges rounded vertically: 1.0
+16_17_25_097 [INFO] Percentage of edges rounded horizontally: 1.0
+16_17_25_809 [INFO] Image used as a base has been successfully analyzed!
+16_17_25_823 [INFO] A csv file has been generated:  imageData.csv
+16_17_25_833 [INFO] New directory has been created - blocks
+16_17_36_646 [INFO] All the blocks have been successfully generated
+16_17_36_660 [INFO] A csv file has been generated:  blocksData.csv
+16_55_06_337 [INFO] Blocks have been successfully assigned to parts of the original image
+16_55_06_600 [INFO] A csv file has been generated:  blocksAssignedToImages.csv
+16_55_36_731 [INFO] Final image has been successfully generated. Terminating the application.
+16_57_31_872 [INFO] Directory already present - logs
+16_57_31_872 [INFO] Directory already present - images
+16_57_31_874 [INFO] All directories needed are present
+16_57_31_877 [INFO] Waiting for user input...
+16_57_46_000 [INFO] File loaded: moonlight_night-wallpaper-1920x1080.jpg
+16_57_46_002 [INFO] Provided file extension is supported: jpg
+16_57_46_005 [INFO] New directory has been created - 220130_1657460
+16_57_46_125 [INFO] Waiting for user input...
+16_57_49_084 [INFO] Number of parts used(in terms of an area covered): 9000
+16_57_49_086 [INFO] Total number of parts used: 9216
+16_57_49_087 [INFO] Width and height of every part in pixels(excluding last row & column): 15
+16_57_49_089 [INFO] Percentage of edges rounded vertically: 1.0
+16_57_49_090 [INFO] Percentage of edges rounded horizontally: 1.0
+16_57_49_594 [INFO] Image used as a base has been successfully analyzed!
+16_57_49_612 [INFO] A csv file has been generated:  imageData.csv
+16_57_49_615 [INFO] New directory has been created - blocks
+16_57_57_838 [INFO] All the blocks have been successfully generated
+16_57_57_853 [INFO] A csv file has been generated:  blocksData.csv
+17_31_38_912 [INFO] Blocks have been successfully assigned to parts of the original image
+17_31_39_049 [INFO] A csv file has been generated:  blocksAssignedToImages.csv
+17_32_03_254 [INFO] Final image has been successfully generated. Terminating the application.
+17_34_10_094 [INFO] Directory already present - logs
+17_34_10_096 [INFO] Directory already present - images
+17_34_10_097 [INFO] All directories needed are present
+17_34_10_099 [INFO] Waiting for user input...
+17_34_13_435 [INFO] File loaded: moonlight_night-wallpaper-1920x1080.jpg
+17_34_13_440 [INFO] Provided file extension is supported: jpg
+17_34_13_442 [INFO] New directory has been created - 220130_1734134
+17_34_13_472 [INFO] Waiting for user input...
+17_34_16_042 [INFO] Waiting for user input...
+17_34_19_661 [INFO] Number of parts used(in terms of an area covered): 9000
+17_34_19_664 [INFO] Total number of parts used: 9216
+17_34_19_666 [INFO] Width and height of every part in pixels(excluding last row & column): 15
+17_34_19_668 [INFO] Percentage of edges rounded vertically: 1.0
+17_34_19_670 [INFO] Percentage of edges rounded horizontally: 1.0
+17_34_20_295 [INFO] Image used as a base has been successfully analyzed!
+17_34_20_307 [INFO] A csv file has been generated:  imageData.csv
+17_34_20_309 [INFO] New directory has been created - blocks
+17_34_28_949 [INFO] All the blocks have been successfully generated
+17_34_28_970 [INFO] A csv file has been generated:  blocksData.csv
+18_16_27_067 [INFO] Final image has been successfully generated. Terminating the application.

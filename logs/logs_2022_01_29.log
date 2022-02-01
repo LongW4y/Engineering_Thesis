@@ -25,3 +25,269 @@
 12_37_05_238 [INFO] Blocks have been successfully assigned to parts of the original image
 12_37_05_244 [INFO] A csv file has been generated:  blocksAssignedToImages.csv
 12_37_05_359 [INFO] Final image has been successfully generated. Terminating the application.
+20_04_15_686 [INFO] Directory already present - logs
+20_04_15_688 [INFO] Directory already present - images
+20_04_15_688 [INFO] All directories needed are present
+20_04_15_691 [INFO] Waiting for user input...
+20_04_39_611 [INFO] File loaded: 176236.jpg
+20_04_39_613 [INFO] Provided file extension is supported: jpg
+20_04_39_614 [INFO] New directory has been created - 220129_2004396
+20_04_39_635 [INFO] Waiting for user input...
+20_04_43_969 [INFO] Number of parts used(in terms of an area covered): 9000
+20_04_43_971 [INFO] Total number of parts used: 9216
+20_04_43_973 [INFO] Width and height of every part in pixels(excluding last row & column): 20
+20_04_43_975 [INFO] Percentage of edges rounded vertically: 1.0
+20_04_43_976 [INFO] Percentage of edges rounded horizontally: 1.0
+20_04_44_824 [INFO] Image used as a base has been successfully analyzed!
+20_04_44_833 [INFO] A csv file has been generated:  imageData.csv
+20_04_44_835 [INFO] New directory has been created - blocks
+20_04_44_893 [INFO] All the blocks have been successfully generated
+20_04_44_900 [INFO] A csv file has been generated:  blocksData.csv
+20_36_51_463 [INFO] Blocks have been successfully assigned to parts of the original image
+20_36_51_633 [INFO] A csv file has been generated:  blocksAssignedToImages.csv
+20_37_15_030 [INFO] Final image has been successfully generated. Terminating the application.
+21_13_23_842 [INFO] Directory already present - logs
+21_13_23_843 [INFO] Directory already present - images
+21_13_23_844 [INFO] All directories needed are present
+21_13_23_847 [INFO] Waiting for user input...
+21_13_31_511 [INFO] File loaded: wp4470737.jpg
+21_13_31_512 [INFO] Provided file extension is supported: jpg
+21_13_31_515 [INFO] New directory has been created - 220129_2113315
+21_13_31_551 [INFO] Waiting for user input...
+21_13_34_305 [INFO] Number of parts used(in terms of an area covered): 9000
+21_13_34_307 [INFO] Total number of parts used: 9216
+21_13_34_308 [INFO] Width and height of every part in pixels(excluding last row & column): 10
+21_13_34_310 [INFO] Percentage of edges rounded vertically: 1.0
+21_13_34_314 [INFO] Percentage of edges rounded horizontally: 1.0
+21_13_34_631 [INFO] Image used as a base has been successfully analyzed!
+21_13_34_642 [INFO] A csv file has been generated:  imageData.csv
+21_13_34_645 [INFO] New directory has been created - blocks
+21_13_34_720 [INFO] All the blocks have been successfully generated
+21_13_34_729 [INFO] A csv file has been generated:  blocksData.csv
+21_43_06_243 [INFO] Blocks have been successfully assigned to parts of the original image
+21_43_06_743 [INFO] A csv file has been generated:  blocksAssignedToImages.csv
+21_43_26_049 [INFO] Final image has been successfully generated. Terminating the application.
+23_09_04_613 [INFO] Directory already present - logs
+23_09_04_614 [INFO] Directory already present - images
+23_09_04_615 [INFO] All directories needed are present
+23_09_04_617 [INFO] Waiting for user input...
+23_09_07_573 [INFO] File loaded: wp4470737.jpg
+23_09_07_575 [INFO] Provided file extension is supported: jpg
+23_09_07_580 [INFO] New directory has been created - 220129_2309075
+23_09_07_632 [INFO] Waiting for user input...
+23_09_10_926 [ERROR] The number of parts is incorrect! 300
+23_09_10_929 [INFO] Waiting for user input...
+23_09_15_336 [INFO] Number of parts used(in terms of an area covered): 299
+23_09_15_338 [INFO] Total number of parts used: 299
+23_09_15_340 [INFO] Width and height of every part in pixels(excluding last row & column): 56
+23_09_15_342 [INFO] Percentage of edges rounded vertically: 0.14285714285714202
+23_09_15_344 [INFO] Percentage of edges rounded horizontally: 0.14285714285714202
+23_09_15_582 [INFO] Image used as a base has been successfully analyzed!
+23_09_15_584 [INFO] A csv file has been generated:  imageData.csv
+23_09_15_586 [INFO] New directory has been created - blocks
+23_09_15_614 [INFO] All the blocks have been successfully generated
+23_09_15_616 [INFO] A csv file has been generated:  blocksData.csv
+23_09_18_584 [INFO] Blocks have been successfully assigned to parts of the original image
+23_09_18_592 [INFO] A csv file has been generated:  blocksAssignedToImages.csv
+23_09_18_655 [INFO] Final image has been successfully generated. Terminating the application.
+23_10_06_507 [INFO] Directory already present - logs
+23_10_06_509 [INFO] Directory already present - images
+23_10_06_510 [INFO] All directories needed are present
+23_10_06_512 [INFO] Waiting for user input...
+23_10_08_611 [INFO] File loaded: wp4470737.jpg
+23_10_08_613 [INFO] Provided file extension is supported: jpg
+23_10_08_616 [INFO] New directory has been created - 220129_2310086
+23_10_08_643 [INFO] Waiting for user input...
+23_10_10_990 [ERROR] The number of parts is incorrect! 500
+23_10_10_993 [INFO] Waiting for user input...
+23_10_15_148 [INFO] Number of parts used(in terms of an area covered): 562
+23_10_15_150 [INFO] Total number of parts used: 576
+23_10_15_152 [INFO] Width and height of every part in pixels(excluding last row & column): 40
+23_10_15_153 [INFO] Percentage of edges rounded vertically: 1.0
+23_10_15_155 [INFO] Percentage of edges rounded horizontally: 1.0
+23_10_15_393 [INFO] Image used as a base has been successfully analyzed!
+23_10_15_395 [INFO] A csv file has been generated:  imageData.csv
+23_10_15_397 [INFO] New directory has been created - blocks
+23_10_15_424 [INFO] All the blocks have been successfully generated
+23_10_15_426 [INFO] A csv file has been generated:  blocksData.csv
+23_10_22_639 [INFO] Blocks have been successfully assigned to parts of the original image
+23_10_22_644 [INFO] A csv file has been generated:  blocksAssignedToImages.csv
+23_10_22_718 [INFO] Final image has been successfully generated. Terminating the application.
+23_10_38_578 [INFO] Directory already present - logs
+23_10_38_579 [INFO] Directory already present - images
+23_10_38_580 [INFO] All directories needed are present
+23_10_38_582 [INFO] Waiting for user input...
+23_10_40_504 [INFO] File loaded: wp4470737.jpg
+23_10_40_506 [INFO] Provided file extension is supported: jpg
+23_10_40_509 [INFO] New directory has been created - 220129_2310405
+23_10_40_537 [INFO] Waiting for user input...
+23_10_42_109 [ERROR] The number of parts is incorrect! 700
+23_10_42_111 [INFO] Waiting for user input...
+23_10_47_931 [ERROR] The number of parts is incorrect! 800
+23_10_47_932 [INFO] Waiting for user input...
+23_10_51_280 [ERROR] The number of parts is incorrect! 900
+23_10_51_283 [INFO] Waiting for user input...
+23_10_55_005 [ERROR] The number of parts is incorrect! 1000
+23_10_55_006 [INFO] Waiting for user input...
+23_10_58_109 [ERROR] The number of parts is incorrect! 2000
+23_10_58_111 [INFO] Waiting for user input...
+23_11_02_518 [ERROR] The number of parts is incorrect! 4000
+23_11_02_521 [INFO] Waiting for user input...
+23_11_08_462 [INFO] Number of parts used(in terms of an area covered): 3000
+23_11_08_464 [INFO] Total number of parts used: 2840
+23_11_08_466 [INFO] Width and height of every part in pixels(excluding last row & column): 18
+23_11_08_468 [INFO] Percentage of edges rounded vertically: 1.0
+23_11_08_470 [INFO] Percentage of edges rounded horizontally: 0.88888888888889
+23_11_08_703 [INFO] Image used as a base has been successfully analyzed!
+23_11_08_708 [INFO] A csv file has been generated:  imageData.csv
+23_11_08_710 [INFO] New directory has been created - blocks
+23_11_08_746 [INFO] All the blocks have been successfully generated
+23_11_08_749 [INFO] A csv file has been generated:  blocksData.csv
+23_11_18_482 [INFO] Directory already present - logs
+23_11_18_483 [INFO] Directory already present - images
+23_11_18_483 [INFO] All directories needed are present
+23_11_18_487 [INFO] Waiting for user input...
+23_11_32_806 [INFO] Directory already present - logs
+23_11_32_807 [INFO] Directory already present - images
+23_11_32_808 [INFO] All directories needed are present
+23_11_32_811 [INFO] Waiting for user input...
+23_11_36_425 [INFO] File loaded: wp4470737.jpg
+23_11_36_426 [INFO] Provided file extension is supported: jpg
+23_11_36_429 [INFO] New directory has been created - 220129_2311364
+23_11_36_446 [INFO] Waiting for user input...
+23_11_43_461 [ERROR] The number of parts is incorrect! 700
+23_11_43_463 [INFO] Waiting for user input...
+23_11_48_015 [ERROR] The number of parts is incorrect! 1000
+23_11_48_017 [INFO] Waiting for user input...
+23_11_50_684 [ERROR] The number of parts is incorrect! 900
+23_11_50_686 [INFO] Waiting for user input...
+23_12_46_600 [INFO] Directory already present - logs
+23_12_46_602 [INFO] Directory already present - images
+23_12_46_603 [INFO] All directories needed are present
+23_12_46_605 [INFO] Waiting for user input...
+23_12_50_489 [INFO] File loaded: wp4470737.jpg
+23_12_50_491 [INFO] Provided file extension is supported: jpg
+23_12_50_493 [INFO] New directory has been created - 220129_2312504
+23_12_50_513 [INFO] Waiting for user input...
+23_12_53_187 [ERROR] The number of parts is incorrect! 1000
+23_12_53_190 [INFO] Waiting for user input...
+23_13_59_527 [INFO] Directory already present - logs
+23_13_59_528 [INFO] Directory already present - images
+23_13_59_529 [INFO] All directories needed are present
+23_13_59_532 [INFO] Waiting for user input...
+23_14_02_270 [INFO] File loaded: wp4470737.jpg
+23_14_02_272 [INFO] Provided file extension is supported: jpg
+23_14_02_274 [INFO] New directory has been created - 220129_2314022
+23_14_02_296 [INFO] Waiting for user input...
+23_14_05_587 [ERROR] The number of parts is incorrect! 700
+23_14_05_589 [INFO] Waiting for user input...
+23_15_50_976 [INFO] Directory already present - logs
+23_15_50_977 [INFO] Directory already present - images
+23_15_50_978 [INFO] All directories needed are present
+23_15_50_980 [INFO] Waiting for user input...
+23_15_52_754 [INFO] File loaded: wp4470737.jpg
+23_15_52_756 [INFO] Provided file extension is supported: jpg
+23_15_52_758 [INFO] New directory has been created - 220129_2315527
+23_15_52_779 [INFO] Waiting for user input...
+23_15_55_329 [ERROR] The number of parts is incorrect! 700
+23_15_55_332 [INFO] Waiting for user input...
+23_16_27_582 [INFO] Number of parts used(in terms of an area covered): 2193
+23_16_27_584 [INFO] Total number of parts used: 2304
+23_16_27_586 [INFO] Width and height of every part in pixels(excluding last row & column): 20
+23_16_27_587 [INFO] Percentage of edges rounded vertically: 1.0
+23_16_27_588 [INFO] Percentage of edges rounded horizontally: 1.0
+23_16_27_815 [INFO] Image used as a base has been successfully analyzed!
+23_16_27_819 [INFO] A csv file has been generated:  imageData.csv
+23_16_27_828 [INFO] New directory has been created - blocks
+23_16_27_863 [INFO] All the blocks have been successfully generated
+23_16_27_866 [INFO] A csv file has been generated:  blocksData.csv
+23_17_15_824 [INFO] Directory already present - logs
+23_17_15_825 [INFO] Directory already present - images
+23_17_15_826 [INFO] All directories needed are present
+23_17_15_829 [INFO] Waiting for user input...
+23_17_23_573 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+23_17_23_576 [INFO] Provided file extension is supported: jpg
+23_17_23_577 [INFO] New directory has been created - 220129_2317235
+23_17_23_608 [INFO] Waiting for user input...
+23_17_28_788 [ERROR] The number of parts is incorrect! 700
+23_17_28_792 [INFO] Waiting for user input...
+23_17_38_361 [INFO] Number of parts used(in terms of an area covered): 920
+23_17_38_364 [INFO] Total number of parts used: 943
+23_17_38_367 [INFO] Width and height of every part in pixels(excluding last row & column): 47
+23_17_38_369 [INFO] Percentage of edges rounded vertically: 0.021276595744679994
+23_17_38_371 [INFO] Percentage of edges rounded horizontally: 0.14893617021276395
+23_17_38_962 [INFO] Image used as a base has been successfully analyzed!
+23_17_38_972 [INFO] A csv file has been generated:  imageData.csv
+23_17_38_973 [INFO] New directory has been created - blocks
+23_17_39_007 [INFO] All the blocks have been successfully generated
+23_17_39_010 [INFO] A csv file has been generated:  blocksData.csv
+23_17_59_066 [INFO] Blocks have been successfully assigned to parts of the original image
+23_17_59_072 [INFO] A csv file has been generated:  blocksAssignedToImages.csv
+23_17_59_257 [INFO] Final image has been successfully generated. Terminating the application.
+23_18_12_834 [INFO] Directory already present - logs
+23_18_12_841 [INFO] Directory already present - images
+23_18_12_843 [INFO] All directories needed are present
+23_18_12_847 [INFO] Waiting for user input...
+23_18_16_869 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+23_18_16_871 [INFO] Provided file extension is supported: jpg
+23_18_16_872 [INFO] New directory has been created - 220129_2318168
+23_18_16_892 [INFO] Waiting for user input...
+23_18_20_344 [ERROR] The number of parts is incorrect! 1200
+23_18_20_347 [INFO] Waiting for user input...
+23_18_23_509 [INFO] Number of parts used(in terms of an area covered): 1265
+23_18_23_511 [INFO] Total number of parts used: 1296
+23_18_23_513 [INFO] Width and height of every part in pixels(excluding last row & column): 40
+23_18_23_515 [INFO] Percentage of edges rounded vertically: 1.0
+23_18_23_517 [INFO] Percentage of edges rounded horizontally: 1.0
+23_18_24_018 [INFO] Image used as a base has been successfully analyzed!
+23_18_24_021 [INFO] A csv file has been generated:  imageData.csv
+23_18_24_023 [INFO] New directory has been created - blocks
+23_18_24_050 [INFO] All the blocks have been successfully generated
+23_18_24_053 [INFO] A csv file has been generated:  blocksData.csv
+23_19_01_480 [INFO] Blocks have been successfully assigned to parts of the original image
+23_19_01_488 [INFO] A csv file has been generated:  blocksAssignedToImages.csv
+23_19_01_710 [INFO] Final image has been successfully generated. Terminating the application.
+23_19_26_858 [INFO] Directory already present - logs
+23_19_26_859 [INFO] Directory already present - images
+23_19_26_860 [INFO] All directories needed are present
+23_19_26_862 [INFO] Waiting for user input...
+23_19_28_499 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+23_19_28_501 [INFO] Provided file extension is supported: jpg
+23_19_28_507 [INFO] New directory has been created - 220129_2319284
+23_19_28_525 [INFO] Waiting for user input...
+23_19_30_729 [ERROR] The number of parts is incorrect! 1500
+23_19_30_732 [INFO] Waiting for user input...
+23_19_34_765 [INFO] Number of parts used(in terms of an area covered): 1646
+23_19_34_767 [INFO] Total number of parts used: 1705
+23_19_34_770 [INFO] Width and height of every part in pixels(excluding last row & column): 35
+23_19_34_772 [INFO] Percentage of edges rounded vertically: 0.14285714285714202
+23_19_34_773 [INFO] Percentage of edges rounded horizontally: 0.142857142857146
+23_19_35_290 [INFO] Image used as a base has been successfully analyzed!
+23_19_35_302 [INFO] A csv file has been generated:  imageData.csv
+23_19_35_304 [INFO] New directory has been created - blocks
+23_19_35_333 [INFO] All the blocks have been successfully generated
+23_19_35_337 [INFO] A csv file has been generated:  blocksData.csv
+23_20_34_471 [INFO] Blocks have been successfully assigned to parts of the original image
+23_20_34_479 [INFO] A csv file has been generated:  blocksAssignedToImages.csv
+23_20_34_820 [INFO] Final image has been successfully generated. Terminating the application.
+23_21_32_436 [INFO] Directory already present - logs
+23_21_32_438 [INFO] Directory already present - images
+23_21_32_439 [INFO] All directories needed are present
+23_21_32_442 [INFO] Waiting for user input...
+23_21_34_709 [INFO] File loaded: 4k-retro-80s-wallpaper-fhd-1920x1080.jpg
+23_21_34_710 [INFO] Provided file extension is supported: jpg
+23_21_34_713 [INFO] New directory has been created - 220129_2321347
+23_21_34_748 [INFO] Waiting for user input...
+23_21_36_955 [INFO] Number of parts used(in terms of an area covered): 292
+23_21_36_956 [INFO] Total number of parts used: 299
+23_21_36_957 [INFO] Width and height of every part in pixels(excluding last row & column): 84
+23_21_36_958 [INFO] Percentage of edges rounded vertically: 0.14285714285714202
+23_21_36_959 [INFO] Percentage of edges rounded horizontally: 0.14285714285714202
+23_21_37_555 [INFO] Image used as a base has been successfully analyzed!
+23_21_37_557 [INFO] A csv file has been generated:  imageData.csv
+23_21_37_567 [INFO] New directory has been created - blocks
+23_21_37_599 [INFO] All the blocks have been successfully generated
+23_21_37_603 [INFO] A csv file has been generated:  blocksData.csv
+23_22_43_815 [INFO] Blocks have been successfully assigned to parts of the original image
+23_22_43_820 [INFO] A csv file has been generated:  blocksAssignedToImages.csv
+23_22_43_944 [INFO] Final image has been successfully generated. Terminating the application.
