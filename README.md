@@ -12,16 +12,3 @@ The topic of the thesis is _"Image processing and reproduction by a robotic arm 
 
 With its details described below, the problems touched, are: 
 _image processing with neural networks, automatic control of a robotic arm with machine learning, creation & maintenance of system architecture, action logging._
-
-### An Overview
-While the topic definitely can spark the imagination, it would be the best to give it a more detailed description.
-
-## More detailed description
-
-
-## Image processing 
-The processing of images with **standard aspect ratios**, e.g. (Q/U/F/)HD, is fairly simple, as the height & width of the image is always divisible by the same (usually fairly large) number. 
-
-
-## System architecture
-
